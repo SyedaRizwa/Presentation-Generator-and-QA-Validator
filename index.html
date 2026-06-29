@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Prompt-to-Presentation (5 Slides)</title>
+	<style>
+		:root {
+			--bg: #f2efe9;
+			--panel: #fffaf1;
+			--ink: #1f2a37;
+			--muted: #5e6a77;
+			--accent: #0f766e;
+			--accent-2: #f59e0b;
+			--line: #d9d2c5;
+			--ok: #166534;
+			--warn: #92400e;
+		}
+
+		* {
+			box-sizing: border-box;
+		}
+
+		body {
+			margin: 0;
+			min-height: 100vh;
+			color: var(--ink);
+			background:
+				radial-gradient(circle at 15% 15%, #ffeccc 0, transparent 40%),
+				radial-gradient(circle at 85% 85%, #d6f5ef 0, transparent 35%),
+				var(--bg);
+			font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		}
+
+		.app {
+			width: min(1200px, 94vw);
+			margin: 24px auto;
+			display: grid;
+			grid-template-columns: 1fr;
+			gap: 16px;
+		}
+
+		.card {
+			background: var(--panel);
+			border: 1px solid var(--line);
+			border-radius: 16px;
+			box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+			overflow: hidden;
+		}
+
+		.chat {
+			padding: 18px;
+		}
+
+		.chat h1 {
+			margin: 0 0 10px;
+			font-size: clamp(1.3rem, 1.5vw + 1rem, 2rem);
+			letter-spacing: 0.2px;
+		}
+
+		.chat p {
+			margin: 0;
+			color: var(--muted);
+			line-height: 1.45;
+		}
+
+		.input-row {
+			margin-top: 14px;
+			display: grid;
+			grid-template-columns: 1fr auto;
+			gap: 10px;
+			align-items: start;
+		}
+
+		textarea {
+			width: 100%;
+			min-height: 64px;
+			max-height: 180px;
+			border: 1px solid var(--line);
+			border-radius: 12px;
+			padding: 12px;
+			resize: vertical;
+			outline: none;
+			font: inherit;
+			color: var(--ink);
+			background: #fff;
+		}
+
+		textarea:focus {
+			border-color: var(--accent);
+			box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.14);
+		}
+
+		button {
+			border: 0;
+			background: linear-gradient(120deg, var(--accent), #0b9f94);
+			color: #fff;
+			font: inherit;
+			padding: 12px 16px;
+			border-radius: 12px;
+			cursor: pointer;
+			min-width: 148px;
+			font-weight: 700;
+		}
+
+		button:disabled {
+			opacity: 0.6;
+			cursor: not-allowed;
+		}
+
+		.chat-log {
+			margin-top: 12px;
+			display: grid;
+			gap: 8px;
+		}
+
+		.bubble {
+			max-width: 90%;
+			border-radius: 12px;
+			padding: 10px 12px;
+			line-height: 1.4;
+			border: 1px solid var(--line);
+			background: #fff;
+		}
+
+		.bubble.user {
+			justify-self: end;
+			background: #e4faf6;
+			border-color: #b8e8df;
+		}
+
+		.bubble.assistant {
+			justify-self: start;
+			background: #fffaf0;
+			border-color: #efd9b0;
+		}
+
+		.status {
+			margin-top: 10px;
+			font-size: 0.95rem;
+			color: var(--muted);
+		}
+
+		.status.ok {
+			color: var(--ok);
+		}
+
+		.status.warn {
+			color: var(--warn);
+		}
+
+		.deck-controls {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 10px;
+			padding: 12px 16px;
+			border-top: 1px solid var(--line);
+			background: rgba(255, 255, 255, 0.6);
+		}
+
+		.app > .deck-controls {
+			width: min(980px, 92vw);
+			margin: 0 auto;
+			border: 1px solid var(--line);
+			border-top: 1px solid var(--line);
+			border-radius: 12px;
+			background: rgba(255, 255, 255, 0.9);
+		}
+
+		.deck-controls .left,
+		.deck-controls .right {
+			display: flex;
+			align-items: center;
+			gap: 8px;
+			flex-wrap: wrap;
+		}
+
+		.mini {
+			min-width: 0;
+			padding: 8px 12px;
+			border-radius: 10px;
+			font-weight: 600;
+		}
+
+		.mini.secondary {
+			background: #fff;
+			color: var(--ink);
+			border: 1px solid var(--line);
+		}
+
+		.slides-wrap {
+			padding: 16px;
+			display: grid;
+			place-items: center;
+		}
+
+		.slide {
+			width: min(980px, 92vw);
+			aspect-ratio: 16 / 9;
+			border: 1px solid #c9c2b7;
+			border-radius: 14px;
+			background:
+				linear-gradient(160deg, rgba(255, 255, 255, 0.96), rgba(255, 251, 243, 0.98));
+			padding: clamp(20px, 2.2vw, 34px);
+			display: grid;
+			grid-template-rows: auto 1fr auto;
+			gap: 10px;
+			box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+			transform-origin: center;
+			animation: reveal 280ms ease;
+		}
+
+		@keyframes reveal {
+			from {
+				opacity: 0;
+				transform: translateY(8px) scale(0.992);
+			}
+			to {
+				opacity: 1;
+				transform: translateY(0) scale(1);
+			}
+		}
+
+		.slide .kicker {
+			color: var(--accent);
+			font-weight: 700;
+			letter-spacing: 0.8px;
+			text-transform: uppercase;
+			font-size: 0.85rem;
+		}
+
+		.slide h2 {
+			margin: 4px 0 0;
+			font-size: clamp(1.45rem, 2.4vw, 2.4rem);
+			line-height: 1.2;
+		}
+
+		.slide .body {
+			display: grid;
+			align-content: start;
+			gap: 10px;
+			overflow: hidden;
+		}
+
+		.slide ul {
+			margin: 0;
+			padding-left: 22px;
+			display: grid;
+			gap: 8px;
+			line-height: 1.45;
+			font-size: clamp(0.95rem, 1.1vw, 1.15rem);
+		}
+
+		.slide p {
+			margin: 0;
+			line-height: 1.5;
+			font-size: clamp(0.95rem, 1.05vw, 1.12rem);
+		}
+
+		.slide footer {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color: #495461;
+			font-size: 0.92rem;
+			border-top: 1px dashed #c6bcae;
+			padding-top: 10px;
+		}
+
+		.ref-list {
+			margin: 0;
+			padding-left: 18px;
+			font-size: 0.95rem;
+			display: grid;
+			gap: 6px;
+			line-height: 1.35;
+		}
+
+		.qa-wrap {
+			padding: 14px 16px 18px;
+			border-top: 1px solid var(--line);
+			background: rgba(255, 255, 255, 0.6);
+		}
+
+		.qa-head {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 10px;
+			flex-wrap: wrap;
+		}
+
+		.qa-summary {
+			font-size: 0.94rem;
+			color: var(--muted);
+		}
+
+		.qa-summary.ok {
+			color: var(--ok);
+		}
+
+		.qa-summary.warn {
+			color: var(--warn);
+		}
+
+		.qa-list {
+			margin: 12px 0 0;
+			padding: 0;
+			list-style: none;
+			display: grid;
+			gap: 8px;
+		}
+
+		.qa-item {
+			padding: 10px 11px;
+			border: 1px solid var(--line);
+			border-radius: 10px;
+			background: #fff;
+			display: grid;
+			gap: 5px;
+		}
+
+		.qa-item.pass {
+			border-color: #bfe6cc;
+			background: #f5fff8;
+		}
+
+		.qa-item.fail {
+			border-color: #ecc4b8;
+			background: #fff8f4;
+		}
+
+		.qa-title-row {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 8px;
+			font-size: 0.93rem;
+		}
+
+		.qa-badge {
+			font-size: 0.74rem;
+			font-weight: 700;
+			padding: 2px 8px;
+			border-radius: 999px;
+			text-transform: uppercase;
+		}
+
+		.qa-badge.pass {
+			background: #dcfce7;
+			color: #166534;
+		}
+
+		.qa-badge.fail {
+			background: #fee2e2;
+			color: #991b1b;
+		}
+
+		.qa-detail {
+			font-size: 0.86rem;
+			color: var(--muted);
+		}
+
+		.cache-view {
+			padding: 14px 16px 18px;
+			border-top: 1px solid var(--line);
+			background: rgba(255, 255, 255, 0.6);
+		}
+
+		.cache-view-head {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			gap: 10px;
+			flex-wrap: wrap;
+		}
+
+		.cache-meta {
+			font-size: 0.88rem;
+			color: var(--muted);
+		}
+
+		.cache-code {
+			margin: 10px 0 0;
+			border: 1px solid var(--line);
+			border-radius: 10px;
+			background: #fff;
+			padding: 10px;
+			font-size: 0.8rem;
+			line-height: 1.4;
+			overflow: auto;
+			max-height: 220px;
+			white-space: pre;
+		}
+
+		.empty {
+			width: min(980px, 92vw);
+			aspect-ratio: 16/9;
+			border: 1px dashed #b7b09f;
+			border-radius: 14px;
+			display: grid;
+			place-items: center;
+			text-align: center;
+			color: #5f6a77;
+			background: rgba(255, 255, 255, 0.55);
+			padding: 24px;
+		}
+
+		@media (max-width: 780px) {
+			.input-row {
+				grid-template-columns: 1fr;
+			}
+
+			button {
+				width: 100%;
+			}
+
+			.deck-controls {
+				flex-direction: column;
+				align-items: stretch;
+			}
+
+			.deck-controls .left,
+			.deck-controls .right {
+				justify-content: space-between;
+			}
+		}
+
+		@media print {
+			body {
+				background: #fff;
+			}
+
+			.chat,
+			.deck-controls {
+				display: none;
+			}
+
+			.card,
+			.slide {
+				box-shadow: none;
+			}
+		}
+	
+		/* ── Visual media layout ── */
+		.slide-media {
+			display: flex;
+			gap: 14px;
+			align-items: flex-start;
+			overflow: hidden;
+			height: 100%;
+		}
+		.slide-media .content-col {
+			flex: 1 1 0;
+			min-width: 0;
+			display: grid;
+			align-content: start;
+			gap: 10px;
+		}
+		.slide-media .visual-col {
+			flex: 0 0 42%;
+			max-width: 42%;
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+			align-items: center;
+			justify-content: flex-start;
+		}
+		.slide-img {
+			width: 100%;
+			max-height: 160px;
+			object-fit: cover;
+			border-radius: 10px;
+			border: 1px solid var(--line);
+			box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+			display: block;
+		}
+		.visual-caption {
+			font-size: 0.72rem;
+			color: var(--muted);
+			text-align: center;
+			margin-top: 3px;
+			line-height: 1.3;
+		}
+		.img-loading {
+			width: 100%;
+			height: 100px;
+			background: linear-gradient(90deg, #f0ece4 25%, #e4dfd6 50%, #f0ece4 75%);
+			background-size: 200% 100%;
+			animation: shimmer 1.4s infinite;
+			border-radius: 10px;
+		}
+		@keyframes shimmer { to { background-position: -200% 0; } }
+		</style>
+</head>
+<body>
+	<div class="app">
+		<section class="card">
+			<div class="chat">
+				<h1>Chatbot: Prompt to 5-Slide Presentation</h1>
+				<p>
+					Enter any topic prompt. The system researches real public information and builds exactly 5 logical slides.
+				</p>
+
+				<div class="input-row">
+					<textarea id="promptInput" placeholder="Example: Explain quantum computing for business leaders, with practical use cases."></textarea>
+					<button id="generateBtn">Generate 5 Slides</button>
+				</div>
+
+				<div class="chat-log" id="chatLog"></div>
+				<div class="status" id="statusText">Ready.</div>
+			</div>
+
+			<div class="qa-wrap">
+				<div class="qa-head">
+					<strong>QA Layer (16 Test Cases)</strong>
+					<span id="qaSummary" class="qa-summary">Run QA check after generating slides.</span>
+				</div>
+				<ul id="qaList" class="qa-list"></ul>
+			</div>
+
+			<div class="cache-view">
+				<div class="cache-view-head">
+					<strong>Persistent Cache File</strong>
+					<div style="display:flex; gap:8px; align-items:center;">
+						<span id="cacheMeta" class="cache-meta">Not loaded yet.</span>
+						<button class="mini secondary" id="refreshCacheBtn" type="button">Refresh Cache View</button>
+					</div>
+				</div>
+				<pre id="cacheCode" class="cache-code">{}</pre>
+			</div>
+		</section>
+
+		<section class="card slides-wrap" id="slidesMount">
+			<div class="empty">
+				<div>
+					<h2 style="margin: 0 0 8px;">No presentation yet</h2>
+					<p style="margin: 0;">Type a prompt above and click Generate 5 Slides.</p>
+				</div>
+			</div>
+		</section>
+
+		<div class="deck-controls">
+			<div class="left">
+				<button class="mini secondary" id="prevBtn" disabled>Previous</button>
+				<button class="mini secondary" id="nextBtn" disabled>Next</button>
+				<span id="slideCounter">Slide 0 / 0</span>
+			</div>
+			<div class="right">
+				<button class="mini secondary" id="qaBtn" disabled>Run QA Check</button>
+				<button class="mini secondary" id="printBtn" disabled>Print / Save PDF</button>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		const promptInput = document.getElementById("promptInput");
+		const generateBtn = document.getElementById("generateBtn");
+		const chatLog = document.getElementById("chatLog");
+		const statusText = document.getElementById("statusText");
+		const prevBtn = document.getElementById("prevBtn");
+		const nextBtn = document.getElementById("nextBtn");
+		const qaBtn = document.getElementById("qaBtn");
+		const printBtn = document.getElementById("printBtn");
+		const slideCounter = document.getElementById("slideCounter");
+		const slidesMount = document.getElementById("slidesMount");
+		const qaSummary = document.getElementById("qaSummary");
+		const qaList = document.getElementById("qaList");
+		const cacheMeta = document.getElementById("cacheMeta");
+		const cacheCode = document.getElementById("cacheCode");
+		const refreshCacheBtn = document.getElementById("refreshCacheBtn");
+		const CACHE_API_BASE = "/api/cache";
+		const CACHE_VIEW_API = "/api/cache/view";
+		const DECK_VISUAL_POLICY_VERSION = "single-title-image-v4";
+
+		let deck = [];
+		let slideIndex = 0;
+		let lastContentSource = "N/A";
+
+		function normalizePrompt(prompt) {
+			return String(prompt || "")
+				.toLowerCase()
+				.replace(/\s+/g, " ")
+				.trim();
+		}
+
+		function isValidDeck(candidate) {
+			if (!Array.isArray(candidate) || candidate.length !== 5) {
+				return false;
+			}
+
+			return candidate.every((slide) => {
+				if (!slide || typeof slide !== "object") {
+					return false;
+				}
+				return slide.visualPolicyVersion === DECK_VISUAL_POLICY_VERSION;
+			});
+		}
+
+		function cloneDeck(sourceDeck) {
+			return JSON.parse(JSON.stringify(sourceDeck || []));
+		}
+
+		function deepFreeze(value) {
+			if (!value || typeof value !== "object") {
+				return value;
+			}
+			Object.freeze(value);
+			for (const key of Object.keys(value)) {
+				if (value[key] && typeof value[key] === "object" && !Object.isFrozen(value[key])) {
+					deepFreeze(value[key]);
+				}
+			}
+			return value;
+		}
+
+		const qaTests = [
+			{
+				id: "TC-01",
+				name: "Deck must contain exactly 5 slides",
+				check: (slides) => {
+					const ok = slides.length === 5;
+					return { passed: ok, detail: ok ? "Found exactly 5 slides." : `Found ${slides.length} slides.` };
+				}
+			},
+			{
+				id: "TC-02",
+				name: "Every slide must have a non-empty title",
+				check: (slides) => {
+					const invalid = slides
+						.map((slide, index) => ({ slide, index }))
+						.filter(({ slide }) => !slide?.title || !String(slide.title).trim());
+					if (!invalid.length) {
+						return { passed: true, detail: "All slides have a title." };
+					}
+					return {
+						passed: false,
+						detail: `Missing title on slide(s): ${invalid.map((x) => x.index + 1).join(", ")}.`
+					};
+				}
+			},
+			{
+				id: "TC-03",
+				name: "Every slide must have at least 3 bullet points",
+				check: (slides) => {
+					const invalid = slides
+						.map((slide, index) => ({ index, count: Array.isArray(slide?.bullets) ? slide.bullets.length : 0 }))
+						.filter((x) => x.count < 3);
+					if (!invalid.length) {
+						return { passed: true, detail: "All slides have 3 or more bullets." };
+					}
+					return {
+						passed: false,
+						detail: invalid.map((x) => `Slide ${x.index + 1}: ${x.count} bullet(s)`).join(" | ")
+					};
+				}
+			},
+			{
+				id: "TC-04",
+				name: "Slide titles must be unique",
+				check: (slides) => {
+					const normalizedTitles = slides.map((slide) => String(slide?.title || "").trim().toLowerCase());
+					const uniqueCount = new Set(normalizedTitles.filter(Boolean)).size;
+					const ok = uniqueCount === normalizedTitles.length;
+					return {
+						passed: ok,
+						detail: ok ? "All slide titles are unique." : "Duplicate titles detected."
+					};
+				}
+			},
+			{
+				id: "TC-05",
+				name: "Each title length should be between 4 and 90 characters",
+				check: (slides) => {
+					const invalid = slides
+						.map((slide, index) => ({ index, length: String(slide?.title || "").trim().length }))
+						.filter((x) => x.length < 4 || x.length > 90);
+					if (!invalid.length) {
+						return { passed: true, detail: "All title lengths are within range." };
+					}
+					return {
+						passed: false,
+						detail: invalid.map((x) => `Slide ${x.index + 1}: ${x.length} chars`).join(" | ")
+					};
+				}
+			},
+			{
+				id: "TC-06",
+				name: "Bullet quality: each bullet should be 15 to 260 characters",
+				check: (slides) => {
+					const failures = [];
+					for (let i = 0; i < slides.length; i += 1) {
+						const bullets = Array.isArray(slides[i]?.bullets) ? slides[i].bullets : [];
+						for (let j = 0; j < bullets.length; j += 1) {
+							const len = String(bullets[j] || "").trim().length;
+							if (len < 15 || len > 260) {
+								failures.push(`S${i + 1}.B${j + 1}: ${len}`);
+							}
+						}
+					}
+					if (!failures.length) {
+						return { passed: true, detail: "All bullets meet length quality constraints." };
+					}
+					return { passed: false, detail: `Out-of-range bullet(s): ${failures.join(" | ")}` };
+				}
+			},
+			{
+				id: "TC-07",
+				name: "Slide 5 must include conclusion bullets and references",
+				check: (slides) => {
+					const slide5 = slides[4];
+					const bulletsCount = Array.isArray(slide5?.bullets) ? slide5.bullets.length : 0;
+					const refsCount = Array.isArray(slide5?.refs) ? slide5.refs.length : 0;
+					const ok = bulletsCount >= 3 && refsCount >= 1;
+					return {
+						passed: ok,
+						detail: ok ? `Slide 5 has ${bulletsCount} bullets and ${refsCount} reference(s).` : `Slide 5 bullets=${bulletsCount}, references=${refsCount}.`
+					};
+				}
+			},
+			{
+				id: "TC-08",
+				name: "No bullet must be duplicated across the entire deck",
+				check: (slides) => {
+					const seen = new Set();
+					const dupes = [];
+					slides.forEach((slide, si) => {
+						(slide?.bullets || []).forEach((b, bi) => {
+							const norm = String(b || "").trim().toLowerCase();
+							if (!norm) return;
+							if (seen.has(norm)) {
+								dupes.push(`S${si + 1}.B${bi + 1}`);
+							} else {
+								seen.add(norm);
+							}
+						});
+					});
+					if (!dupes.length) {
+						return { passed: true, detail: "No duplicate bullets found across slides." };
+					}
+					return { passed: false, detail: `Duplicate bullet(s) at: ${dupes.join(", ")}` };
+				}
+			},
+			{
+				id: "TC-09",
+				name: "Every slide must have a kicker (label) field",
+				check: (slides) => {
+					const invalid = slides
+						.map((slide, index) => ({ index, kicker: slide?.kicker }))
+						.filter((x) => !x.kicker || !String(x.kicker).trim());
+					if (!invalid.length) {
+						return { passed: true, detail: "All slides have a kicker label." };
+					}
+					return {
+						passed: false,
+						detail: `Missing kicker on slide(s): ${invalid.map((x) => x.index + 1).join(", ")}.`
+					};
+				}
+			},
+			{
+				id: "TC-10",
+				name: "Slide 1 must have a paragraph (intro text)",
+				check: (slides) => {
+					const slide1 = slides[0];
+					const hasParagraph = slide1?.paragraph && String(slide1.paragraph).trim().length >= 20;
+					return {
+						passed: Boolean(hasParagraph),
+						detail: hasParagraph
+							? `Slide 1 paragraph is ${String(slide1.paragraph).trim().length} characters.`
+							: "Slide 1 is missing a paragraph or it is too short (< 20 chars)."
+					};
+				}
+			},
+			{
+				id: "TC-11",
+				name: "No bullet should start with a lowercase letter",
+				check: (slides) => {
+					const failures = [];
+					slides.forEach((slide, si) => {
+						(slide?.bullets || []).forEach((b, bi) => {
+							const text = String(b || "").trim();
+							if (text && text[0] !== text[0].toUpperCase()) {
+								failures.push(`S${si + 1}.B${bi + 1}: "${text.slice(0, 30)}..."`);
+							}
+						});
+					});
+					if (!failures.length) {
+						return { passed: true, detail: "All bullets begin with an uppercase letter." };
+					}
+					return { passed: false, detail: `Lowercase-start bullet(s): ${failures.join(" | ")}` };
+				}
+			},
+			{
+				id: "TC-12",
+				name: "Each slide must have at most 6 bullet points",
+				check: (slides) => {
+					const over = slides
+						.map((slide, index) => ({ index, count: Array.isArray(slide?.bullets) ? slide.bullets.length : 0 }))
+						.filter((x) => x.count > 6);
+					if (!over.length) {
+						return { passed: true, detail: "No slide exceeds 6 bullets." };
+					}
+					return {
+						passed: false,
+						detail: over.map((x) => `Slide ${x.index + 1}: ${x.count} bullets`).join(" | ")
+					};
+				}
+			},
+			{
+				id: "TC-13",
+				name: "All reference URLs must be non-empty strings",
+				check: (slides) => {
+					const bad = [];
+					slides.forEach((slide, si) => {
+						(slide?.refs || []).forEach((ref, ri) => {
+							const url = ref?.fullurl;
+							if (!url || !String(url).trim().startsWith("http")) {
+								bad.push(`S${si + 1}.R${ri + 1}`);
+							}
+						});
+					});
+					if (!bad.length) {
+						return { passed: true, detail: "All reference URLs are valid http(s) links." };
+					}
+					return { passed: false, detail: `Invalid/missing URL in ref(s): ${bad.join(", ")}` };
+				}
+			},
+			{
+				id: "TC-14",
+				name: "Deck must not contain any empty or whitespace-only bullets",
+				check: (slides) => {
+					const empty = [];
+					slides.forEach((slide, si) => {
+						(slide?.bullets || []).forEach((b, bi) => {
+							if (!String(b || "").trim()) {
+								empty.push(`S${si + 1}.B${bi + 1}`);
+							}
+						});
+					});
+					if (!empty.length) {
+						return { passed: true, detail: "No empty bullets found." };
+					}
+					return { passed: false, detail: `Empty bullet(s) at: ${empty.join(", ")}` };
+				}
+			},
+			{
+				id: "TC-15",
+				name: "Slide content must not overflow the layout bounds",
+				check: (_slides, context) => {
+					if (!context?.checkDeckLayoutOverflow) {
+						return {
+							passed: false,
+							detail: "Overflow checker is unavailable in this runtime."
+						};
+					}
+
+					const overflowReport = context.checkDeckLayoutOverflow();
+					if (overflowReport.passed) {
+						return {
+							passed: true,
+							detail: "All slides fit within the visible layout without clipping or overflow."
+						};
+					}
+
+					return {
+						passed: false,
+						detail: overflowReport.detail
+					};
+				}
+			},
+			{
+				id: "TC-16",
+				name: "Presentation must have exactly one title-linked image and non-empty slide content",
+				check: (slides) => {
+					const slidesWithImage = [];
+					const failures = [];
+
+					slides.forEach((slide, index) => {
+						const title = String(slide?.title || "").trim();
+						const bullets = Array.isArray(slide?.bullets) ? slide.bullets : [];
+						const hasContent = title.length > 0 && bullets.some((bullet) => String(bullet || "").trim().length > 0);
+						if (!hasContent) {
+							failures.push(`S${index + 1}: empty title or bullets`);
+						}
+
+						if (!slide?.image) {
+							return;
+						}
+
+						slidesWithImage.push(index + 1);
+						const query = String(slide.imageQuery || "").toLowerCase().trim();
+						const titleText = String(slide?.title || "").toLowerCase();
+
+						if (!query) {
+							failures.push(`S${index + 1}: missing runtime image query`);
+							return;
+						}
+
+						const queryTerms = query.split(/\s+/).filter((term) => term.length > 3);
+						if (!queryTerms.length) {
+							failures.push(`S${index + 1}: runtime query too weak`);
+							return;
+						}
+
+						const linked = queryTerms.some((term) => titleText.includes(term));
+						if (!linked) {
+							failures.push(`S${index + 1}: image query not linked to slide title`);
+						}
+					});
+
+					if (slidesWithImage.length !== 1) {
+						failures.push(`Expected exactly 1 image, found ${slidesWithImage.length}`);
+					}
+
+					if (slidesWithImage[0] !== 1) {
+						failures.push("The single presentation image must be on slide 1");
+					}
+
+					if (!failures.length) {
+						return {
+							passed: true,
+							detail: "Exactly one runtime image exists on slide 1, linked to title, and slide content is non-empty."
+						};
+					}
+
+					return {
+						passed: false,
+						detail: failures.join(" | ")
+					};
+				}
+			}
+		];
+
+		function renderQaResults(results) {
+			qaList.innerHTML = "";
+			const passedCount = results.filter((x) => x.passed).length;
+			const total = results.length;
+
+			qaSummary.textContent = `${passedCount}/${total} test cases passed.`;
+			qaSummary.className = passedCount === total ? "qa-summary ok" : "qa-summary warn";
+
+			for (const result of results) {
+				const item = document.createElement("li");
+				item.className = `qa-item ${result.passed ? "pass" : "fail"}`;
+				item.innerHTML = `
+					<div class="qa-title-row">
+						<strong>${result.id}: ${result.name}</strong>
+						<span class="qa-badge ${result.passed ? "pass" : "fail"}">${result.passed ? "PASS" : "FAIL"}</span>
+					</div>
+					<div class="qa-detail">${result.detail}</div>
+				`;
+				qaList.appendChild(item);
+			}
+		}
+
+		function clearQaResults(message) {
+			qaSummary.textContent = message;
+			qaSummary.className = "qa-summary";
+			qaList.innerHTML = "";
+		}
+
+		function runQaChecks() {
+			if (!isValidDeck(deck)) {
+				clearQaResults("Generate a 5-slide deck before running QA checks.");
+				setStatus("Generate slides first, then run QA checks.", "warn");
+				return;
+			}
+
+			const testInput = deepFreeze(cloneDeck(deck));
+			const qaContext = {
+				checkDeckLayoutOverflow
+			};
+			const results = qaTests.map((testCase) => {
+				try {
+					const outcome = testCase.check(testInput, qaContext);
+					return {
+						id: testCase.id,
+						name: testCase.name,
+						passed: Boolean(outcome?.passed),
+						detail: outcome?.detail || "No details provided."
+					};
+				} catch (err) {
+					return {
+						id: testCase.id,
+						name: testCase.name,
+						passed: false,
+						detail: `Error in test execution: ${err?.message || "Unknown error"}`
+					};
+				}
+			});
+
+			renderQaResults(results);
+			const passCount = results.filter((x) => x.passed).length;
+			setStatus(`QA completed: ${passCount}/${results.length} tests passed. Source: ${lastContentSource}.`, passCount === results.length ? "ok" : "warn");
+		}
+
+		function getOverflowAreasForCurrentSlide() {
+			const slideEl = slidesMount.querySelector(".slide");
+			if (!slideEl) {
+				return [];
+			}
+
+			const bodyEl = slideEl.querySelector(".body");
+			const checks = [
+				{ name: "slide", el: slideEl },
+				{ name: "body", el: bodyEl },
+				{ name: "content", el: slideEl.querySelector(".content-col") || bodyEl },
+				{ name: "visual", el: slideEl.querySelector(".visual-col") },
+				{ name: "bullets", el: slideEl.querySelector("ul") }
+			];
+
+			const overflowAreas = [];
+
+			function hasClippedDescendant(container) {
+				if (!container) {
+					return false;
+				}
+
+				const containerRect = container.getBoundingClientRect();
+				const descendants = Array.from(container.querySelectorAll("*")).filter((node) => {
+					if (!(node instanceof HTMLElement)) {
+						return false;
+					}
+					const style = window.getComputedStyle(node);
+					return style.display !== "none" && style.visibility !== "hidden";
+				});
+
+				for (const node of descendants) {
+					const rect = node.getBoundingClientRect();
+					const clippedVertically = rect.bottom > containerRect.bottom + 1;
+					const clippedHorizontally = rect.right > containerRect.right + 1;
+					if (clippedVertically || clippedHorizontally) {
+						return true;
+					}
+				}
+
+				return false;
+			}
+
+			for (const check of checks) {
+				if (!check.el) {
+					continue;
+				}
+				const verticalOverflow = check.el.scrollHeight > check.el.clientHeight + 1;
+				const horizontalOverflow = check.el.scrollWidth > check.el.clientWidth + 1;
+				const clippedChildren = hasClippedDescendant(check.el);
+				if (verticalOverflow || horizontalOverflow || clippedChildren) {
+					overflowAreas.push(check.name);
+				}
+			}
+
+			return overflowAreas;
+		}
+
+		function checkDeckLayoutOverflow() {
+			if (!isValidDeck(deck)) {
+				return {
+					passed: false,
+					detail: "Deck must be generated before overflow checks can run."
+				};
+			}
+
+			const originalIndex = slideIndex;
+			const failures = [];
+
+			for (let i = 0; i < deck.length; i += 1) {
+				slideIndex = i;
+				renderCurrentSlide();
+				const overflowAreas = getOverflowAreasForCurrentSlide();
+				if (overflowAreas.length) {
+					failures.push(`Slide ${i + 1}: ${overflowAreas.join("/")}`);
+				}
+			}
+
+			slideIndex = originalIndex;
+			renderCurrentSlide();
+
+			if (!failures.length) {
+				return { passed: true, detail: "No overflow detected." };
+			}
+
+			return {
+				passed: false,
+				detail: `Overflow detected in ${failures.length} slide(s): ${failures.join(" | ")}`
+			};
+		}
+
+		async function getCachedDeck(prompt) {
+			const key = normalizePrompt(prompt);
+			if (!key) {
+				return null;
+			}
+
+			const response = await fetch(`${CACHE_API_BASE}?prompt=${encodeURIComponent(prompt)}`);
+			if (!response.ok) {
+				throw new Error("Cache service is not reachable. Start app with node server.js and open http://127.0.0.1:3000");
+			}
+
+			const payload = await response.json();
+			if (payload?.hit && isValidDeck(payload.deck)) {
+				return payload.deck;
+			}
+			return null;
+		}
+
+		async function setCachedDeck(prompt, newDeck) {
+			const key = normalizePrompt(prompt);
+			if (!key || !isValidDeck(newDeck)) {
+				return;
+			}
+
+			const response = await fetch(CACHE_API_BASE, {
+				method: "POST",
+				headers: {
+					"Content-Type": "application/json"
+				},
+				body: JSON.stringify({
+					prompt,
+					deck: newDeck
+				})
+			});
+
+			if (!response.ok) {
+				throw new Error("Cache file write failed.");
+			}
+		}
+
+		async function refreshCacheView() {
+			try {
+				const response = await fetch(CACHE_VIEW_API);
+				if (!response.ok) {
+					cacheMeta.textContent = "Cache view unavailable";
+					cacheCode.textContent = "Could not load cache file.";
+					return;
+				}
+
+				const payload = await response.json();
+				const entryCount = payload?.entryCount || 0;
+				const filePath = payload?.filePath || "cache/presentation-cache.json";
+				cacheMeta.textContent = `${entryCount} entr${entryCount === 1 ? "y" : "ies"} in ${filePath}`;
+				cacheCode.textContent = JSON.stringify(payload?.cache || {}, null, 2);
+			} catch (_err) {
+				cacheMeta.textContent = "Cache view unavailable";
+				cacheCode.textContent = "Could not load cache file.";
+			}
+		}
+
+		function setStatus(message, type = "") {
+			statusText.textContent = message;
+			statusText.className = type ? `status ${type}` : "status";
+		}
+
+		function addBubble(role, text) {
+			const el = document.createElement("div");
+			el.className = `bubble ${role}`;
+			el.textContent = text;
+			chatLog.appendChild(el);
+			chatLog.scrollTop = chatLog.scrollHeight;
+		}
+
+		function cleanSentence(text) {
+			return text
+				.replace(/\s+/g, " ")
+				.replace(/\[[^\]]*\]/g, "")
+				.replace(/\(\s*\)/g, "")
+				.trim();
+		}
+
+		function splitSentences(text) {
+			const normalized = cleanSentence(text);
+			return normalized
+				.split(/(?<=[.!?])\s+/)
+				.map((s) => s.trim())
+				.filter((s) => s.length > 35 && s.length < 260);
+		}
+
+		function topSentences(extract, count) {
+			const candidates = splitSentences(extract);
+			return candidates.slice(0, count);
+		}
+
+		function toBullets(sentences, max = 5) {
+			const seen = new Set();
+			const bullets = [];
+			for (const sentence of sentences) {
+				const bullet = sentence
+					.replace(/^\w/, (c) => c.toUpperCase())
+					.replace(/\s+/, " ")
+					.trim();
+				if (!bullet || seen.has(bullet.toLowerCase())) {
+					continue;
+				}
+				seen.add(bullet.toLowerCase());
+				bullets.push(bullet.endsWith(".") ? bullet : `${bullet}.`);
+				if (bullets.length === max) {
+					break;
+				}
+			}
+			return bullets;
+		}
+
+		async function wikiSearch(query) {
+			const url = new URL("https://en.wikipedia.org/w/api.php");
+			url.searchParams.set("action", "query");
+			url.searchParams.set("list", "search");
+			url.searchParams.set("srsearch", query);
+			url.searchParams.set("srlimit", "6");
+			url.searchParams.set("format", "json");
+			url.searchParams.set("origin", "*");
+
+			const res = await fetch(url);
+			if (!res.ok) {
+				throw new Error("Unable to search reliable sources right now.");
+			}
+			const data = await res.json();
+			return data?.query?.search || [];
+		}
+
+		async function pageExtractByTitle(title) {
+			const url = new URL("https://en.wikipedia.org/w/api.php");
+			url.searchParams.set("action", "query");
+			url.searchParams.set("prop", "extracts|info|pageimages");
+			url.searchParams.set("inprop", "url");
+			url.searchParams.set("titles", title);
+			url.searchParams.set("explaintext", "1");
+			url.searchParams.set("exintro", "0");
+			url.searchParams.set("pithumbsize", "600");
+			url.searchParams.set("format", "json");
+			url.searchParams.set("origin", "*");
+
+			const res = await fetch(url);
+			if (!res.ok) {
+				throw new Error("Failed to retrieve factual content.");
+			}
+			const data = await res.json();
+			const pages = data?.query?.pages || {};
+			const first = Object.values(pages)[0];
+			if (!first || !first.extract) {
+				throw new Error("No substantial source content available for this topic.");
+			}
+			return {
+				title: first.title,
+				extract: cleanSentence(first.extract),
+				fullurl: first.fullurl || "",
+				thumbnail: first.thumbnail?.source || null
+			};
+		}
+
+		async function gatherTopicData(prompt) {
+			const matches = await wikiSearch(prompt);
+			if (!matches.length) {
+				throw new Error("No strong matches found. Try a more specific prompt.");
+			}
+
+			const primaryTitle = matches[0].title;
+			const relatedTitles = matches.slice(1, 4).map((m) => m.title);
+
+			const primary = await pageExtractByTitle(primaryTitle);
+			const related = [];
+			for (const t of relatedTitles) {
+				try {
+					const item = await pageExtractByTitle(t);
+					related.push(item);
+				} catch (_err) {
+					// Continue when a related page has insufficient extract.
+				}
+			}
+
+			return { primary, related };
+		}
+
+		function extractKeyTerms(sentences, count) {
+			const stopwords = new Set(["the","a","an","and","or","but","in","on","at","to","for","of","with","by","from","is","are","was","were","be","been","has","have","had","this","that","these","those","it","its","as","if","so","not","also","more","than","can","will","may","their","they","which","who","what","when","how","all","some","been","into","about","over","after","only","other","such","just","each","most","very","well","both","our","its","we","he","she","you","i"]);
+			const freq = {};
+			sentences.join(" ").toLowerCase().replace(/[^a-z\s]/g, " ").split(/\s+/).forEach((w) => {
+				if (w.length > 4 && !stopwords.has(w)) freq[w] = (freq[w] || 0) + 1;
+			});
+			return Object.entries(freq).sort((a, b) => b[1] - a[1]).slice(0, count).map(([term, cnt]) => ({ term, cnt }));
+		}
+
+		function containsAny(text, patterns) {
+			return patterns.some((pattern) => pattern.test(text));
+		}
+
+		function buildImageQueryForSlide(slide) {
+			const title = String(slide?.title || "").toLowerCase();
+			const queryTerms = title
+				.split(/\s+/)
+				.map((term) => term.replace(/[^a-z]/g, ""))
+				.filter((term) => term.length > 2)
+				.slice(0, 3);
+
+			if (!queryTerms.length) {
+				return "presentation topic";
+			}
+
+			return queryTerms.join(" ");
+		}
+
+		function buildRuntimeImagePrompt(topicTitle, slide) {
+			const title = String(slide?.title || topicTitle || "Topic").trim();
+			return `Realistic editorial image of ${title}. Focus on the title subject only, professional lighting, clean background, no text overlay.`;
+		}
+
+		function buildRuntimeImageUrl(imagePrompt) {
+			const encodedPrompt = encodeURIComponent(imagePrompt || "topic presentation image");
+			const runtimeSeed = Date.now();
+			return `https://image.pollinations.ai/prompt/${encodedPrompt}?width=1200&height=675&seed=${runtimeSeed}&nologo=true&safe=true`;
+		}
+
+		function buildFallbackImageUrl(query) {
+			const safeSeed = encodeURIComponent(String(query || "topic-image").replace(/\s+/g, "-"));
+			return `https://picsum.photos/seed/${safeSeed}/1200/675`;
+		}
+
+		function makeDeckBulletsUnique(slides) {
+			const seen = new Set();
+			for (const slide of slides) {
+				const bullets = Array.isArray(slide?.bullets) ? slide.bullets : [];
+				const uniqueBullets = [];
+				for (const bullet of bullets) {
+					const normalized = String(bullet || "").trim().toLowerCase();
+					if (!normalized || seen.has(normalized)) {
+						continue;
+					}
+					seen.add(normalized);
+					uniqueBullets.push(bullet);
+				}
+				slide.bullets = uniqueBullets;
+			}
+			return slides;
+		}
+
+
+		function buildFiveSlides(prompt, sourceData) {
+			const { primary, related } = sourceData;
+			const primarySentences = topSentences(primary.extract, 18);
+			const relatedSentences = related.flatMap((r) => topSentences(r.extract, 4));
+			const relatedTitles = related.map((r) => r.title);
+
+			const all = [...primarySentences, ...relatedSentences];
+			const overviewBullets = toBullets(all.slice(0, 8), 4);
+			const conceptBullets = toBullets(all.slice(8, 16), 5);
+			const applicationBullets = toBullets(all.slice(16, 24), 5);
+			const challengeBullets = toBullets(all.slice(24, 32), 5);
+
+			const refs = [primary, ...related].filter((x) => x.fullurl);
+
+			const topicTitle = primary.title || prompt;
+			const objectiveText = `Build a concise understanding of ${topicTitle} with practical context, key themes, and actionable takeaways.`;
+			const recap = [
+				`Summary: ${topicTitle} is best understood through its core principles, real-world relevance, and evolving opportunities.`,
+				`Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.`,
+				`Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved.`
+			];
+
+			const baseSlides = [
+				{
+					kicker: "Slide 1",
+					title: `${topicTitle}`,
+					bodyType: "mixed",
+					paragraph: objectiveText,
+					bullets: overviewBullets.length ? overviewBullets : ["Reliable source content was found, but concise highlights are limited for this exact prompt."]
+				},
+				{
+					kicker: "Slide 2",
+					title: "Foundations and Core Concepts",
+					bodyType: "bullets",
+					bullets: conceptBullets.length ? conceptBullets : overviewBullets
+				},
+				{
+					kicker: "Slide 3",
+					title: "Current Landscape and Applications",
+					bodyType: "bullets",
+					bullets: applicationBullets.length ? applicationBullets : conceptBullets
+				},
+				{
+					kicker: "Slide 4",
+					title: "Challenges, Trade-offs, and Future Direction",
+					bodyType: "bullets",
+					bullets: challengeBullets.length ? challengeBullets : applicationBullets
+				},
+				{
+					kicker: "Slide 5",
+					title: "Conclusion and References",
+					bodyType: "conclusion",
+					bullets: recap,
+					refs
+				}
+			];
+
+			const uniqueSlides = makeDeckBulletsUnique(baseSlides);
+
+			return uniqueSlides.map((slide, index) => {
+				const includeImage = index === 0;
+				const imageQuery = includeImage ? buildImageQueryForSlide(slide) : null;
+				const imagePrompt = includeImage ? buildRuntimeImagePrompt(topicTitle, slide) : null;
+				const image = includeImage ? buildRuntimeImageUrl(imagePrompt) : null;
+				const imageFallback = includeImage ? buildFallbackImageUrl(imageQuery) : null;
+
+				return {
+					...slide,
+					visualPolicyVersion: DECK_VISUAL_POLICY_VERSION,
+					image,
+					imageQuery,
+					imagePrompt,
+					imageFallback,
+					imageCaption: includeImage ? slide.title : null
+				};
+			});
+		}
+
+		function renderCurrentSlide() {
+			if (!deck.length) {
+				slidesMount.innerHTML = `
+					<div class="empty">
+						<div>
+							<h2 style="margin: 0 0 8px;">No presentation yet</h2>
+							<p style="margin: 0;">Type a prompt above and click Generate 5 Slides.</p>
+						</div>
+					</div>`;
+				slideCounter.textContent = "Slide 0 / 0";
+				prevBtn.disabled = true;
+				nextBtn.disabled = true;
+				qaBtn.disabled = true;
+				printBtn.disabled = true;
+				return;
+			}
+
+			const slide = deck[slideIndex];
+			const slideNo = slideIndex + 1;
+
+			const refsHtml = (slide.refs || [])
+				.slice(0, 4)
+				.map((r) => `<li><a href="${r.fullurl}" target="_blank" rel="noopener noreferrer">${r.title}</a></li>`)
+				.join("");
+
+			const paragraphHtml = slide.paragraph ? `<p>${slide.paragraph}</p>` : "";
+			const bulletsHtml = (slide.bullets || []).map((b) => `<li>${b}</li>`).join("");
+			const refsBlock = refsHtml ? `<ol class="ref-list">${refsHtml}</ol>` : "";
+
+			const hasVisual = slide.image;
+
+			const fallbackImage = slide.imageFallback ? String(slide.imageFallback).replace(/"/g, "&quot;") : "";
+			const imageHtml = slide.image
+				? `<img class="slide-img" src="${slide.image}" alt="${slide.imageCaption || slide.title}" loading="lazy" onerror="if(!this.dataset.fallback && '${fallbackImage}') { this.dataset.fallback='1'; this.src='${fallbackImage}'; return; } this.style.display='none';">
+				   ${slide.imageCaption ? `<div class="visual-caption">${slide.imageCaption}</div>` : ""}`
+				: "";
+
+			const visualColHtml = hasVisual
+				? `<div class="visual-col">${imageHtml}</div>`
+				: "";
+
+			const bodyInner = hasVisual
+				? `<div class="slide-media">
+						<div class="content-col">
+							${paragraphHtml}
+							<ul>${bulletsHtml}</ul>
+							${refsBlock}
+						</div>
+						${visualColHtml}
+					</div>`
+				: `${paragraphHtml}<ul>${bulletsHtml}</ul>${refsBlock}`;
+
+			slidesMount.innerHTML = `
+				<article class="slide" aria-label="Presentation slide ${slideNo}">
+					<header>
+						<div class="kicker">${slide.kicker}</div>
+						<h2>${slide.title}</h2>
+					</header>
+					<section class="body">
+						${bodyInner}
+					</section>
+					<footer>
+						<span>Auto-generated research slide</span>
+						<span>${slideNo} / ${deck.length}</span>
+					</footer>
+				</article>`;
+
+			slideCounter.textContent = `Slide ${slideNo} / ${deck.length}`;
+			prevBtn.disabled = slideIndex === 0;
+			nextBtn.disabled = slideIndex === deck.length - 1;
+			qaBtn.disabled = false;
+			printBtn.disabled = false;
+		}
+
+		async function generateDeck() {
+			const prompt = promptInput.value.trim();
+			if (!prompt) {
+				setStatus("Please enter a topic prompt first.", "warn");
+				promptInput.focus();
+				return;
+			}
+
+			generateBtn.disabled = true;
+			setStatus("Checking cache and preparing presentation...");
+			addBubble("user", prompt);
+
+			try {
+				const cachedDeck = await getCachedDeck(prompt);
+				if (cachedDeck) {
+					deck = cachedDeck;
+					lastContentSource = "CACHE FILE";
+					slideIndex = 0;
+					renderCurrentSlide();
+					clearQaResults("Deck loaded from cache. Run QA check to validate tests.");
+					addBubble("assistant", "Presentation loaded from cache file for this prompt.");
+					setStatus("Loaded from cache file successfully.", "ok");
+					await refreshCacheView();
+					return;
+				}
+
+				setStatus("No cache hit. Researching topic and building 5-slide presentation...");
+				const data = await gatherTopicData(prompt);
+				deck = buildFiveSlides(prompt, data);
+				lastContentSource = "LIVE API";
+				slideIndex = 0;
+				await setCachedDeck(prompt, deck);
+				renderCurrentSlide();
+				clearQaResults("Presentation generated. Click Run QA Check.");
+				addBubble("assistant", "Presentation ready and saved in cache file. Next time the same prompt will load instantly.");
+				setStatus("Presentation generated and cached in file successfully.", "ok");
+				await refreshCacheView();
+			} catch (err) {
+				const msg = err instanceof Error ? err.message : "Failed to build presentation.";
+				addBubble("assistant", `I could not generate slides: ${msg}`);
+				setStatus(msg, "warn");
+			} finally {
+				generateBtn.disabled = false;
+			}
+		}
+
+		generateBtn.addEventListener("click", generateDeck);
+		promptInput.addEventListener("keydown", (ev) => {
+			if ((ev.ctrlKey || ev.metaKey) && ev.key === "Enter") {
+				generateDeck();
+			}
+		});
+
+		prevBtn.addEventListener("click", () => {
+			if (slideIndex > 0) {
+				slideIndex -= 1;
+				renderCurrentSlide();
+			}
+		});
+
+		nextBtn.addEventListener("click", () => {
+			if (slideIndex < deck.length - 1) {
+				slideIndex += 1;
+				renderCurrentSlide();
+			}
+		});
+
+		qaBtn.addEventListener("click", runQaChecks);
+		refreshCacheBtn.addEventListener("click", refreshCacheView);
+
+		printBtn.addEventListener("click", () => {
+			window.print();
+		});
+
+		clearQaResults("Run QA check after generating slides.");
+		refreshCacheView();
+		renderCurrentSlide();
+	</script>
+</body>
+</html>
