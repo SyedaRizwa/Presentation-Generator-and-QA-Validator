@@ -7,6 +7,20 @@ const HOST = "127.0.0.1";
 const CACHE_FILE = path.join(__dirname, "cache", "presentation-cache.json");
 const INDEX_FILE = path.join(__dirname, "index.html");
 const MAX_CACHE_ENTRIES = 40;
+const STATIC_FILES = {
+  "/theme.jpg": path.join(__dirname, "theme.jpg"),
+  "/logo.png": path.join(__dirname, "logo.png"),
+};
+
+function getContentType(filePath) {
+  const ext = path.extname(filePath).toLowerCase();
+  if (ext === ".png") return "image/png";
+  if (ext === ".jpg" || ext === ".jpeg") return "image/jpeg";
+  if (ext === ".webp") return "image/webp";
+  if (ext === ".svg") return "image/svg+xml";
+  if (ext === ".gif") return "image/gif";
+  return "application/octet-stream";
+}
 
 function ensureCacheFile() {
   const dir = path.dirname(CACHE_FILE);
@@ -214,6 +228,11 @@ const server = http.createServer(async (req, res) => {
 
   if (req.method === "GET" && (pathname === "/" || pathname === "/index.html")) {
     sendFile(res, INDEX_FILE, "text/html; charset=utf-8");
+    return;
+  }
+
+  if (req.method === "GET" && Object.prototype.hasOwnProperty.call(STATIC_FILES, pathname)) {
+    sendFile(res, STATIC_FILES[pathname], getContentType(STATIC_FILES[pathname]));
     return;
   }
 

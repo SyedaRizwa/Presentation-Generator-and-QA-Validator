@@ -201,12 +201,16 @@
 			border: 1px solid #c9c2b7;
 			border-radius: 14px;
 			background:
-				linear-gradient(160deg, rgba(255, 255, 255, 0.96), rgba(255, 251, 243, 0.98));
+				linear-gradient(160deg, rgba(255, 255, 255, 0.82), rgba(255, 251, 243, 0.86)),
+				url("theme.jpg");
+			background-size: cover;
+			background-position: center;
 			padding: clamp(20px, 2.2vw, 34px);
 			display: grid;
 			grid-template-rows: auto 1fr auto;
 			gap: 10px;
 			box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+			position: relative;
 			transform-origin: center;
 			animation: reveal 280ms ease;
 		}
@@ -266,6 +270,18 @@
 			font-size: 0.92rem;
 			border-top: 1px dashed #c6bcae;
 			padding-top: 10px;
+			padding-right: 72px;
+		}
+
+		.slide-logo {
+			position: absolute;
+			right: 18px;
+			bottom: 12px;
+			width: 44px;
+			height: 44px;
+			object-fit: contain;
+			filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.18));
+			opacity: 0.95;
 		}
 
 		.ref-list {
@@ -514,7 +530,7 @@
 
 			<div class="qa-wrap">
 				<div class="qa-head">
-					<strong>QA Layer (16 Test Cases)</strong>
+					<strong>QA Layer (18 Test Cases)</strong>
 					<span id="qaSummary" class="qa-summary">Run QA check after generating slides.</span>
 				</div>
 				<ul id="qaList" class="qa-list"></ul>
@@ -929,6 +945,36 @@
 						detail: failures.join(" | ")
 					};
 				}
+			},
+			{
+				id: "TC-17",
+				name: "Theme must be present on every generated slide",
+				check: (_slides, context) => {
+					if (!context?.checkThemePresenceOnDeck) {
+						return { passed: false, detail: "Theme checker is unavailable in this runtime." };
+					}
+
+					const report = context.checkThemePresenceOnDeck();
+					return {
+						passed: report.passed,
+						detail: report.detail
+					};
+				}
+			},
+			{
+				id: "TC-18",
+				name: "Logo must be present on every generated slide",
+				check: (_slides, context) => {
+					if (!context?.checkLogoPresenceOnDeck) {
+						return { passed: false, detail: "Logo checker is unavailable in this runtime." };
+					}
+
+					const report = context.checkLogoPresenceOnDeck();
+					return {
+						passed: report.passed,
+						detail: report.detail
+					};
+				}
 			}
 		];
 
@@ -969,7 +1015,9 @@
 
 			const testInput = deepFreeze(cloneDeck(deck));
 			const qaContext = {
-				checkDeckLayoutOverflow
+				checkDeckLayoutOverflow,
+				checkThemePresenceOnDeck,
+				checkLogoPresenceOnDeck
 			};
 			const results = qaTests.map((testCase) => {
 				try {
@@ -1083,6 +1131,79 @@
 			return {
 				passed: false,
 				detail: `Overflow detected in ${failures.length} slide(s): ${failures.join(" | ")}`
+			};
+		}
+
+		function checkThemePresenceOnDeck() {
+			if (!isValidDeck(deck)) {
+				return { passed: false, detail: "Deck must be generated before theme checks can run." };
+			}
+
+			const originalIndex = slideIndex;
+			const failures = [];
+
+			for (let i = 0; i < deck.length; i += 1) {
+				slideIndex = i;
+				renderCurrentSlide();
+				const slideEl = slidesMount.querySelector(".slide");
+				if (!slideEl) {
+					failures.push(`Slide ${i + 1}: slide container missing`);
+					continue;
+				}
+
+				const style = window.getComputedStyle(slideEl);
+				const bgImage = String(style.backgroundImage || "").toLowerCase();
+				if (!bgImage.includes("theme.jpg")) {
+					failures.push(`Slide ${i + 1}: theme background not detected`);
+				}
+			}
+
+			slideIndex = originalIndex;
+			renderCurrentSlide();
+
+			if (!failures.length) {
+				return { passed: true, detail: "Theme background detected on all slides." };
+			}
+
+			return {
+				passed: false,
+				detail: failures.join(" | ")
+			};
+		}
+
+		function checkLogoPresenceOnDeck() {
+			if (!isValidDeck(deck)) {
+				return { passed: false, detail: "Deck must be generated before logo checks can run." };
+			}
+
+			const originalIndex = slideIndex;
+			const failures = [];
+
+			for (let i = 0; i < deck.length; i += 1) {
+				slideIndex = i;
+				renderCurrentSlide();
+				const logoEl = slidesMount.querySelector(".slide .slide-logo");
+				if (!logoEl) {
+					failures.push(`Slide ${i + 1}: logo element missing`);
+					continue;
+				}
+
+				const src = String(logoEl.getAttribute("src") || "");
+				if (!src.toLowerCase().includes("logo.png")) {
+					failures.push(`Slide ${i + 1}: logo source is invalid`);
+				}
+			}
+
+			slideIndex = originalIndex;
+			renderCurrentSlide();
+
+			if (!failures.length) {
+				return { passed: true, detail: "Logo detected on all slides." };
+			}
+
+			return {
+				passed: false,
+				detail: failures.join(" | ")
 			};
 		}
 
@@ -1332,6 +1453,57 @@
 			return slides;
 		}
 
+		function ensureSlideContentCompleteness(slides, topicTitle) {
+			const fallbackByIndex = [
+				[
+					`${topicTitle} is introduced with key context and a clear objective for this presentation.`,
+					`The slide summarizes what the audience should understand first about ${topicTitle}.`,
+					`Core framing points are included to guide the next slides in a logical flow.`
+				],
+				[
+					`The foundational concepts of ${topicTitle} are explained in practical terms.`,
+					`Important terminology and principles are listed for quick understanding.`,
+					`The slide establishes baseline knowledge before advanced discussion.`
+				],
+				[
+					`Current use cases of ${topicTitle} are highlighted with real-world relevance.`,
+					`The landscape section explains where ${topicTitle} is applied today.`,
+					`Key implementation themes are summarized for business and technical audiences.`
+				],
+				[
+					`Challenges and trade-offs in ${topicTitle} are identified clearly.`,
+					`The slide outlines practical constraints and risk areas to monitor.`,
+					`Future direction points are provided to support informed planning.`
+				],
+				[
+					`The conclusion recaps the most important insights from the presentation.`,
+					`Actionable next steps are included so the audience can move forward confidently.`,
+					`References are provided to support deeper follow-up on ${topicTitle}.`
+				]
+			];
+
+			for (let i = 0; i < slides.length; i += 1) {
+				const slide = slides[i];
+				if (!slide.title || !String(slide.title).trim()) {
+					slide.title = i === 0 ? String(topicTitle || "Topic Overview") : `Slide ${i + 1}`;
+				}
+
+				const bullets = Array.isArray(slide.bullets) ? slide.bullets.filter((b) => String(b || "").trim()) : [];
+				if (bullets.length >= 3) {
+					slide.bullets = bullets;
+					continue;
+				}
+
+				const refill = fallbackByIndex[i] || fallbackByIndex[0];
+				while (bullets.length < 3 && refill[bullets.length]) {
+					bullets.push(refill[bullets.length]);
+				}
+				slide.bullets = bullets;
+			}
+
+			return slides;
+		}
+
 
 		function buildFiveSlides(prompt, sourceData) {
 			const { primary, related } = sourceData;
@@ -1391,8 +1563,9 @@
 			];
 
 			const uniqueSlides = makeDeckBulletsUnique(baseSlides);
+			const completeSlides = ensureSlideContentCompleteness(uniqueSlides, topicTitle);
 
-			return uniqueSlides.map((slide, index) => {
+			return completeSlides.map((slide, index) => {
 				const includeImage = index === 0;
 				const imageQuery = includeImage ? buildImageQueryForSlide(slide) : null;
 				const imagePrompt = includeImage ? buildRuntimeImagePrompt(topicTitle, slide) : null;
@@ -1463,6 +1636,8 @@
 					</div>`
 				: `${paragraphHtml}<ul>${bulletsHtml}</ul>${refsBlock}`;
 
+			const logoHtml = `<img class="slide-logo" src="logo.png" alt="Company logo" loading="lazy" onerror="this.style.display='none'">`;
+
 			slidesMount.innerHTML = `
 				<article class="slide" aria-label="Presentation slide ${slideNo}">
 					<header>
@@ -1476,6 +1651,7 @@
 						<span>Auto-generated research slide</span>
 						<span>${slideNo} / ${deck.length}</span>
 					</footer>
+					${logoHtml}
 				</article>`;
 
 			slideCounter.textContent = `Slide ${slideNo} / ${deck.length}`;

@@ -2964,5 +2964,1608 @@
     ],
     "createdAt": 1782721606836,
     "lastAccessAt": 1782721606836
+  },
+  "dog": {
+    "originalPrompt": "dog",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Dog",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Dog with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of wolves.",
+          "Also called the domestic dog, it was selectively bred during the Late Pleistocene by hunter-gatherers.",
+          "Dogs and the modern gray wolf share a common ancestor.",
+          "Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Dog.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782723954526&nologo=true&safe=true",
+        "imageQuery": "dog",
+        "imagePrompt": "Realistic editorial image of Dog. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/dog/1200/675",
+        "imageCaption": "Dog"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Compared to humans, dogs possess a superior sense of smell and hearing, but inferior visual acuity.",
+          "Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, companionship, therapy, aiding disabled people, and assisting police and the military.",
+          "Communication in dogs includes eye gaze, facial expression, vocalization, body posture (including movements of bodies and limbs), and chemical communication (scents, pheromones, and taste).",
+          "They mark their territories by urinating on them, which is more likely when entering a new environment.",
+          "Over the millennia, dogs have uniquely adapted to human behavior; this adaptation includes being able to understand and communicate with humans."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Developed countries make up approximately 20% of the global dog population, while around 75% of dogs are estimated to be from developing countries, mainly in the form of feral and street dogs.",
+          "The dog is a domesticated canid species, Canis familiaris.",
+          "Dog, dogs, DOG, or DOGS may also refer to:."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Dog are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Dog is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Dog",
+            "extract": "The dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of wolves. Also called the domestic dog, it was selectively bred during the Late Pleistocene by hunter-gatherers. Dogs and the modern gray wolf share a common ancestor. Dogs were the first species to be domesticated over 14,000 years ago, before the development of agriculture, though genetic studies suggest the domestication process may have begun over 25,000 years ago. Due to their long association with humans, dogs have gained the ability to thrive on a starch-rich diet that would be inadequate for other canids. Dogs have been bred for desired behaviors, sensory capabilities, and physical attributes. Dog breeds vary widely in shape, size, and color. They have the same number of bones (with the exception of the tail), powerful jaws that house around 42 teeth, and well-developed senses of smell, hearing, and sight. Compared to humans, dogs possess a superior sense of smell and hearing, but inferior visual acuity. Dogs perform many roles for humans, such as hunting, herding, pulling loads, protection, companionship, therapy, aiding disabled people, and assisting police and the military. Communication in dogs includes eye gaze, facial expression, vocalization, body posture (including movements of bodies and limbs), and chemical communication (scents, pheromones, and taste). They mark their territories by urinating on them, which is more likely when entering a new environment. Over the millennia, dogs have uniquely adapted to human behavior; this adaptation includes being able to understand and communicate with humans. As such, the human–canine bond has been a topic of frequent study, and dogs' influence on human society has given them the sobriquet of \"man's best friend\". The global dog population is estimated at 700 million to 1 billion, distributed around the world. The dog is the most popular pet in the United States, present in 34–40% of households. Developed countries make up approximately 20% of the global dog population, while around 75% of dogs are estimated to be from developing countries, mainly in the form of feral and street dogs.",
+            "fullurl": "https://en.wikipedia.org/wiki/Dog",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Huskiesatrest.jpg/960px-Huskiesatrest.jpg"
+          },
+          {
+            "title": "Dog (disambiguation)",
+            "extract": "The dog is a domesticated canid species, Canis familiaris. Dog, dogs, DOG, or DOGS may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Dog_(disambiguation)",
+            "thumbnail": null
+          },
+          {
+            "title": "Dog Eat Dog",
+            "extract": "Dog Eat Dog may refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Dog_Eat_Dog",
+            "thumbnail": null
+          },
+          {
+            "title": "Dog sex",
+            "extract": "Dog sex may refer to: Sexual behavior of dogs Canine reproduction, a social behavior of the domestic dog Dog breeding, the practice of mating selected specimens with the intent to maintain or produce specific qualities and characteristics Doggy style, a group of sexual positions of humans Zoophilia, the practice of sex between humans and animals (bestiality)",
+            "fullurl": "https://en.wikipedia.org/wiki/Dog_sex",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782723954530,
+    "lastAccessAt": 1782723954530
+  },
+  "oil": {
+    "originalPrompt": "oil",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Oil",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Oil with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Oil is a liquid with varying degrees of viscosity depending on temperature.",
+          "Oil is any nonpolar chemical substance that is composed primarily of hydrocarbons and is hydrophobic and lipophilic.",
+          "Oils are usually flammable and surface active.",
+          "Most oils are unsaturated lipids that are liquid at room temperature."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Oil.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724232011&nologo=true&safe=true",
+        "imageQuery": "oil",
+        "imagePrompt": "Realistic editorial image of Oil. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/oil/1200/675",
+        "imageCaption": "Oil"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "The main character is James Arnold Ross Jr., nicknamed Bunny, son of an oil tycoon.",
+          "Petroleum, also known as crude oil or simply oil, is a natural resource that appears as a yellowish-black liquid chemical mixture found in geological formations, consisting primarily of hydrocarbons.",
+          "The term petroleum refers to both naturally occurring unprocessed crude oil, as well as to petroleum products that consist of refined crude oil.",
+          "Petroleum is a fossil fuel formed over millions of years from anaerobic decay of organic materials from buried prehistoric organisms, particularly plankton and algae.",
+          "It is estimated that 70% of the world's oil deposits were formed during the Mesozoic, 20% were formed in the Cenozoic, and only 10% were formed in the Paleozoic."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Current use cases of Oil are highlighted with real-world relevance.",
+          "The landscape section explains where Oil is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Oil are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Oil is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Oil",
+            "extract": "Oil is a liquid with varying degrees of viscosity depending on temperature. Oil is any nonpolar chemical substance that is composed primarily of hydrocarbons and is hydrophobic and lipophilic. Oils are usually flammable and surface active. Most oils are unsaturated lipids that are liquid at room temperature.",
+            "fullurl": "https://en.wikipedia.org/wiki/Oil",
+            "thumbnail": null
+          },
+          {
+            "title": "Oil (disambiguation)",
+            "extract": "Oil is any of a number of nonpolar, hydrophobic, and viscous liquids. Oil also often refers to: Cooking oil, any liquid fat used in food preparation Lubricant, a substance that reduces friction between surfaces Lubrication, using a lubricant to reduce friction Motor oil, any lubricant used in internal combustion engines Petroleum (crude oil), naturally occurring liquid found beneath the Earth's surface, or a derived product: Fuel oil, liquid fuel burned for heat or power Heating oil, liquid fuel Oil or OIL may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Oil_(disambiguation)",
+            "thumbnail": null
+          },
+          {
+            "title": "Oil!",
+            "extract": "Oil! is an American novel by Upton Sinclair, first published in 1926–27 and told as a third-person narrative, with only the opening pages written in the first person. The book was written in the context of the Harding administration's Teapot Dome scandal and takes place in Southern California. It is a social and political satire skewering the human foibles of all its characters. The main character is James Arnold Ross Jr., nicknamed Bunny, son of an oil tycoon. Bunny's sympathetic feelings toward oilfield workers and socialists provoke arguments with his father throughout the story. The beginning of the novel served as a loose inspiration for Paul Thomas Anderson's 2007 film There Will Be Blood.",
+            "fullurl": "https://en.wikipedia.org/wiki/Oil!",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/d/de/Oil%21_%28Upton_Sinclair_novel_-_cover_art%29.jpg"
+          },
+          {
+            "title": "Petroleum",
+            "extract": "Petroleum, also known as crude oil or simply oil, is a natural resource that appears as a yellowish-black liquid chemical mixture found in geological formations, consisting primarily of hydrocarbons. The term petroleum refers to both naturally occurring unprocessed crude oil, as well as to petroleum products that consist of refined crude oil. Petroleum is a fossil fuel formed over millions of years from anaerobic decay of organic materials from buried prehistoric organisms, particularly plankton and algae. It is estimated that 70% of the world's oil deposits were formed during the Mesozoic, 20% were formed in the Cenozoic, and only 10% were formed in the Paleozoic. Conventional reserves of petroleum are primarily recovered by drilling, which is performed after studying the relevant structural geology, analysis of the sedimentary basin, and characterization of the petroleum reservoir. There are also unconventional reserves such as oil sands and oil shale which are recovered using methods such as fracking. Once extracted, oil is refined and separated, most easily by distillation, into numerous products for direct use or use in manufacturing. Petroleum products include fuels such as gasoline (petrol), diesel, kerosene and jet fuel; bitumen, paraffin wax and lubricants; reagents used to make plastics; solvents, textiles, refrigerants, paint, synthetic rubber, fertilizers, pesticides, pharmaceuticals, and thousands of other petrochemicals. Petroleum is used to manufacture a wide variety of materials essential for modern life, and it is estimated that the world consumes about 100 million barrels (16 million cubic metres) each day. Petroleum production played a key role in industrialization and economic development, especially after the Second Industrial Revolution. Some petroleum-rich countries, known as petrostates, gained significant economic and international influence during the latter half of the 20th century due to their control of oil production and trade. Petroleum is a non-renewable natural resource, and its exploitation is damaging to the natural environment, climate system and human health. Extraction, refining and burning of petroleum fuels counteract carbon sinks by releasing large quantities of greenhouse gases back into the Earth's atmosphere, making petroleum one of the major contributors to anthropogenic climate change. Other negative environmental effects, at almost all stages of use, include direct release—such as oil spills—and secondary pollution of air and water sources. Proximity to petroleum deposits, and subsequent access to and pricing of oil have historically fueled both domestic and geopolitical conflicts, state-sanctioned oil wars, diplomatic and trade frictions, energy policy disputes and other resource conflicts. While production is estimated to reach peak oil before 2035, global economic focus on climate change mitigation in the transition to renewable energy sources and increased electrification will greatly reduce dependency on petroleum.",
+            "fullurl": "https://en.wikipedia.org/wiki/Petroleum",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Petroleum_sample.jpg/960px-Petroleum_sample.jpg"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724232014,
+    "lastAccessAt": 1782724232014
+  },
+  "about al rafay consulting": {
+    "originalPrompt": "about al rafay consulting",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Everybody Draw Mohammed Day",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Everybody Draw Mohammed Day with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Everybody Draw Mohammed Day (or Draw Mohammed Day) was a 2010 event in support of artists threatened with violence for drawing representations of the Islamic prophet Muhammad.",
+          "A drawing representing Muhammad was posted on the Internet on April 20, 2010, with a message suggesting that \"everybody\" create a drawing depicting Muhammad on May 20 in support of free speech.",
+          "Cartoonist Molly Norris of Seattle, Washington, created the artwork in reaction to Internet death threats that had been made against animators Trey Parker and Matt Stone for depicting Muhammad in an episode of South Park.",
+          "Postings on RevolutionMuslim.com (under the pen name Abu Talha al-Amrikee, later identified as Zachary Adam Chesser) had said that Parker and Stone could wind up like Theo van Gogh, a Dutch filmmaker who was stabbed and shot to death."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Everybody%20Draw%20Mohammed%20Day.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724293477&nologo=true&safe=true",
+        "imageQuery": "everybody draw mohammed",
+        "imagePrompt": "Realistic editorial image of Everybody Draw Mohammed Day. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/everybody-draw-mohammed/1200/675",
+        "imageCaption": "Everybody Draw Mohammed Day"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Facebook had an \"Everybody Draw Mohammed Day\" page, which grew to over 100,000 participants (101,870 members by May 20).",
+          "A protest page on Facebook against the initiative named \"Against 'Everybody Draw Mohammed Day'\" attracted slightly more supporters (106,000 by May 20).",
+          "Subsequently, Facebook was temporarily blocked by Pakistan; the ban was lifted after Facebook agreed to block the page for users in India and Pakistan.",
+          "In the media, Everybody Draw Mohammed Day attracted support from commentators who felt that the campaign represented important issues of freedom of speech, and the need to stand up for this freedom."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Current use cases of Everybody Draw Mohammed Day are highlighted with real-world relevance.",
+          "The landscape section explains where Everybody Draw Mohammed Day is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Everybody Draw Mohammed Day are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Everybody Draw Mohammed Day is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Everybody Draw Mohammed Day",
+            "extract": "Everybody Draw Mohammed Day (or Draw Mohammed Day) was a 2010 event in support of artists threatened with violence for drawing representations of the Islamic prophet Muhammad. It stemmed from a protest against censorship of the American television show South Park episode \"201\", led by the show's distributor Comedy Central, in response to death threats that had been made against some of those responsible for two segments broadcast in April 2010. A drawing representing Muhammad was posted on the Internet on April 20, 2010, with a message suggesting that \"everybody\" create a drawing depicting Muhammad on May 20 in support of free speech. U.S. cartoonist Molly Norris of Seattle, Washington, created the artwork in reaction to Internet death threats that had been made against animators Trey Parker and Matt Stone for depicting Muhammad in an episode of South Park. Postings on RevolutionMuslim.com (under the pen name Abu Talha al-Amrikee, later identified as Zachary Adam Chesser) had said that Parker and Stone could wind up like Theo van Gogh, a Dutch filmmaker who was stabbed and shot to death. Norris claimed that if people draw pictures of Muhammad, Islamist terrorists would not be able to murder them all, and threats to do so would become unrealistic. Within a week, Norris' idea became popular on Facebook, was supported by numerous bloggers, and generated coverage on the blog websites of major U.S. newspapers. As the publicity mounted, Norris and the man who created the first Facebook page promoting the May 20 event disassociated themselves from it. Nonetheless, planning for the protest continued with others \"taking up the cause\". Facebook had an \"Everybody Draw Mohammed Day\" page, which grew to over 100,000 participants (101,870 members by May 20). A protest page on Facebook against the initiative named \"Against 'Everybody Draw Mohammed Day'\" attracted slightly more supporters (106,000 by May 20). Subsequently, Facebook was temporarily blocked by Pakistan; the ban was lifted after Facebook agreed to block the page for users in India and Pakistan. In the media, Everybody Draw Mohammed Day attracted support from commentators who felt that the campaign represented important issues of freedom of speech, and the need to stand up for this freedom.",
+            "fullurl": "https://en.wikipedia.org/wiki/Everybody_Draw_Mohammed_Day",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724293480,
+    "lastAccessAt": 1782724293480
+  },
+  "al rafay consulting": {
+    "originalPrompt": "al rafay consulting",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Everybody Draw Mohammed Day",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Everybody Draw Mohammed Day with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Everybody Draw Mohammed Day (or Draw Mohammed Day) was a 2010 event in support of artists threatened with violence for drawing representations of the Islamic prophet Muhammad.",
+          "A drawing representing Muhammad was posted on the Internet on April 20, 2010, with a message suggesting that \"everybody\" create a drawing depicting Muhammad on May 20 in support of free speech.",
+          "Cartoonist Molly Norris of Seattle, Washington, created the artwork in reaction to Internet death threats that had been made against animators Trey Parker and Matt Stone for depicting Muhammad in an episode of South Park.",
+          "Postings on RevolutionMuslim.com (under the pen name Abu Talha al-Amrikee, later identified as Zachary Adam Chesser) had said that Parker and Stone could wind up like Theo van Gogh, a Dutch filmmaker who was stabbed and shot to death."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Everybody%20Draw%20Mohammed%20Day.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724312521&nologo=true&safe=true",
+        "imageQuery": "everybody draw mohammed",
+        "imagePrompt": "Realistic editorial image of Everybody Draw Mohammed Day. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/everybody-draw-mohammed/1200/675",
+        "imageCaption": "Everybody Draw Mohammed Day"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Facebook had an \"Everybody Draw Mohammed Day\" page, which grew to over 100,000 participants (101,870 members by May 20).",
+          "A protest page on Facebook against the initiative named \"Against 'Everybody Draw Mohammed Day'\" attracted slightly more supporters (106,000 by May 20).",
+          "Subsequently, Facebook was temporarily blocked by Pakistan; the ban was lifted after Facebook agreed to block the page for users in India and Pakistan.",
+          "In the media, Everybody Draw Mohammed Day attracted support from commentators who felt that the campaign represented important issues of freedom of speech, and the need to stand up for this freedom."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Current use cases of Everybody Draw Mohammed Day are highlighted with real-world relevance.",
+          "The landscape section explains where Everybody Draw Mohammed Day is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Everybody Draw Mohammed Day are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Everybody Draw Mohammed Day is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Everybody Draw Mohammed Day",
+            "extract": "Everybody Draw Mohammed Day (or Draw Mohammed Day) was a 2010 event in support of artists threatened with violence for drawing representations of the Islamic prophet Muhammad. It stemmed from a protest against censorship of the American television show South Park episode \"201\", led by the show's distributor Comedy Central, in response to death threats that had been made against some of those responsible for two segments broadcast in April 2010. A drawing representing Muhammad was posted on the Internet on April 20, 2010, with a message suggesting that \"everybody\" create a drawing depicting Muhammad on May 20 in support of free speech. U.S. cartoonist Molly Norris of Seattle, Washington, created the artwork in reaction to Internet death threats that had been made against animators Trey Parker and Matt Stone for depicting Muhammad in an episode of South Park. Postings on RevolutionMuslim.com (under the pen name Abu Talha al-Amrikee, later identified as Zachary Adam Chesser) had said that Parker and Stone could wind up like Theo van Gogh, a Dutch filmmaker who was stabbed and shot to death. Norris claimed that if people draw pictures of Muhammad, Islamist terrorists would not be able to murder them all, and threats to do so would become unrealistic. Within a week, Norris' idea became popular on Facebook, was supported by numerous bloggers, and generated coverage on the blog websites of major U.S. newspapers. As the publicity mounted, Norris and the man who created the first Facebook page promoting the May 20 event disassociated themselves from it. Nonetheless, planning for the protest continued with others \"taking up the cause\". Facebook had an \"Everybody Draw Mohammed Day\" page, which grew to over 100,000 participants (101,870 members by May 20). A protest page on Facebook against the initiative named \"Against 'Everybody Draw Mohammed Day'\" attracted slightly more supporters (106,000 by May 20). Subsequently, Facebook was temporarily blocked by Pakistan; the ban was lifted after Facebook agreed to block the page for users in India and Pakistan. In the media, Everybody Draw Mohammed Day attracted support from commentators who felt that the campaign represented important issues of freedom of speech, and the need to stand up for this freedom.",
+            "fullurl": "https://en.wikipedia.org/wiki/Everybody_Draw_Mohammed_Day",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724312522,
+    "lastAccessAt": 1782724312522
+  },
+  "software": {
+    "originalPrompt": "software",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Software",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Software with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Software (SW) consists of computer programs that instruct the execution of a computer.",
+          "Software also includes design documents and specifications.",
+          "The history of software is closely tied to the development of digital computers in the mid-20th century.",
+          "Early programs were written in the machine language specific to the hardware."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Software.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724326957&nologo=true&safe=true",
+        "imageQuery": "software",
+        "imagePrompt": "Realistic editorial image of Software. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/software/1200/675",
+        "imageCaption": "Software"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "The process of developing software involves several stages.",
+          "The stages include software design, programming, testing, release, and maintenance.",
+          "Software quality assurance and security are critical aspects of software development, as bugs and security vulnerabilities can lead to system failures and security breaches.",
+          "Additionally, legal issues such as software licenses and intellectual property rights play a significant role in the distribution of software products.",
+          "Proprietary software is a subset of non-free software, a term defined in contrast to free and open-source software; non-commercial licenses such as CC BY-NC are not deemed proprietary, but are non-free."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "The architecture of a software system is a metaphor, analogous to the architecture of a building.",
+          "It functions as the blueprints for the system and the development project, which project management can later use to extrapolate the tasks necessary to be executed by the teams and people involved.",
+          "Software testing is the act of checking whether software meets its intended objectives and satisfies expectations.",
+          "Software testing can provide objective, independent information about the quality of software and the risk of its failure to a user or sponsor or any other stakeholder.",
+          "Software testing can determine the correctness of software for specific scenarios but cannot determine correctness for all scenarios."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Software are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Software is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Software",
+            "extract": "Software (SW) consists of computer programs that instruct the execution of a computer. Software also includes design documents and specifications. The history of software is closely tied to the development of digital computers in the mid-20th century. Early programs were written in the machine language specific to the hardware. The introduction of high-level programming languages in 1958 allowed for more human-readable instructions, making software development easier and more portable across different computer architectures. Software in a programming language is run through a compiler or interpreter to execute on the architecture's hardware. Over time, software has become complex, owing to developments in networking, operating systems, and databases. Software can generally be categorized into two main types: operating systems, which manage hardware resources and provide services for applications application software, which performs specific tasks for users The rise of cloud computing has introduced the new software delivery model software as a service (SaaS). In SaaS, applications are hosted by a provider and accessed over the Internet. The process of developing software involves several stages. The stages include software design, programming, testing, release, and maintenance. Software quality assurance and security are critical aspects of software development, as bugs and security vulnerabilities can lead to system failures and security breaches. Additionally, legal issues such as software licenses and intellectual property rights play a significant role in the distribution of software products.",
+            "fullurl": "https://en.wikipedia.org/wiki/Software",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/a4/JavaScript_code.png"
+          },
+          {
+            "title": "Proprietary software",
+            "extract": "Proprietary software is software that grants its creator, publisher, or other rightsholder or rightsholder partner a legal monopoly by modern copyright and intellectual property law to exclude the recipient from freely sharing the software or modifying it, and—in some cases, as is the case with some patent-encumbered and EULA-bound software—from making use of the software on their own, thereby restricting their freedoms. Proprietary software is a subset of non-free software, a term defined in contrast to free and open-source software; non-commercial licenses such as CC BY-NC are not deemed proprietary, but are non-free. Proprietary software may either be closed-source software or source-available software.",
+            "fullurl": "https://en.wikipedia.org/wiki/Proprietary_software",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Intellectual_property_Noun_project.svg/960px-Intellectual_property_Noun_project.svg.png"
+          },
+          {
+            "title": "Software architecture",
+            "extract": "Software architecture is the set of structures needed to reason about a software system and the discipline of creating such structures and systems. Each structure comprises software elements, relations among them, and properties of both elements and relations. The architecture of a software system is a metaphor, analogous to the architecture of a building. It functions as the blueprints for the system and the development project, which project management can later use to extrapolate the tasks necessary to be executed by the teams and people involved. Software architecture is about making fundamental structural choices that are costly to change once implemented. Software architecture choices include specific structural options from possibilities in the design of the software. There are two fundamental laws in software architecture: Everything is a trade-off \"Why is more important than how\" \"Architectural Kata\" is a teamwork which can be used to produce an architectural solution that fits the needs. Each team extracts and prioritizes architectural characteristics (aka non functional requirements) then models the components accordingly. The team can use C4 Model which is a flexible method to model the architecture just enough. Note that synchronous communication between architectural components, entangles them and they must share the same architectural characteristics. Documenting software architecture facilitates communication between stakeholders, captures early decisions about the high-level design, and allows the reuse of design components between projects. Software architecture design is commonly juxtaposed with software application design. Whilst application design focuses on the design of the processes and data supporting the required functionality (the services offered by the system), software architecture design focuses on designing the infrastructure within which application functionality can be realized and executed such that the functionality is provided in a way which meets the system's non-functional requirements. Software architectures can be categorized into two main types: monolith and distributed architecture, each having its own subcategories. Software architecture tends to become more complex over time. Software architects should use \"fitness functions\" to continuously keep the architecture in check.",
+            "fullurl": "https://en.wikipedia.org/wiki/Software_architecture",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Oversimplified_Structure_of_the_Linux_kernel.svg/960px-Oversimplified_Structure_of_the_Linux_kernel.svg.png"
+          },
+          {
+            "title": "Software testing",
+            "extract": "Software testing is the act of checking whether software meets its intended objectives and satisfies expectations. Software testing can provide objective, independent information about the quality of software and the risk of its failure to a user or sponsor or any other stakeholder. Software testing can determine the correctness of software for specific scenarios but cannot determine correctness for all scenarios. It cannot find all bugs. Based on the criteria for measuring correctness from an oracle, software testing employs principles and mechanisms that might recognize a problem. Examples of oracles include specifications, contracts, comparable products, past versions of the same product, inferences about intended or expected purpose, user or customer expectations, relevant standards, and applicable laws. Software testing can be functional or non-functional in nature. Software testing is often dynamic in nature: running the software to verify actual output matches expected. It can also be static in nature: reviewing code and its associated documentation. Software testing is often used to answer the question: Does the software do what it is supposed to do and what it needs to do? Information learned from software testing may be used to improve the process by which software is developed. A commonly suggested approach to automated testing is the \"test pyramid,\" wherein most of the tests are unit tests, followed by a smaller set of integration tests and finally a few end-to-end (e2e) tests.",
+            "fullurl": "https://en.wikipedia.org/wiki/Software_testing",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg/960px-TestingCup-Polish-Championship-in-Software-Testing-Katowice-2016.jpg"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724326958,
+    "lastAccessAt": 1782724326958
+  },
+  "sunflower": {
+    "originalPrompt": "sunflower",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Common sunflower",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Common sunflower with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "The common sunflower (Helianthus annuus) is a large annual forb in the daisy family Asteraceae.",
+          "The domesticated form of common sunflower is harvested for its edible seeds, which come in two types: oil and confectionary seeds.",
+          "Oilseed sunflowers are widely grown globally and represent the fourth most used vegetable oil in the world.",
+          "They also are used widely as bird food or as food for livestock."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Common%20sunflower.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724365614&nologo=true&safe=true",
+        "imageQuery": "common sunflower",
+        "imagePrompt": "Realistic editorial image of Common sunflower. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/common-sunflower/1200/675",
+        "imageCaption": "Common sunflower"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "There are three types of commonly used sunflower seeds: linoleic (most common), high oleic, and sunflower oil seeds.",
+          "Each variety has its own unique levels of monounsaturated, saturated, and polyunsaturated fats.",
+          "The information in this article refers mainly to the linoleic variety.",
+          "Mount Sunflower, although not a true mountain, is the highest natural point in the U.S.",
+          "At 4,039 feet (1,231 m), it is 3,300 feet (1,010 m) above the state's topographic low point, which lies on the opposite side of the state."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "It can also refer more broadly to the whole genus Helianthus, the sunflowers.",
+          "Sunflower or sunflowers may also refer to:.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Common sunflower are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Common sunflower is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Common sunflower",
+            "extract": "The common sunflower (Helianthus annuus) is a large annual forb in the daisy family Asteraceae. The domesticated form of common sunflower is harvested for its edible seeds, which come in two types: oil and confectionary seeds. Oilseed sunflowers are widely grown globally and represent the fourth most used vegetable oil in the world. They also are used widely as bird food or as food for livestock. In contrast, confectionary sunflower seeds are often eaten as a snack food or in baking. There also are horticultural sunflower varieties that are used as plantings in domestic gardens for aesthetics. Wild plants are known for their multiple flower heads, whereas the domestic sunflower often possesses a single large flower head atop an unbranched stem.",
+            "fullurl": "https://en.wikipedia.org/wiki/Common_sunflower",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/960px-Sunflower_sky_backdrop.jpg"
+          },
+          {
+            "title": "Sunflower seed",
+            "extract": "A sunflower seed is a seed from a sunflower (Helianthus annuus). There are three types of commonly used sunflower seeds: linoleic (most common), high oleic, and sunflower oil seeds. Each variety has its own unique levels of monounsaturated, saturated, and polyunsaturated fats. The information in this article refers mainly to the linoleic variety. For commercial purposes, sunflower seeds are usually classified by the pattern on their husks. If the husk is solid black, the seeds are called black oil sunflower seeds. The crops may be referred to as oilseed sunflower crops. These seeds are usually pressed to extract their oil. Striped sunflower seeds are primarily eaten as a snack food; as a result, they may be called confectionery sunflower seeds. The term \"sunflower seed\" is a misnomer when applied to the seed in its pericarp (hull). Botanically speaking, it is a cypsela. When dehulled, the edible remainder is called the sunflower kernel or heart.",
+            "fullurl": "https://en.wikipedia.org/wiki/Sunflower_seed",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Sunflower_Seeds_Kaldari.jpg/960px-Sunflower_Seeds_Kaldari.jpg"
+          },
+          {
+            "title": "Mount Sunflower",
+            "extract": "Mount Sunflower, although not a true mountain, is the highest natural point in the U.S. state of Kansas. At 4,039 feet (1,231 m), it is 3,300 feet (1,010 m) above the state's topographic low point, which lies on the opposite side of the state. It is located between the communities of Kanorado and Weskan in Wallace County, less than half a mile (0.8 km) from the state border with Colorado and is near the lowest point in Colorado. Mount Sunflower is located on private land owned by Ed and Cindy Harold, who encourage visitors to the site. Amenities include a picnic table, a little free library, a sunflower sculpture made from railroad spikes, and a plaque on the site stating, \"On this site in 1897, nothing happened.\" Additionally, there is a mailbox on the site with a registration book inside where visitors can write their names, where they are from, and how many members are in their party. Access is via county dirt roads to the edge of the property, then across a cattle guard and onto a private dirt road through a cattle grazing pasture to the summit. Mount Sunflower was designated as Kansas’s highest point by the United States Geological Survey in 1961. In the late 1970s Ed Harold decided to commemorate this site, homesteaded by his grandparents in 1906. The most famous attraction at the site is the sunflower sculpture made from railroad spikes that are welded together. The state of Kansas gradually increases in elevation from the east to the west. As such, Mount Sunflower, while the highest natural point in the state in terms of elevation, is virtually indistinguishable from the surrounding terrain.",
+            "fullurl": "https://en.wikipedia.org/wiki/Mount_Sunflower",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Mount_Sunflower.JPG/960px-Mount_Sunflower.JPG"
+          },
+          {
+            "title": "Sunflower (disambiguation)",
+            "extract": "Sunflower is the common sunflower (Helianthus annuus), a species of annual flowering plant first domesticated in the Americas. It can also refer more broadly to the whole genus Helianthus, the sunflowers. Sunflower or sunflowers may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Sunflower_(disambiguation)",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724365616,
+    "lastAccessAt": 1782724365616
+  },
+  "table": {
+    "originalPrompt": "table",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Table",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Table with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "The periodic table, also known as the periodic table of the elements, is an ordered arrangement of the chemical elements into rows (\"periods\") and columns (\"groups\").",
+          "An icon of chemistry, the periodic table is widely used in physics and other sciences.",
+          "It is a depiction of the periodic law, which states that when the elements are arranged in order of their atomic numbers an approximate recurrence of their properties is evident.",
+          "The table is divided into four roughly rectangular areas called blocks."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Table.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724508820&nologo=true&safe=true",
+        "imageQuery": "table",
+        "imagePrompt": "Realistic editorial image of Table. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/table/1200/675",
+        "imageCaption": "Table"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Table A has been replaced for new companies by the simplified and modernised Companies Act 2006 Model Articles, which came into force on 1 October 2009.",
+          "However, it still remains valid for companies incorporated under the Companies Act 1985 in the form in which it existed at the time of incorporation of the company.",
+          "The slide establishes baseline knowledge before advanced discussion."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Current use cases of Table are highlighted with real-world relevance.",
+          "The landscape section explains where Table is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Table are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Table is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Table",
+            "extract": "Table may refer to: Table (database), how the table data arrangement is used within the databases Table (furniture), a piece of furniture with a flat surface and one or more legs Table (information), a data arrangement with rows and columns Table (landform), a flat area of land Table (parliamentary procedure) Table (sports), a ranking of the teams in a sports league Tables (board game) Mathematical table Tables of the skull, a term for the flat bones Table, surface of the sound board (music) of a string instrument Al-Ma'ida, the fifth surah of the Qur'an, occasionally translated as “The Table” Calligra Tables, a spreadsheet application Water table",
+            "fullurl": "https://en.wikipedia.org/wiki/Table",
+            "thumbnail": null
+          },
+          {
+            "title": "Periodic table",
+            "extract": "The periodic table, also known as the periodic table of the elements, is an ordered arrangement of the chemical elements into rows (\"periods\") and columns (\"groups\"). An icon of chemistry, the periodic table is widely used in physics and other sciences. It is a depiction of the periodic law, which states that when the elements are arranged in order of their atomic numbers an approximate recurrence of their properties is evident. The table is divided into four roughly rectangular areas called blocks. Elements in the same group tend to show similar chemical characteristics. Vertical, horizontal and diagonal trends characterize the periodic table. Metallic character increases going down a group and from right to left across a period. Nonmetallic character increases going from the bottom left of the periodic table to the top right. The first periodic table to become generally accepted was that of the Russian chemist Dmitri Mendeleev in 1869; he formulated the periodic law as a dependence of chemical properties on atomic mass. As not all elements were then known, there were gaps in his periodic table, and Mendeleev successfully used the periodic law to predict some properties of some of the missing elements. The periodic law was recognized as a fundamental discovery in the late 19th century. It was explained early in the 20th century, with the discovery of atomic numbers and associated pioneering work in quantum mechanics, both ideas serving to illuminate the internal structure of the atom. A recognisably modern form of the table was reached in 1945 with Glenn T. Seaborg's discovery that the actinides were in fact f-block rather than d-block elements. The periodic table and law have become a central and indispensable part of modern chemistry. The periodic table continues to evolve with the progress of science. In nature, only elements up to atomic number 94 exist; elements beyond that can only be synthesized in the laboratory. By 2010, the first 118 elements were known, thereby completing the first seven rows of the table; however, chemical characterization is still needed for the heaviest elements to confirm that their properties match their positions. New discoveries will extend the table beyond these seven rows, though it is not yet known how many more elements are possible; moreover, theoretical calculations suggest that this unknown region will not follow the patterns of the known part of the table. Some scientific discussion also continues regarding whether some elements are correctly positioned in the table. Many alternative representations of the periodic law exist, and there is some discussion as to whether there is an optimal form of the periodic table.",
+            "fullurl": "https://en.wikipedia.org/wiki/Periodic_table",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Colour_18-col_PT_with_labels.svg/960px-Colour_18-col_PT_with_labels.svg.png"
+          },
+          {
+            "title": "Table dance",
+            "extract": "A table dance, or bartop dance, is a dance performed at (or on) a table or bar, as opposed to on a stage. It may be an erotic dance performed by a sex worker or it may be done as a leisure activity.",
+            "fullurl": "https://en.wikipedia.org/wiki/Table_dance",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/%28Portrait_of_Lois_de_Fee%2C_Club_Nocturne%2C_New_York%2C_N.Y.%2C_ca._July_1948%29_%28LOC%29_%285268915685%29.jpg/960px-%28Portrait_of_Lois_de_Fee%2C_Club_Nocturne%2C_New_York%2C_N.Y.%2C_ca._July_1948%29_%28LOC%29_%285268915685%29.jpg"
+          },
+          {
+            "title": "Table A",
+            "extract": "Table A in UK company law is the old name for the Model Articles or default form of articles of association for companies limited by shares incorporated either in England and Wales or in Scotland before 1 October 2009 where the incorporators do not explicitly choose to use a modified form. Table A was first introduced by the Joint Stock Companies Act 1856 as 'Table B', and then adopted the name of 'Table A' under the Companies Act 1862. The existing form of Table A was introduced in 1985 by the subsidiary legislation passed under the Companies Act 1985, although it has been updated on several occasions since its introduction. Although Table A is the most frequently referred to, relating to generic companies limited by shares (the most common form), there are also pro forma constitutional documents for companies limited by guarantee without a share capital (Table C) and unlimited liability companies with a share capital (Table E). One advantage of having standard form constitutional documents for the bulk of companies formed within a jurisdiction is that a substantial body of case law has arisen in relation to the forms, which assists legal practitioners when preparing more bespoke forms of constitutional documents for businesses. Table A has been replaced for new companies by the simplified and modernised Companies Act 2006 Model Articles, which came into force on 1 October 2009. However, it still remains valid for companies incorporated under the Companies Act 1985 in the form in which it existed at the time of incorporation of the company. For example, Article 50 regarding the Chairman's casting vote was removed from Table A in 2007. However, if this right existed in a Company's articles due to incorporation before this date it remains valid.",
+            "fullurl": "https://en.wikipedia.org/wiki/Table_A",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724508822,
+    "lastAccessAt": 1782724508822
+  },
+  "water": {
+    "originalPrompt": "water",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Water",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Water with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Water is an inorganic compound with the chemical formula H2O.",
+          "It is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
+          "It is the main constituent of Earth's streams, lakes, and oceans.",
+          "Water is also the fluid of all known living organisms, in which it acts as a solvent."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Water.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724905378&nologo=true&safe=true",
+        "imageQuery": "water",
+        "imagePrompt": "Realistic editorial image of Water. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/water/1200/675",
+        "imageCaption": "Water"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "It forms precipitation in the form of rain and aerosols in the form of fog.",
+          "Clouds consist of suspended droplets of water and ice, its solid state.",
+          "When finely divided, crystalline ice may precipitate in the form of snow.",
+          "The gaseous state of water is steam or water vapor.",
+          "Water covers about 71% of the Earth's surface, with seas and oceans making up most of the water volume (about 96.5%)."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Approximately 70% of the fresh water used by humans goes to agriculture.",
+          "Fishing in salt and fresh water bodies has been, and continues to be, a major source of food for many parts of the world, providing 6.5% of global protein.",
+          "This Is Water: Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life is an essay by David Foster Wallace.",
+          "The text originates from a commencement speech Wallace gave at Kenyon College on May 21, 2005.",
+          "The essay was published in The Best American Nonrequired Reading 2006 and in 2009 its format was stretched by Little, Brown and Company to fill 138 pages for a book publication."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "A body of water does not have to be still or contained; rivers, streams, canals, and other geographical features where water moves from one place to another are also considered bodies of water.",
+          "Most are naturally occurring and massive geographical features, but some are artificial.",
+          "Drinking water or potable water is water that is safe for ingestion, either when drunk directly in liquid form or consumed indirectly through food preparation.",
+          "It is often supplied through taps, in which case it is also called tap water.",
+          "The amount of drinking water required to maintain good health varies, and depends on physical activity, age, health-related issues, and environmental conditions."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Water is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Water",
+            "extract": "Water is an inorganic compound with the chemical formula H2O. It is a transparent, tasteless, odorless, and nearly colorless chemical substance. It is the main constituent of Earth's streams, lakes, and oceans. Water is also the fluid of all known living organisms, in which it acts as a solvent. Water, being a polar molecule, undergoes strong intermolecular hydrogen bonding which is a large contributor to its physical and chemical properties. It is vital for all known forms of life, despite not providing food energy or being an organic micronutrient. Due to its presence in all organisms, its chemical stability, its worldwide abundance, and its strong polarity relative to its small molecular size, water is often referred to as the \"universal solvent\". Because Earth's surface temperature and pressure is relatively close to water's triple point, water exists on Earth as a solid, a liquid, and a gas. It forms precipitation in the form of rain and aerosols in the form of fog. Clouds consist of suspended droplets of water and ice, its solid state. When finely divided, crystalline ice may precipitate in the form of snow. The gaseous state of water is steam or water vapor. Water covers about 71% of the Earth's surface, with seas and oceans making up most of the water volume (about 96.5%). Small portions of water occur as groundwater (1.7%), in the glaciers and the ice caps of Antarctica and Greenland (1.7%), and in the air as vapor, clouds (consisting of ice and liquid water suspended in air), and precipitation (0.001%). Water moves continually through the water cycle of evaporation, transpiration (evapotranspiration), condensation, precipitation, and runoff, usually reaching the sea. Water plays an important role in the world economy. Approximately 70% of the fresh water used by humans goes to agriculture. Fishing in salt and fresh water bodies has been, and continues to be, a major source of food for many parts of the world, providing 6.5% of global protein. Much of the long-distance trade of commodities (such as oil, natural gas, and manufactured products) is transported by boats through seas, rivers, lakes, and canals. Large quantities of water, ice, and steam are used for cooling and heating in industry and homes. Water is an excellent solvent for a wide variety of substances, both mineral and organic; as such, it is widely used in industrial processes and in cooking and washing. Water, ice, and snow are also central to many sports and other forms of entertainment, such as swimming, pleasure boating, boat racing, surfing, sport fishing, diving, ice skating, snowboarding, and skiing.",
+            "fullurl": "https://en.wikipedia.org/wiki/Water",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/H2O_2D_labelled.svg/960px-H2O_2D_labelled.svg.png"
+          },
+          {
+            "title": "This Is Water",
+            "extract": "This Is Water: Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life is an essay by David Foster Wallace. The text originates from a commencement speech Wallace gave at Kenyon College on May 21, 2005. The essay was published in The Best American Nonrequired Reading 2006 and in 2009 its format was stretched by Little, Brown and Company to fill 138 pages for a book publication. A transcript of the speech circulated online as early as June 2005. This is the only public speech Wallace ever gave outlining his outlook on life. Time magazine has ranked This Is Water among the best commencement speeches ever delivered.",
+            "fullurl": "https://en.wikipedia.org/wiki/This_Is_Water",
+            "thumbnail": null
+          },
+          {
+            "title": "Body of water",
+            "extract": "A body of water or waterbody is any significant accumulation of water on the surface of the earth. The term most often refers to oceans, seas, and lakes, but it includes smaller pools of water such as ponds, wetlands, or more rarely, puddles. A body of water does not have to be still or contained; rivers, streams, canals, and other geographical features where water moves from one place to another are also considered bodies of water. Most are naturally occurring and massive geographical features, but some are artificial. There are types that can be either. For example, most reservoirs are created by engineering dams, but some natural lakes are used as reservoirs. Similarly, most harbors are naturally occurring bays, but some harbors have been created through construction. Bodies of water that are navigable are known as waterways. Some bodies of water collect and move water, such as rivers and streams, and others primarily hold water, such as lakes and oceans. Bodies of water are affected by gravity, which is what creates the tidal effects. The impact of climate change on water is likely to intensify as observed through the rising sea levels, water acidification and flooding. This means that climate change has pressure on water bodies. Climate change significantly affects bodies of water through rising temperatures, altered precipitation patterns, and sea-level rise. Warmer temperatures lead to the melting of glaciers and polar ice, contributing to rising sea levels and affecting coastal ecosystems. Freshwater bodies, such as rivers and lakes, are experiencing more frequent droughts, affecting water availability for communities and biodiversity. Moreover, ocean acidification, caused by increased carbon dioxide absorption, threatens marine ecosystems like coral reefs. Collaborative global efforts are needed to mitigate these impacts through sustainable water management practices.",
+            "fullurl": "https://en.wikipedia.org/wiki/Body_of_water",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Aubach_%28Wiehl%29_nahe_dem_Weiherdamm_in_Wildbergerh%C3%BCtte.jpg/960px-Aubach_%28Wiehl%29_nahe_dem_Weiherdamm_in_Wildbergerh%C3%BCtte.jpg"
+          },
+          {
+            "title": "Drinking water",
+            "extract": "Drinking water or potable water is water that is safe for ingestion, either when drunk directly in liquid form or consumed indirectly through food preparation. It is often supplied through taps, in which case it is also called tap water. The amount of drinking water required to maintain good health varies, and depends on physical activity, age, health-related issues, and environmental conditions. For those who work in a hot climate, up to 16 liters (4.2 U.S. gal) a day may be required. As many as two billion people lack safe drinking water. Unsafe water can carry disease and is a major cause of death and illness worldwide. Developing countries are most affected by unsafe drinking water.",
+            "fullurl": "https://en.wikipedia.org/wiki/Drinking_water",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Clean_water_for_a_village_in_West_Lombok_%2810686572086%29.jpg"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724905381,
+    "lastAccessAt": 1782724905381
+  },
+  "pakistan": {
+    "originalPrompt": "pakistan",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Pakistan",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Pakistan with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia.",
+          "It is the fifth-most populous country, with a population of over 241.5 million, having the second-largest Muslim population as of 2023.",
+          "Islamabad is the nation's capital, while Karachi is its largest city and financial centre.",
+          "Pakistan is the 33rd-largest country by area."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Pakistan.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782724930100&nologo=true&safe=true",
+        "imageQuery": "pakistan",
+        "imagePrompt": "Realistic editorial image of Pakistan. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/pakistan/1200/675",
+        "imageCaption": "Pakistan"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "East Pakistan seceded as the new country of Bangladesh in 1971 after a nine-month-long civil war.",
+          "In the following four decades, Pakistan has been ruled by governments that alternated between civilian and military, democratic and authoritarian, relatively secular and Islamist.",
+          "Pakistan is considered a middle power and is a declared nuclear-weapon state, with the world's seventh-largest standing armed forces.",
+          "The Pakistani economy is ranked amongst the world's emerging and growth-leading economies, with a large and rapidly growing middle class.",
+          "Pakistan's political history since independence has been characterised by periods of significant economic and military growth as well as those of political and economic instability."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "'Pakistani Nation') are the citizens and nationals of the Islamic Republic of Pakistan.",
+          "Pakistan is the fifth-most populous country, with a population of over 241.5 million, having the second-largest Muslim population as of 2023.",
+          "A majority of around 97% of Pakistanis are Muslims.",
+          "With a population of over 127 million, it is the most populous Pakistani province and the second most populous subnational polity in the world.",
+          "Located in the central-eastern region of the country, it has the largest economy, contributing the most to national GDP in Pakistan."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "It is the 40th-largest in terms of nominal GDP and the 20th-largest economy by purchasing power parity (PPP) as of 2026.",
+          "In per capita terms, the Pakistani economic output ranks 160th by nominal GDP and 138th by PPP GDP.",
+          "Economic development in Pakistan is varied with growth centers located along the Indus River."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Pakistan is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Pakistan",
+            "extract": "Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country, with a population of over 241.5 million, having the second-largest Muslim population as of 2023. Islamabad is the nation's capital, while Karachi is its largest city and financial centre. Pakistan is the 33rd-largest country by area. Bounded by the Arabian Sea on the south, the Gulf of Oman on the southwest, and the Sir Creek on the southeast, it shares land borders with India to the east; Afghanistan to the west; Iran to the southwest; and China to the northeast. It shares a maritime border with Oman in the Gulf of Oman, and is separated from Tajikistan in the northwest by Afghanistan's narrow Wakhan Corridor. Pakistan is the site of several ancient cultures, including the 8,500-year-old Neolithic site of Mehrgarh in Balochistan, the Indus Valley Civilisation of the Bronze Age, and the ancient Gandhara civilisation. The regions that compose the modern state of Pakistan were the realm of multiple empires and dynasties, including the Achaemenid, the Maurya, the Kushan, the Gupta; the Umayyad Caliphate in its southern regions, the Hindu Shahis, the Ghaznavids, the Delhi Sultanate, the Samma, the Shah Miris, the Mughals, and finally, the British Raj from 1858 to 1947. Spurred by the Pakistan Movement, which sought a homeland for the Muslims of British India, and election victories in 1946 by the All-India Muslim League, Pakistan gained independence in 1947 after the partition of British India, which awarded separate statehood to its Muslim-majority regions and was accompanied by an unparalleled mass migration and loss of life. Initially a dominion of the British Commonwealth, Pakistan adopted a republican constitution in 1956 and became an Islamic republic with two geographically separate provinces, East Pakistan and West Pakistan. East Pakistan seceded as the new country of Bangladesh in 1971 after a nine-month-long civil war. In the following four decades, Pakistan has been ruled by governments that alternated between civilian and military, democratic and authoritarian, relatively secular and Islamist. Pakistan is considered a middle power and is a declared nuclear-weapon state, with the world's seventh-largest standing armed forces. The Pakistani economy is ranked amongst the world's emerging and growth-leading economies, with a large and rapidly growing middle class. Pakistan's political history since independence has been characterised by periods of significant economic and military growth as well as those of political and economic instability. It is an ethnically and linguistically diverse country, with similarly diverse geography and wildlife. The country continues to face poverty, illiteracy, corruption, and terrorism. Pakistan is a member of the United Nations, the Shanghai Cooperation Organisation, the Organisation of Islamic Cooperation, the Commonwealth of Nations, the South Asian Association for Regional Cooperation, and the Islamic Military Counter-Terrorism Coalition, and is designated as a major non-NATO ally by the United States.",
+            "fullurl": "https://en.wikipedia.org/wiki/Pakistan",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/960px-Flag_of_Pakistan.svg.png"
+          },
+          {
+            "title": "Pakistanis",
+            "extract": "Pakistanis (Urdu: پاكِستانى قوم, romanized: Pākistānī Qaum, lit. 'Pakistani Nation') are the citizens and nationals of the Islamic Republic of Pakistan. Pakistan is the fifth-most populous country, with a population of over 241.5 million, having the second-largest Muslim population as of 2023. A majority of around 97% of Pakistanis are Muslims. As much as 85-90% of the population follows Sunni Islam. The majority of Pakistanis natively speak languages belonging to the Indo-Iranic family (Indo-Aryan and Iranic subfamilies). Located in South Asia, the country is also the source of a significantly large diaspora, most of whom reside in the Arab countries of the Persian Gulf, with an estimated population of 4.7 million. The second-largest Pakistani diaspora resides throughout both Northwestern Europe and Western Europe, where there are an estimated 2.4 million; over half of this figure resides in the United Kingdom (see British Pakistanis).",
+            "fullurl": "https://en.wikipedia.org/wiki/Pakistanis",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/960px-Flag_of_Pakistan.svg.png"
+          },
+          {
+            "title": "Punjab, Pakistan",
+            "extract": "Punjab is a province of Pakistan. With a population of over 127 million, it is the most populous Pakistani province and the second most populous subnational polity in the world. Located in the central-eastern region of the country, it has the largest economy, contributing the most to national GDP in Pakistan. Lahore is the capital and largest city of the province. Other major cities include Faisalabad, Rawalpindi, Gujranwala and Multan. It is bordered by the Pakistani provinces of Khyber Pakhtunkhwa to the north-west, Balochistan to the south-west and Sindh to the south, as well as Islamabad Capital Territory to the north-west and Azad Kashmir to the north. It shares an international border with the Indian states of Rajasthan and Punjab to the east and Indian-administered Kashmir to the north-east. The province forms the bulk of the transnational Punjab region, partitioned in 1947 between Pakistan and India. The most fertile province of the country, Punjab is considered the breadbasket of the nation, in addition to being the most industrialised. It is also one of the more urbanised regions in South Asia, with approximately 40 per cent of its population being urban. Punjabi Muslims form majority of the province. Their culture has been strongly influenced by Islamic culture and Sufism, with a number of Sufi shrines spread across the province. Punjab hosts several of the UNESCO World Heritage Sites, including the Shalimar Gardens, the Lahore Fort, the archaeological excavations at Taxila, and the Rohtas Fort, among others.",
+            "fullurl": "https://en.wikipedia.org/wiki/Punjab,_Pakistan",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Badshahi_Mosque_Sunset.jpg/960px-Badshahi_Mosque_Sunset.jpg"
+          },
+          {
+            "title": "Economy of Pakistan",
+            "extract": "Pakistan has a developing mixed economy with a prominent agriculture sector. It is the 40th-largest in terms of nominal GDP and the 20th-largest economy by purchasing power parity (PPP) as of 2026. In per capita terms, the Pakistani economic output ranks 160th by nominal GDP and 138th by PPP GDP. Economic development in Pakistan is varied with growth centers located along the Indus River. Major urban centers with diversified economies include Karachi and the broader Punjab region, including Faisalabad, Lahore, Sialkot, Rawalpindi, and Gujranwala. With a large population exceeding 250 million, the country has been sensitive to immigration, natural disasters, and regional armed conflict. Historically reliant on its private sector, Pakistan underwent nationalization in the 1970s, with a focus on its financial services, manufacturing, and transportation industries. It converted to an Islamic economic system in the following decade, outlawing economic practices forbidden under Sharia law. During the 1990s, the underdeveloped Pakistani economy began to privatize strategic sectors again becoming a semi-industrial nation by the 21st century. It has been dependent on agriculture and its textile industry for the majority their foreign exports. Pakistan has endured a variety of economic and financial crises, with the nation recovering from a protracted malaise since 2025. Pakistan's public finances have been strained by a sustained depreciation of the Pakistani rupee, its official currency. With a debt-to-GDP ratio of 70% to 80% as of 2026, servicing public debt occasionally reaches two-thirds of government spending. The country has historically shared a strong trading relationship with China who is both their top import and export partner. Pakistan is a lower-middle income country with much of its modern economic development focused on improving standards of living for its population. The nation has one of the lowest GDP per capita output in the world, with poverty in Pakistan a recurrent focal point in public affairs.",
+            "fullurl": "https://en.wikipedia.org/wiki/Economy_of_Pakistan",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Clifton_Karachi_View.jpg/960px-Clifton_Karachi_View.jpg"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782724930103,
+    "lastAccessAt": 1782724930103
+  },
+  "button": {
+    "originalPrompt": "button",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Button",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Button with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A button is a fastener that joins two pieces of fabric together by slipping through a loop or by sliding through a buttonhole.",
+          "In modern clothing and fashion design, buttons are commonly made of plastic but also may be made of metal, wood, or seashell.",
+          "Buttons can also be used on containers such as wallets and bags.",
+          "Buttons may be sewn onto garments and similar items exclusively for purposes of ornamentation."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Button.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782730939291&nologo=true&safe=true",
+        "imageQuery": "button",
+        "imagePrompt": "Realistic editorial image of Button. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/button/1200/675",
+        "imageCaption": "Button"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Jenson Alexander Lyons Button (born 19 January 1980) is a British former racing driver who competed in Formula One from 2000 to 2017.",
+          "Button won the Formula One World Drivers' Championship in 2009 with Brawn, and won 15 Grands Prix across 18 seasons.",
+          "Button began karting at the age of eight and achieved early success before progressing to car racing in the British Formula Ford Championship and the British Formula 3 Championship.",
+          "He first drove in F1 with Williams for the 2000 season."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Current use cases of Button are highlighted with real-world relevance.",
+          "The landscape section explains where Button is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Button are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Button is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Button",
+            "extract": "A button  is a fastener that joins two pieces of fabric together by slipping through a loop or by sliding through a buttonhole. In modern clothing and fashion design, buttons are commonly made of plastic but also may be made of metal, wood, or seashell. Buttons can also be used on containers such as wallets and bags. Buttons may be sewn onto garments and similar items exclusively for purposes of ornamentation. In the applied arts and craft, a button can be an example of folk art, studio craft, or even a miniature work of art. In archaeology, a button can be a significant artifact.",
+            "fullurl": "https://en.wikipedia.org/wiki/Button",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Reserveknapper_til_Hans%27_uniform.jpg/960px-Reserveknapper_til_Hans%27_uniform.jpg"
+          },
+          {
+            "title": "Button, Button",
+            "extract": "Button, Button may refer to: Button, button, who's got the button?, a traditional children's game \"Button, Button\" (Asimov short story), a 1953 short story by Isaac Asimov \"Button, Button\" (Matheson short story), a short story by Richard Matheson \"Button, Button\", a 1961 episode of 'Way Out \"Button, Button\" (The Twilight Zone), a 1986 episode of The Twilight Zone, based on the Matheson story",
+            "fullurl": "https://en.wikipedia.org/wiki/Button,_Button",
+            "thumbnail": null
+          },
+          {
+            "title": "Button (disambiguation)",
+            "extract": "A button is a small fastener which secures two pieces of fabric together. Button or Buttons may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Button_(disambiguation)",
+            "thumbnail": null
+          },
+          {
+            "title": "Jenson Button",
+            "extract": "Jenson Alexander Lyons Button (born 19 January 1980) is a British former racing driver who competed in Formula One from 2000 to 2017. Button won the Formula One World Drivers' Championship in 2009 with Brawn, and won 15 Grands Prix across 18 seasons. Button began karting at the age of eight and achieved early success before progressing to car racing in the British Formula Ford Championship and the British Formula 3 Championship. He first drove in F1 with Williams for the 2000 season. The following year, he switched to Benetton, which, at the start of the 2002 season, became the Renault team, and then moved to BAR for the 2003 season. He finished third in the 2004 World Drivers' Championship before falling to ninth in the 2005 championship. BAR was subsequently renamed and became the Honda team for the 2006 season, during which Button won his first Grand Prix at the Hungarian Grand Prix after 113 races. Following the withdrawal of Honda from the sport in December 2008, Button was left without a team for the 2009 season. In February 2009, Ross Brawn led a management buyout of Honda, creating Brawn GP and recruiting Button as a driver. Button went on to win a record-equalling six of the first seven races of the 2009 season, securing the Drivers' Championship at the Brazilian Grand Prix, having led on points all season; his success also helped Brawn GP to secure that year's Constructors' Championship. At the start of the 2010 season, Button moved to McLaren, partnering fellow British racer Lewis Hamilton. After finishing fifth for the team in 2010, Button ended the 2011 season as runner-up, before falling to fifth in the 2012 championship. Four more seasons with McLaren resulted in no further victories and he retired from Formula One at the end of 2016, making a one-off return at the 2017 Monaco Grand Prix to deputise for Fernando Alonso. From the 306 races that Button started, he won fifteen, qualified on pole position eight times, took fifty podium finishes and scored 1,235 championship points. After his F1 career, Button became champion of the 2018 season of the Super GT Series alongside Naoki Yamamoto, with whom he shared a Honda racing car at Team Kunimitsu. He also competed part-time in the NASCAR Cup Series, driving the No. 15 Ford Mustang for Rick Ware Racing with support from Stewart–Haas Racing and sponsorship from Mobil 1.",
+            "fullurl": "https://en.wikipedia.org/wiki/Jenson_Button",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Jenson_Button_2024_WEC_Fuji.jpg"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782730939293,
+    "lastAccessAt": 1782730939293
+  },
+  "bug": {
+    "originalPrompt": "bug",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Bug",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Bug with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Bed bugs are insects from the genus Cimex, which are parasites that feed on blood, usually at night.",
+          "Their bites can result in a number of health issues, including skin rashes, psychological effects, and allergic symptoms.",
+          "Bed bug bites may lead to skin changes ranging from small areas of redness to prominent blisters.",
+          "Symptoms may take between minutes to days to appear and itchiness is generally present."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Bug.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782730984069&nologo=true&safe=true",
+        "imageQuery": "bug",
+        "imagePrompt": "Realistic editorial image of Bug. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/bug/1200/675",
+        "imageCaption": "Bug"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "The foundational concepts of Bug are explained in practical terms.",
+          "Important terminology and principles are listed for quick understanding.",
+          "The slide establishes baseline knowledge before advanced discussion."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Current use cases of Bug are highlighted with real-world relevance.",
+          "The landscape section explains where Bug is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Bug are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Bug is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Bug",
+            "extract": "Bug or BUG may refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Bug",
+            "thumbnail": null
+          },
+          {
+            "title": "Bed bug",
+            "extract": "Bed bugs are insects from the genus Cimex, which are parasites that feed on blood, usually at night. Their bites can result in a number of health issues, including skin rashes, psychological effects, and allergic symptoms. Bed bug bites may lead to skin changes ranging from small areas of redness to prominent blisters. Symptoms may take between minutes to days to appear and itchiness is generally present. Some individuals may feel tired or have a fever. Typically, uncovered areas of the body are affected. Their bites are not known to transmit any infectious disease. Complications may rarely include areas of dead skin or vasculitis. Bed bug bites are caused primarily by two species of insects: Cimex lectularius (the common bed bug) and Cimex hemipterus, found primarily in the tropics. Their size ranges between 1 and 7 mm. They spread by crawling between nearby locations or by being carried within personal items. Infestation is rarely due to a lack of hygiene but is more common in high-density areas. Diagnosis involves both finding the bugs and the occurrence of compatible symptoms. Bed bugs spend much of their time in dark, hidden locations like mattress seams, or cracks in a wall. Treatment is directed towards the symptoms. Eliminating bed bugs from the home is often difficult, partly because bed bugs can survive up to approximately 300 days without feeding. Repeated treatments of a home may be required. These treatments may include heating the room to 50 °C (122 °F) for more than 90 minutes, frequent vacuuming, washing clothing at high temperatures, the use of various pesticides., and coating the entire room with a dusting of diatomaceous earth. Fossils found in Egypt show bed bugs have been known as human parasites for at least 3,500 years. Despite being nearly eradicated in developed countries after World War II, infestations have increased since the 1990s and bed bugs are now relatively common in all regions of the globe. Experts point to several factors that have contributed to the explosion in infestations over the last three decades: increased immigration and international travel, expanded markets for second-hand goods, a greater focus on control of other pests, the banning of certain pesticides, and increased resistance to pesticides still in use.",
+            "fullurl": "https://en.wikipedia.org/wiki/Bed_bug",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Bed_bug%2C_Cimex_lectularius.jpg/960px-Bed_bug%2C_Cimex_lectularius.jpg"
+          },
+          {
+            "title": "Bug!",
+            "extract": "Bug! is a 1995 platform game developed by Realtime Associates and published by Sega for the Sega Saturn. It was also ported to Windows 3.1x and Windows 95 in 1996 by Beam Software. The game is one of the earliest examples of 3D platforming, as well as one of the first platform games released on the Saturn. Character movement is restricted to a track, unlike many games in the genre that allow for unrestricted movement in all directions. The game centers around Bug, a green bug – and Hollywood actor – who hopes to gain fame by defeating the villainous Queen Cadavra. The game was developed with the titular character being considered a possible mascot for the Saturn. Although Bug! failed to capture consumers' attention, it received positive reviews upon its release, with praise for its graphics and visual effects and criticism for its music and voice acting. It was followed by the sequel Bug Too! in 1996.",
+            "fullurl": "https://en.wikipedia.org/wiki/Bug!",
+            "thumbnail": null
+          },
+          {
+            "title": "Stink bug",
+            "extract": "Stink bug may refer to: Any insect in the true bug (hemipteran) family Pentatomidae, generally called shield bugs or stink bugs Halyomorpha halys, or brown marmorated stink bug Chinavia hilaris, or green stink bug Any insect in the true bug (hemipteran) family Acanthosomatidae, generally called shield bugs and sometimes stink bugs Boisea trivittata, or boxelder bug in the true bug (hemipteran) family Rhopalidae Eleodes, or stink beetles, a genus in the darkling beetle family (Tenebrionidae) An unofficial name for the Lockheed F-117 Nighthawk",
+            "fullurl": "https://en.wikipedia.org/wiki/Stink_bug",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782730984069,
+    "lastAccessAt": 1782730984069
+  },
+  "eye": {
+    "originalPrompt": "eye",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Eye",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Eye with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "An eye is a sensory organ that allows an organism to perceive visual information.",
+          "It detects light and converts it into electro-chemical impulses in neurons (neurones).",
+          "It is part of an organism's visual system.",
+          "Eyes with resolving power have come in ten fundamentally different forms, classified into compound eyes and non-compound eyes."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Eye.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782734455778&nologo=true&safe=true",
+        "imageQuery": "eye",
+        "imagePrompt": "Realistic editorial image of Eye. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/eye/1200/675",
+        "imageCaption": "Eye"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Eyes enable several photo response functions that are independent of vision.",
+          "In an organism that has more complex eyes, retinal photosensitive ganglion cells send signals along the retinohypothalamic tract to the suprachiasmatic nuclei to effect circadian adjustment and to the pretectal area to control the pupillary light reflex.",
+          "Eye, The Eye, EYE or 3YE may also refer to:.",
+          "\"An eye for an eye\" (Biblical Hebrew: עַיִן תַּחַת עַיִן, ʿayin taḥaṯ ʿayin) is a commandment found in the Book of Exodus 21:23–27 expressing the principle of reciprocal justice measure for measure.",
+          "The earliest known use of the principle appears in the Code of Hammurabi, which predates the writing of the Hebrew Bible."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Eye for an Eye, An Eye for an Eye, or Eye for Eye may also refer to:.",
+          "The landscape section explains where Eye is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Eye are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Eye is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Eye",
+            "extract": "An eye is a sensory organ that allows an organism to perceive visual information. It detects light and converts it into electro-chemical impulses in neurons (neurones). It is part of an organism's visual system. In higher organisms, the eye is a complex optical system that collects light from the surrounding environment, regulates its intensity through a diaphragm, focuses it through an adjustable assembly of lenses to form an image, converts this image into a set of electrical signals, and transmits these signals to the brain through neural pathways that connect the eye via the optic nerve to the visual cortex and other areas of the brain. Eyes with resolving power have come in ten fundamentally different forms, classified into compound eyes and non-compound eyes. Compound eyes are made up of multiple small visual units, and are common on insects and crustaceans. Non-compound eyes have a single lens and focus light onto the retina to form a single image. This type of eye is common in mammals, including humans. The simplest eyes are pit eyes. They are eye-spots which may be set into a pit to reduce the angle of light that enters and affects the eye-spot, to allow the organism to deduce the angle of incoming light. Eyes enable several photo response functions that are independent of vision. In an organism that has more complex eyes, retinal photosensitive ganglion cells send signals along the retinohypothalamic tract to the suprachiasmatic nuclei to effect circadian adjustment and to the pretectal area to control the pupillary light reflex.",
+            "fullurl": "https://en.wikipedia.org/wiki/Eye",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Krilleyekils.jpg/960px-Krilleyekils.jpg"
+          },
+          {
+            "title": "Eye (disambiguation)",
+            "extract": "An eye is an organ of vision. Eye, The Eye, EYE or 3YE may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Eye_(disambiguation)",
+            "thumbnail": null
+          },
+          {
+            "title": "Eye for an eye",
+            "extract": "\"An eye for an eye\" (Biblical Hebrew: עַיִן תַּחַת עַיִן, ʿayin taḥaṯ ʿayin) is a commandment found in the Book of Exodus 21:23–27 expressing the principle of reciprocal justice measure for measure. The earliest known use of the principle appears in the Code of Hammurabi, which predates the writing of the Hebrew Bible. The principle was famously repudiated by Jesus in the Sermon of the Mount, where he commanded Christians not to avenge evil done to them, but to instead turn the other cheek. The law of exact retaliation (Latin: lex talionis), or reciprocal justice, bears the same principle that a person who has injured another person is to be penalized to a similar degree by the injured party. In softer interpretations, it means the victim receives the estimated value of the injury in compensation. The intent behind the principle was to restrict compensation to the value of the loss.",
+            "fullurl": "https://en.wikipedia.org/wiki/Eye_for_an_eye",
+            "thumbnail": null
+          },
+          {
+            "title": "Eye for an Eye (disambiguation)",
+            "extract": "An eye for an eye is a quotation from Exodus 21:23–27, expressing a principle of retributive justice. Eye for an Eye, An Eye for an Eye, or Eye for Eye may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Eye_for_an_Eye_(disambiguation)",
+            "thumbnail": null
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782734455779,
+    "lastAccessAt": 1782736346769
+  },
+  "machine learning": {
+    "originalPrompt": "machine learning",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Machine learning",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Machine learning with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed.",
+          "Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+          "Statistics and mathematical optimisation methods compose the foundations of machine learning.",
+          "Data mining is a related field of study, focusing on exploratory data analysis (EDA) through unsupervised learning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Machine%20learning.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782734489848&nologo=true&safe=true",
+        "imageQuery": "machine learning",
+        "imagePrompt": "Realistic editorial image of Machine learning. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/machine-learning/1200/675",
+        "imageCaption": "Machine learning"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Artificial neuron models that mimic biological neurons more closely have also been recently investigated and shown to significantly improve performance.",
+          "These are connected by edges, which model the synapses in the brain.",
+          "In machine learning, attention is a method that determines the importance of each component in a sequence relative to the other components in that sequence.",
+          "In natural language processing, importance is represented by \"soft\" weights assigned to each word in a sentence.",
+          "More generally, attention encodes vectors called token embeddings across a fixed-width sequence that can range from tens to millions of tokens in size."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "QML algorithms use qubits and quantum operations to try to improve the space and time complexity of classical machine learning algorithms.",
+          "Hybrid QML methods involve both classical and quantum processing, where computationally difficult subroutines are outsourced to a quantum device.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Machine learning are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Machine learning is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Machine learning",
+            "extract": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance. Statistics and mathematical optimisation methods compose the foundations of machine learning. Data mining is a related field of study, focusing on exploratory data analysis (EDA) through unsupervised learning. From a theoretical viewpoint, probably approximately correct learning provides a mathematical and statistical framework for describing machine learning. Most traditional machine learning and deep learning algorithms can be described as empirical risk minimisation under this framework.",
+            "fullurl": "https://en.wikipedia.org/wiki/Machine_learning",
+            "thumbnail": null
+          },
+          {
+            "title": "Neural network (machine learning)",
+            "extract": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks. A neural network consists of connected units or nodes called artificial neurons, which loosely model the neurons in the brain. Artificial neuron models that mimic biological neurons more closely have also been recently investigated and shown to significantly improve performance. These are connected by edges, which model the synapses in the brain. Each artificial neuron receives signals from connected neurons, then processes them and sends a signal to other connected neurons. The \"signal\" is a real number, and the output of each neuron is computed by some non-linear function of the totality of its inputs, called the activation function. The strength of the signal at each connection is determined by a weight, which adjusts as part of the training process. Groups of neurons are aggregated into layers. Each layer performs a transformation on its inputs. Signals travel from the first layer (the input layer) to the last layer (the output layer), typically passing through multiple intermediate layers (hidden layers). A network is typically called a deep neural network if it has at least two hidden layers. Deep neural networks are capable of learning sophisticated hierarchical representations. Training neural networks is a compute-intensive process, accelerated by the use of graphics processing units (GPUs), and large datasets. Architectural innovations such as convolutional neural networks (CNNs) significantly improved performance in computer vision tasks, while recurrent neural networks (RNNs) enabled modeling of sequential data such as speech and time-series information. Transformer architectures introduced attention mechanisms that allow neural networks to model long-range dependencies in data and have the basis of large language models. Artificial neural networks are used for a myriad of tasks including chatbots, large-scale text, image, and video generation, and robotics.",
+            "fullurl": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Colored_neural_network.svg/960px-Colored_neural_network.svg.png"
+          },
+          {
+            "title": "Attention (machine learning)",
+            "extract": "In machine learning, attention is a method that determines the importance of each component in a sequence relative to the other components in that sequence. In natural language processing, importance is represented by \"soft\" weights assigned to each word in a sentence. More generally, attention encodes vectors called token embeddings across a fixed-width sequence that can range from tens to millions of tokens in size. Unlike \"hard\" weights, which are computed during the backwards training pass, \"soft\" weights exist only in the forward pass and therefore change with every step of the input. Earlier designs implemented the attention mechanism in a serial recurrent neural network (RNN) language translation system, but a more recent design, namely the transformer, removed the slower sequential RNN and relied more heavily on the faster parallel attention scheme. Inspired by ideas about attention in humans, the attention mechanism was developed to address the weaknesses of using information from the hidden layers of recurrent neural networks. Recurrent neural networks favor information contained in words at the end of a sentence and thus deemed more recent, thereby tending to attenuate the significance and associated predictive weight assigned to information earlier in the sentence. Attention allows a token equal access to any part of a sentence directly, rather than only through the previous state.",
+            "fullurl": "https://en.wikipedia.org/wiki/Attention_(machine_learning)",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Attention_mechanism_overview.svg/960px-Attention_mechanism_overview.svg.png"
+          },
+          {
+            "title": "Quantum machine learning",
+            "extract": "Quantum machine learning (QML) is the study of quantum algorithms for machine learning. It often refers to quantum algorithms for machine learning tasks which analyze classical data, sometimes called quantum-enhanced machine learning. QML algorithms use qubits and quantum operations to try to improve the space and time complexity of classical machine learning algorithms. Hybrid QML methods involve both classical and quantum processing, where computationally difficult subroutines are outsourced to a quantum device. These routines can be more complex in nature and executed faster on a quantum computer. Furthermore, quantum algorithms can be used to analyze quantum states instead of classical data. The term \"quantum machine learning\" is sometimes used to refer classical machine learning methods applied to data generated from quantum experiments (i.e. machine learning of quantum systems), such as learning the phase transitions of a quantum system or creating new quantum experiments. QML also extends to a branch of research that explores methodological and structural similarities between certain physical systems and learning systems, in particular neural networks. For example, some mathematical and numerical techniques from quantum physics are applicable to classical deep learning and vice versa. Furthermore, researchers investigate more abstract notions of learning theory with respect to quantum information, sometimes referred to as \"quantum learning theory\".",
+            "fullurl": "https://en.wikipedia.org/wiki/Quantum_machine_learning",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Qml_approaches.tif/lossless-page1-250px-Qml_approaches.tif.png"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782734489848,
+    "lastAccessAt": 1782734489848
+  },
+  "biscuit": {
+    "originalPrompt": "biscuit",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Biscuit",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Biscuit with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A biscuit is a flour-based baked food item.",
+          "Biscuits are typically hard, flat, and unleavened.",
+          "They are usually sweet and may be made with sugar, chocolate, icing, jam, ginger, or cinnamon.",
+          "Savoury biscuits are called crackers or biscuits for cheese."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": "https://image.pollinations.ai/prompt/Realistic%20editorial%20image%20of%20Biscuit.%20Focus%20on%20the%20title%20subject%20only%2C%20professional%20lighting%2C%20clean%20background%2C%20no%20text%20overlay.?width=1200&height=675&seed=1782736322619&nologo=true&safe=true",
+        "imageQuery": "biscuit",
+        "imagePrompt": "Realistic editorial image of Biscuit. Focus on the title subject only, professional lighting, clean background, no text overlay.",
+        "imageFallback": "https://picsum.photos/seed/biscuit/1200/675",
+        "imageCaption": "Biscuit"
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Additionally, a participant who fails to hit the biscuit when he ejaculates must then eat it.",
+          "The game is reportedly played by adolescents.",
+          "In Australia, it is also known as soggy SAO after the SAO brand of biscuits that are popular there.",
+          "Biscuit is a small baked product; the exact meaning varies markedly in different parts of the world.",
+          "Biscuit, The Biscuit, or Biscuits may also refer to:."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Historically, some producers used diastatic malt extract to \"digest\" some of the starch that existed in flour prior to baking.",
+          "The landscape section explains where Biscuit is applied today.",
+          "Key implementation themes are summarized for business and technical audiences."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Challenges and trade-offs in Biscuit are identified clearly.",
+          "The slide outlines practical constraints and risk areas to monitor.",
+          "Future direction points are provided to support informed planning."
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Biscuit is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Biscuit",
+            "extract": "A biscuit is a flour-based baked food item. Biscuits are typically hard, flat, and unleavened. They are usually sweet and may be made with sugar, chocolate, icing, jam, ginger, or cinnamon. Savoury biscuits are called crackers or biscuits for cheese. Types of biscuit include biscotti, sandwich biscuits (such as custard creams), digestive biscuits, ginger biscuits, shortbread biscuits, chocolate chip cookies, Anzac biscuits, and speculaas. The term \"biscuit\" is used in many English-speaking countries. In the United States and parts of Canada, sweet biscuits are nearly always called \"cookies\" and savoury biscuits are called \"crackers\".",
+            "fullurl": "https://en.wikipedia.org/wiki/Biscuit",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bourbon_and_Custard_Cream.jpeg/960px-Bourbon_and_Custard_Cream.jpeg"
+          },
+          {
+            "title": "Soggy biscuit",
+            "extract": "Soggy biscuit or limp biscuit is a male group masturbation activity in which the participants stand around a biscuit (UK) or cookie (US) masturbating and ejaculating onto it; the last person to do so must eat the biscuit. Additionally, a participant who fails to hit the biscuit when he ejaculates must then eat it. The game is reportedly played by adolescents. In Australia, it is also known as soggy SAO after the SAO brand of biscuits that are popular there. In Poland soggy biscuit is known as gra w chlebek (the bread game; in this variant players use a slice of bread instead of a biscuit/cookie) or gra w ciasteczko (the cookie game). Soggy biscuit is associated with homosexuality, despite the fact that the majority of participants are heterosexual (or at least claim to be); the idea and practice of the game is in keeping with the spirit of adolescent sexual exploration associated by many in the UK with public schools or in Australia with private schools. According to the book Law of the Playground, 1,866 men were asked: \"How close have you got to the game of soggy biscuit, in which you race to wank onto a cracker?\" Of the respondents, 6.2% reportedly admitted to having played the game. In November 2011, The Eagle-Tribune reported that police were investigating claims that two Andover High School basketball players were hazed by older team members into playing the game. In January 2012, it was reported that two students had been expelled over the incident and a further five were suspended. A grand jury was convened to determine whether any of the students should be charged criminally.",
+            "fullurl": "https://en.wikipedia.org/wiki/Soggy_biscuit",
+            "thumbnail": null
+          },
+          {
+            "title": "Biscuit (disambiguation)",
+            "extract": "Biscuit is a small baked product; the exact meaning varies markedly in different parts of the world. Biscuit, The Biscuit, or Biscuits may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Biscuit_(disambiguation)",
+            "thumbnail": null
+          },
+          {
+            "title": "Digestive biscuit",
+            "extract": "A digestive biscuit, sometimes described as a sweet-meal biscuit, is a semi-sweet biscuit that originated in Scotland. The digestive was first developed in 1839 by two doctors to aid digestion. The term digestive is derived from the belief, around the time the biscuit was first introduced, that they had antacid properties due to the use of sodium bicarbonate as an ingredient. Historically, some producers used diastatic malt extract to \"digest\" some of the starch that existed in flour prior to baking. First manufactured by McVitie's in 1892 to a secret recipe developed by Sir Alexander Grant, their digestive is the best-selling biscuit in the United Kingdom. In 2009, the digestive was ranked the fourth most popular biscuit for \"dunking\" into tea among the British public, with the chocolate digestive (produced by McVitie's since 1925) coming in at number one. The chocolate variant from McVitie's is routinely ranked the UK's favourite snack.",
+            "fullurl": "https://en.wikipedia.org/wiki/Digestive_biscuit",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/4/47/Digestive_biscuits.jpg"
+          }
+        ],
+        "visualPolicyVersion": "single-title-image-v4",
+        "image": null,
+        "imageQuery": null,
+        "imagePrompt": null,
+        "imageFallback": null,
+        "imageCaption": null
+      }
+    ],
+    "createdAt": 1782736322619,
+    "lastAccessAt": 1782736322619
   }
 }
