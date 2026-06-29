@@ -1,0 +1,1085 @@
+{
+  "coffee": {
+    "originalPrompt": "coffee",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Coffee",
+        "bullets": [
+          "Coffee is a brewed drink prepared from roasted coffee beans.",
+          "It is one of the most consumed beverages globally.",
+          "It has cultural and economic significance."
+        ],
+        "refs": []
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Origin",
+        "bullets": [
+          "Coffee cultivation began in Ethiopia and Yemen regions.",
+          "Trade routes helped coffee spread across continents.",
+          "Different regions now produce unique flavor profiles."
+        ],
+        "refs": []
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Processing",
+        "bullets": [
+          "Beans are harvested, processed, roasted, and brewed.",
+          "Roast level strongly affects aroma and taste.",
+          "Grinding size influences extraction quality."
+        ],
+        "refs": []
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Impact",
+        "bullets": [
+          "Coffee supports millions of farming livelihoods.",
+          "The industry includes agriculture, logistics, and cafes.",
+          "Sustainability is a growing concern in production."
+        ],
+        "refs": []
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bullets": [
+          "Coffee combines history, science, and culture.",
+          "Quality depends on origin, roast, and brewing method.",
+          "Sustainable choices can improve long-term outcomes."
+        ],
+        "refs": [
+          {
+            "title": "Coffee",
+            "fullurl": "https://en.wikipedia.org/wiki/Coffee"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782287491567,
+    "lastAccessAt": 1782288135267
+  },
+  "mobile phones": {
+    "originalPrompt": "mobile phones",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Mobile phone",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Mobile phone with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A mobile phone or cell phone is a portable wireless telephone that allows users to make and receive calls over a radio frequency link while moving within a designated telephone service area, unlike fixed-location phones (landline phones).",
+          "This radio frequency link connects to the switching systems of a mobile phone operator, providing access to the public switched telephone network (PSTN).",
+          "Modern mobile telephony relies on a cellular network architecture, which is why mobile phones are often referred to as 'cell phones' in North America.",
+          "Beyond traditional voice communication, digital mobile phones have evolved to support a wide range of additional services."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "These include text messaging, multimedia messaging, email, and internet access (via LTE, 5G NR or Wi-Fi), as well as short-range wireless technologies like Bluetooth, infrared, and ultra-wideband (UWB).",
+          "Mobile phones also support a variety of multimedia capabilities, such as digital photography, video recording, and gaming.",
+          "In addition, they enable multimedia playback and streaming, including video content, as well as radio and television streaming.",
+          "Furthermore, mobile phones offer satellite-based services, such as navigation and messaging, as well as business applications and payment solutions (via scanning QR codes or near-field communication (NFC)).",
+          "Mobile phones offering only basic features are often referred to as feature phones (slang: dumbphones), while those with advanced computing power are known as smartphones."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Mobile phones offering only basic features are often referred to as feature phones (slang: dumbphones), while those with advanced computing power are known as smartphones.",
+          "The first handheld mobile phone was demonstrated by Martin Cooper of Motorola in New York City on 3 April 1973, using a handset weighing c.",
+          "In 1979, Nippon Telegraph and Telephone (NTT) launched the world's first cellular network in Japan.",
+          "In 1983, the DynaTAC 8000x was the first commercially available handheld mobile phone.",
+          "From 1993 to 2024, worldwide mobile phone subscriptions grew to over 9.1 billion; enough to provide one for every person on Earth."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "From 1993 to 2024, worldwide mobile phone subscriptions grew to over 9.1 billion; enough to provide one for every person on Earth.",
+          "In 2024, the top smartphone manufacturers worldwide were Samsung, Apple and Xiaomi; smartphone sales represented about 50 percent of total mobile phone sales.",
+          "For feature phones as of 2016, the top-selling brands were Samsung, Nokia and Alcatel.",
+          "Mobile phones are considered an important human invention as they have been one of the most widely used and sold pieces of consumer technology.",
+          "The growth in popularity has been rapid in some places; for example, in the UK, the total number of mobile phones overtook the number of houses in 1999."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Mobile phone is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Mobile phone",
+            "extract": "A mobile phone or cell phone is a portable wireless telephone that allows users to make and receive calls over a radio frequency link while moving within a designated telephone service area, unlike fixed-location phones (landline phones). This radio frequency link connects to the switching systems of a mobile phone operator, providing access to the public switched telephone network (PSTN). Modern mobile telephony relies on a cellular network architecture, which is why mobile phones are often referred to as 'cell phones' in North America. Beyond traditional voice communication, digital mobile phones have evolved to support a wide range of additional services. These include text messaging, multimedia messaging, email, and internet access (via LTE, 5G NR or Wi-Fi), as well as short-range wireless technologies like Bluetooth, infrared, and ultra-wideband (UWB). Mobile phones also support a variety of multimedia capabilities, such as digital photography, video recording, and gaming. In addition, they enable multimedia playback and streaming, including video content, as well as radio and television streaming. Furthermore, mobile phones offer satellite-based services, such as navigation and messaging, as well as business applications and payment solutions (via scanning QR codes or near-field communication (NFC)). Mobile phones offering only basic features are often referred to as feature phones (slang: dumbphones), while those with advanced computing power are known as smartphones. The first handheld mobile phone was demonstrated by Martin Cooper of Motorola in New York City on 3 April 1973, using a handset weighing c. 2 kilograms (4.4 lbs). In 1979, Nippon Telegraph and Telephone (NTT) launched the world's first cellular network in Japan. In 1983, the DynaTAC 8000x was the first commercially available handheld mobile phone. From 1993 to 2024, worldwide mobile phone subscriptions grew to over 9.1 billion; enough to provide one for every person on Earth. In 2024, the top smartphone manufacturers worldwide were Samsung, Apple and Xiaomi; smartphone sales represented about 50 percent of total mobile phone sales. For feature phones as of 2016, the top-selling brands were Samsung, Nokia and Alcatel. Mobile phones are considered an important human invention as they have been one of the most widely used and sold pieces of consumer technology. The growth in popularity has been rapid in some places; for example, in the UK, the total number of mobile phones overtook the number of houses in 1999. Today, mobile phones are globally ubiquitous, and in almost half the world's countries, over 90% of the world population, or approximately 7.2 billion people, owns at least one.",
+            "fullurl": "https://en.wikipedia.org/wiki/Mobile_phone"
+          },
+          {
+            "title": "Mobile phones on aircraft",
+            "extract": "In the U.S., the Federal Communications Commission (FCC) regulations prohibit the use of mobile phones aboard aircraft in flight. Contrary to popular misconception, the Federal Aviation Administration (FAA) does not actually prohibit the use of personal electronic devices (including cell phones) on aircraft. Paragraph (b)(5) of 14 CFR 91.21 permits airlines to determine if devices can be used in flight, allowing use of \"any other portable electronic device that the operator of the aircraft has determined will not cause interference with the navigation or communication system of the aircraft on which it is to be used.\" In Europe, regulations and technology have allowed the limited introduction of the use of passenger mobile phones on some commercial flights, and elsewhere in the world many airlines are moving towards allowing mobile phone use in flight. Many airlines still do not allow the use of mobile phones on aircraft. Those that do often ban the use of mobile phones during take-off and landing. Many passengers are pressing airlines and their governments to allow and deregulate mobile phone use, while some airlines, under the pressure of competition, are also pushing for deregulation or seeking new technology which could solve the present problems. Official aviation agencies and safety boards are resisting any relaxation of the present safety rules unless and until it can be conclusively shown that it would be safe to do so. There are both technical and social factors which make the issues more complex than a simple discussion of safety versus hazard.",
+            "fullurl": "https://en.wikipedia.org/wiki/Mobile_phones_on_aircraft"
+          },
+          {
+            "title": "History of mobile phones",
+            "extract": "The history of mobile phones covers mobile communication devices that connect wirelessly to the public switched telephone network. While the transmission of speech by signal has a long history, the first devices that were wireless, mobile, and also capable of connecting to the standard telephone network are much more recent. The first such devices were barely portable compared to today's compact hand-held devices, and their use was clumsy. Drastic changes have taken place in both the networking of wireless communication and the prevalence of its use, with smartphones becoming common globally and a growing proportion of Internet access now done via mobile broadband.",
+            "fullurl": "https://en.wikipedia.org/wiki/History_of_mobile_phones"
+          },
+          {
+            "title": "Smartphone",
+            "extract": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone (feature phone) with advanced computing capabilities. It typically has a touchscreen interface, allowing users to access a wide range of applications and services, such as web browsing, email, and social media, as well as multimedia playback and streaming. Smartphones have built-in cameras, GPS navigation, and support for various communication methods, including voice calls, text messaging, and internet-based messaging apps. Smartphones are distinguished from older-design feature phones by their more advanced hardware capabilities and extensive mobile operating systems, access to the internet, business applications, mobile payments, and multimedia functionality, including music, video, gaming, radio, and television. Smartphones typically feature metal–oxide–semiconductor (MOS) integrated circuit (IC) chips, various sensors, and support for multiple wireless communication protocols. Examples of smartphone sensors include accelerometers, barometers, gyroscopes, and magnetometers; they can be used by both pre-installed and third-party software to enhance functionality. Wireless communication standards supported by smartphones include LTE, 5G NR, Wi-Fi, Bluetooth, and satellite navigation. By the mid-2020s, manufacturers began integrating satellite messaging and emergency services, expanding their utility in remote areas without reliable cellular coverage. Smartphones have largely replaced personal digital assistant (PDA) devices, handheld/palm-sized PCs, portable media players (PMP), point-and-shoot cameras, camcorders, and, to a lesser extent, handheld video game consoles, e-reader devices, pocket calculators, and GPS tracking units. Following the rising popularity of the iPhone in the late 2000s, the majority of smartphones have featured thin, slate-like form factors with large, capacitive touch screens with support for multi-touch gestures rather than physical keyboards. Most modern smartphones have the ability for users to download or purchase additional applications from a centralized app store. They often have support for cloud storage and cloud synchronization, and virtual assistants. Since the early 2010s, improved hardware and faster wireless communication have bolstered the growth of the smartphone industry. As of 2014, over a billion smartphones are sold globally every year. In 2019 alone, 1.54 billion smartphone units were shipped worldwide. As of 2020, 75.05 percent of the world population were smartphone users. Although smartphone use has been associated to some extent with convenience and life satisfaction, a variety of negative effects on physical, mental, and cognitive health have also been identified.",
+            "fullurl": "https://en.wikipedia.org/wiki/Smartphone"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782288112615,
+    "lastAccessAt": 1782288112615
+  },
+  "social media": {
+    "originalPrompt": "social media",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Social media",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Social media with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Social media are new media technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks.",
+          "Common features include: Online platforms enable users to create and share content and participate in social networking.",
+          "User-generated content such as text posts or comments, digital photos or videos, and data generated through online interactions.",
+          "Service specific profiles that are designed and maintained by the social media organization."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Social media helps the development of online social networks by connecting a user's profile with those of other individuals or groups.",
+          "The term social in regard to media suggests platforms enable communal activity.",
+          "Social media helps people connect and build networks.",
+          "Users access social media through web-based or mobile applications.",
+          "These interactive platforms allow individuals, communities, businesses, and organizations to share, co-create, discuss, participate in, and modify user-generated or self-curated content."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "These interactive platforms allow individuals, communities, businesses, and organizations to share, co-create, discuss, participate in, and modify user-generated or self-curated content.",
+          "Social media is used to share memories, form friendships, build communities and learn.",
+          "They may be used to promote people, companies, products, and ideas.",
+          "Social media can be used to consume, publish, or share news.",
+          "Popular social media platforms with over 100 million registered users include Twitter, Facebook, WeChat, ShareChat, Instagram, Pinterest, QZone, Weibo, VK, Tumblr, Baidu Tieba, Threads, and LinkedIn."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Popular social media platforms with over 100 million registered users include Twitter, Facebook, WeChat, ShareChat, Instagram, Pinterest, QZone, Weibo, VK, Tumblr, Baidu Tieba, Threads, and LinkedIn.",
+          "Depending on the interpretation, other popular platforms that are sometimes referred to as social media services include YouTube, Letterboxd, QQ, Quora, Telegram, WhatsApp, Signal, LINE, Snapchat, Viber, Reddit, Discord, and TikTok.",
+          "Wikis and Roblox are examples of collaborative content creation.",
+          "Social media outlets differ from old media (e.g.",
+          "Newspapers, TV, and radio broadcasting) in many ways, including quality, reach, frequency, usability, relevancy, and permanence."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Social media is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Social media",
+            "extract": "Social media are new media technologies that facilitate the creation, sharing and aggregation of content (such as ideas, interests, and other forms of expression) amongst virtual communities and networks. Common features include: Online platforms enable users to create and share content and participate in social networking. User-generated content such as text posts or comments, digital photos or videos, and data generated through online interactions. Service specific profiles that are designed and maintained by the social media organization. Social media helps the development of online social networks by connecting a user's profile with those of other individuals or groups. The term social in regard to media suggests platforms enable communal activity. Social media helps people connect and build networks. Users access social media through web-based or mobile applications. These interactive platforms allow individuals, communities, businesses, and organizations to share, co-create, discuss, participate in, and modify user-generated or self-curated content. Social media is used to share memories, form friendships, build communities and learn. They may be used to promote people, companies, products, and ideas. Social media can be used to consume, publish, or share news. Popular social media platforms with over 100 million registered users include Twitter, Facebook, WeChat, ShareChat, Instagram, Pinterest, QZone, Weibo, VK, Tumblr, Baidu Tieba, Threads, and LinkedIn. Depending on the interpretation, other popular platforms that are sometimes referred to as social media services include YouTube, Letterboxd, QQ, Quora, Telegram, WhatsApp, Signal, LINE, Snapchat, Viber, Reddit, Discord, and TikTok. Wikis and Roblox are examples of collaborative content creation. Social media outlets differ from old media (e.g. newspapers, TV, and radio broadcasting) in many ways, including quality, reach, frequency, usability, relevancy, and permanence. Social media outlets operate in a dialogic transmission system (many sources to many receivers) while traditional media operate under a monologic transmission model (one source to many receivers). For instance, a newspaper is delivered to many subscribers, and a radio station broadcasts the same programs to a city. Social media has been criticized for a range of negative impacts on children and teenagers, including exposure to inappropriate content, exploitation by adults, sleep problems, attention problems, feelings of exclusion, and various mental health maladies. Social media has also received criticism as worsening political polarization and undermining democracy, exacerbated by platform capture by vested interests, with journalist Maria Ressa deeming it \"toxic sludge\" for increasing distrust among members of society. Major news outlets often have strong controls in place to avoid and fix false claims, but social media's unique qualities bring viral content with little to no oversight. \"Algorithms that track user engagement to prioritize what is shown tend to favor content that spurs negative emotions like anger and outrage. Overall, most online misinformation originates from a small minority of \"superspreaders,\" but social media amplifies their reach and influence.\"",
+            "fullurl": "https://en.wikipedia.org/wiki/Social_media"
+          },
+          {
+            "title": "Social media marketing",
+            "extract": "Social media marketing is the use of social media platforms and websites to promote a product or service. Although the terms e-marketing and digital marketing are still dominant in academia, social media marketing is becoming more popular for practitioners and researchers. Social media platforms such as Facebook, LinkedIn, Instagram, and X, among others, have built-in data analytics tools that companies can use to track the progress, success, and engagement of social media marketing campaigns. Companies address a range of stakeholders through social media marketing, including current and potential customers, current and potential employees, journalists, bloggers, and the general public. On a strategic level, social media marketing includes the management of a marketing campaign, governance, setting the scope (e.g. more active or passive use) and the establishment of a firm's desired social media \"culture\" and \"tone\". Firms that use social media marketing can allow customers and Internet users to post user-generated content (e.g., online comments, product reviews, etc.), also known as \"earned media\", rather than use marketer-prepared advertising copy.",
+            "fullurl": "https://en.wikipedia.org/wiki/Social_media_marketing"
+          },
+          {
+            "title": "Timeline of social media",
+            "extract": "This page is a timeline of social media. Major launches, milestones, and other major events are included.",
+            "fullurl": "https://en.wikipedia.org/wiki/Timeline_of_social_media"
+          },
+          {
+            "title": "X (social network)",
+            "extract": "X, formerly known as Twitter, is an American microblogging and social networking service, headquartered in Bastrop, Texas. It is one of the world's largest social media platforms and one of the most-visited websites. Users can share short text messages, images, and videos in short posts (commonly and unofficially known as \"tweets\", in reference to the site's former terminology for the format) and like other users' content. The platform also includes direct messaging, video and audio calling, bookmarks, lists, communities, Grok chatbot integration, job search, and a social audio feature (X Spaces). Users can vote on context added by approved users using the Community Notes feature. The platform was created in March 2006 as Twitter by Jack Dorsey, Noah Glass, Biz Stone, and Evan Williams, and was launched in July of that year; initially named twttr, it was renamed Twitter some months later. The platform grew quickly; by 2012 more than 100 million users produced 340 million daily tweets. Twitter, Inc., was based in San Francisco, California, and had more than 25 offices around the world. A signature characteristic of the service initially was that posts were required to be brief. Posts were initially limited to 140 characters, which was changed to 280 characters in 2017. The limitation was removed for subscribed accounts in 2023. 10% of users produce over 80% of tweets. In 2020, it was estimated that approximately 48 million accounts (15% of all accounts) were run by Internet bots rather than humans. The service is owned by the American company X Corp., which was established to succeed the prior owner Twitter, Inc. in March 2023 following the October 2022 acquisition of Twitter by Elon Musk for US$44 billion. Musk stated that his goal with the acquisition was to promote free speech on the platform. Since his acquisition, the platform has been criticized for enabling the increased spread of disinformation and hate speech and accused of becoming increasingly right-wing and catering to hate groups. The platform has the lowest rate of enforcement against violations of law, and its policies after Musk fired Twitter-era employees, have faced criticism. In February 2026, France raided X offices and issued an arrest warrant for Musk for violating the Digital Services Act, Online Safety Act, and Australia's Online Safety Act, and fined the platform for failing to remove harmful and illegal content. Linda Yaccarino succeeded Musk as CEO on June 5, 2023, with Musk remaining as the chairman and the chief technology officer. In July 2023, Musk announced that Twitter would be rebranded to \"X\" and the bird logo would be retired, a process which was completed by May 2024. In March 2025, X Corp. was acquired by xAI, Musk's artificial intelligence company. The deal, an all-stock transaction, valued X at $33 billion, with a full valuation of $45 billion when factoring in $12 billion in debt. xAI, in turn, was valued at $80 billion. In July 2025, Yaccarino stepped down from her role as CEO. In February 2026, the platform's owner, xAI, was acquired by SpaceX; this marked the sixth time where the social media platform has changed hands and the third time under Musk's ownership.",
+            "fullurl": "https://en.wikipedia.org/wiki/X_(social_network)"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782288960604,
+    "lastAccessAt": 1782288960604
+  },
+  "tissue paper": {
+    "originalPrompt": "tissue paper",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Tissue paper",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Tissue paper with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Tissue paper, or simply tissue, is a lightweight paper or light crêpe paper.",
+          "Tissue can be made from recycled paper pulp on a paper machine.",
+          "Tissue paper is very versatile, and different kinds are made to best serve these purposes, which are hygienic tissue paper, facial tissues, paper towels, as packing material, among other (sometimes creative) uses.",
+          "The use of tissue paper is common in developed nations, around 21 million tonnes in North America and 6 million in Europe, and is growing due to urbanization."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "As a result, the industry has often been scrutinized for deforestation.",
+          "However, more companies are presently using more recycled fibres in tissue paper.",
+          "It is commonly supplied as a long strip of perforated paper wrapped around a cylindrical paperboard core, for storage in a dispenser within arm's reach of a toilet.",
+          "The bundle, or roll of toilet paper, is specifically known as a toilet roll, loo roll, or bog roll (in Britain).",
+          "There are other uses for toilet paper, as it is a readily available household product."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "There are other uses for toilet paper, as it is a readily available household product.",
+          "It can be used for blowing the nose or wiping the eyes (or other uses of facial tissue); to wipe off sweat or absorb it; or to absorb the bloody discharge during menstruation.",
+          "Facial tissue and paper handkerchief refers to a class of soft, absorbent, disposable papers that are intended for using on the face.",
+          "They are disposable alternatives for cloth handkerchiefs.",
+          "Facial tissues are commonly referred to as \"tissues\", or (in Canada and the United States) by the generic trademark \"Kleenex\", which popularized the invention and its usage outside of Japan."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Facial tissues are commonly referred to as \"tissues\", or (in Canada and the United States) by the generic trademark \"Kleenex\", which popularized the invention and its usage outside of Japan."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Tissue paper is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Tissue paper",
+            "extract": "Tissue paper, or simply tissue, is a lightweight paper or light crêpe paper. Tissue can be made from recycled paper pulp on a paper machine. Tissue paper is very versatile, and different kinds are made to best serve these purposes, which are hygienic tissue paper, facial tissues, paper towels, as packing material, among other (sometimes creative) uses. The use of tissue paper is common in developed nations, around 21 million tonnes in North America and 6 million in Europe, and is growing due to urbanization. As a result, the industry has often been scrutinized for deforestation. However, more companies are presently using more recycled fibres in tissue paper.",
+            "fullurl": "https://en.wikipedia.org/wiki/Tissue_paper"
+          },
+          {
+            "title": "Toilet paper",
+            "extract": "Toilet paper (also referred to as toilet/bath/bathroom tissue or toilet roll) is a tissue paper product primarily used to clean the anus and surrounding region of feces (after defecation), and to clean the external genitalia and perineal area of urine (after urination). It is commonly supplied as a long strip of perforated paper wrapped around a cylindrical paperboard core, for storage in a dispenser within arm's reach of a toilet. The bundle, or roll of toilet paper, is specifically known as a toilet roll, loo roll, or bog roll (in Britain). There are other uses for toilet paper, as it is a readily available household product. It can be used for blowing the nose or wiping the eyes (or other uses of facial tissue); to wipe off sweat or absorb it; or to absorb the bloody discharge during menstruation. Toilet paper can be used in cleaning (like a less abrasive paper towel). As a teenage prank, \"toilet papering\" is a form of temporary vandalism. Most modern toilet paper in the developed world is designed to decompose in septic tanks, whereas some other bathroom and facial tissues are not. Wet toilet paper rapidly decomposes in the environment. Toilet paper comes in various numbers of plies (layers of thickness), from one- to six-ply, with more back-to-back plies providing greater strength and absorbency. Most modern domestic toilet paper is white, and embossed with a pattern, which increases the surface area of the paper, and thus, its effectiveness at removing waste. Some people have a preference for whether the orientation of the roll on a dispenser should be over or under. The use of paper for hygiene has been recorded in China in the 6th century AD, with specifically manufactured toilet paper being mass-produced in the 14th century. Modern commercial toilet paper originated in the 19th century, with a patent for roll-based dispensers being made in 1883.",
+            "fullurl": "https://en.wikipedia.org/wiki/Toilet_paper"
+          },
+          {
+            "title": "Facial tissue",
+            "extract": "Facial tissue and paper handkerchief refers to a class of soft, absorbent, disposable papers that are intended for using on the face. They are disposable alternatives for cloth handkerchiefs. These terms are frequently used to describe the category of paper tissue, usually sold in boxes, that is designed to facilitate the expulsion of nasal mucus from the nose (nose-blowing) although it may refer to other types of facial tissues such as napkins and wipes. Facial tissues are commonly referred to as \"tissues\", or (in Canada and the United States) by the generic trademark \"Kleenex\", which popularized the invention and its usage outside of Japan.",
+            "fullurl": "https://en.wikipedia.org/wiki/Facial_tissue"
+          },
+          {
+            "title": "Tissue",
+            "extract": "Tissue may refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Tissue"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782289577374,
+    "lastAccessAt": 1782289612306
+  },
+  "pen": {
+    "originalPrompt": "pen",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Pen",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Pen with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A pen is a common writing instrument that applies ink to a surface, typically paper, for writing or drawing.",
+          "Early pens such as reed pens, quill pens, dip pens and ruling pens held a small amount of ink on a nib or in a small void or cavity that had to be periodically recharged by dipping the tip of the pen into an inkwell.",
+          "Today, such pens find only a small number of specialized uses, such as in illustration and calligraphy.",
+          "Reed pens, quill pens and dip pens, which were used for writing, have been replaced by ballpoint pens, rollerball pens, fountain pens and felt or ceramic tip pens."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Ruling pens, which were used for technical drawing and cartography, have been replaced by technical pens such as the Rapidograph.",
+          "All of these modern pens contain internal ink reservoirs, such that they do not need to be dipped in ink while writing.",
+          "A pen name or nom-de-plume is a pseudonym (or, in some cases, a variant form of a real name) adopted by an author and printed on the title page or by-line of their works in place of their real name.",
+          "The author's real identity may be known only to the publisher or may become common knowledge.",
+          "In some cases, such as those of Elena Ferrante and Torsten Krol, a pen name may preserve an author's long-term anonymity."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "In some cases, such as those of Elena Ferrante and Torsten Krol, a pen name may preserve an author's long-term anonymity."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "In some cases, such as those of Elena Ferrante and Torsten Krol, a pen name may preserve an author's long-term anonymity."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Pen is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Pen",
+            "extract": "A pen  is a common writing instrument that applies ink to a surface, typically paper, for writing or drawing. Early pens such as reed pens, quill pens, dip pens and ruling pens held a small amount of ink on a nib or in a small void or cavity that had to be periodically recharged by dipping the tip of the pen into an inkwell. Today, such pens find only a small number of specialized uses, such as in illustration and calligraphy. Reed pens, quill pens and dip pens, which were used for writing, have been replaced by ballpoint pens, rollerball pens, fountain pens and felt or ceramic tip pens. Ruling pens, which were used for technical drawing and cartography, have been replaced by technical pens such as the Rapidograph. All of these modern pens contain internal ink reservoirs, such that they do not need to be dipped in ink while writing.",
+            "fullurl": "https://en.wikipedia.org/wiki/Pen"
+          },
+          {
+            "title": "PEN",
+            "extract": "PEN may refer to: Partido Ecológico Nacional (National Ecological Party), former name of the Brazilian political party Patriota (PATRI) PEN International, a worldwide association of writers English PEN, the founding centre of PEN International PEN America, located in New York City PEN Center USA, part of PEN America PEN Canada, Toronto PEN Hong Kong Sydney PEN, one of three Australian PENs PEN-International, Postsecondary Education Network International, an international partnership of colleges for those with hearing impairment Penang International Airport, Malaysia, IATA airport code: PEN Penarth railway station, Wales, station code: PEN Peruvian sol, ISO 4217 currency code PEN Poder Ejecutivo Nacional, the system of national executive power embodied in the President of Argentina Polyethylene naphthalate, a polyester Private Enterprise Number, an organisation identifier Protective earth neutral in electrical earthing systems",
+            "fullurl": "https://en.wikipedia.org/wiki/PEN"
+          },
+          {
+            "title": "Pen name",
+            "extract": "A pen name or nom-de-plume is a pseudonym (or, in some cases, a variant form of a real name) adopted by an author and printed on the title page or by-line of their works in place of their real name. A pen name may be used to make the author's name more distinctive, to disguise the author's gender, to distance the author from their other works, to protect the author from retribution for their writings, to merge multiple persons into a single identifiable author, or for any of several reasons related to the marketing or aesthetic presentation of the work. The author's real identity may be known only to the publisher or may become common knowledge. In some cases, such as those of Elena Ferrante and Torsten Krol, a pen name may preserve an author's long-term anonymity.",
+            "fullurl": "https://en.wikipedia.org/wiki/Pen_name"
+          },
+          {
+            "title": "Pen Pen",
+            "extract": "Pen Pen, Pen-Pen, or Penpen may refer to: Pen Pen TriIcelon, a video game released for the Sega Dreamcast Pen Pen (Neon Genesis Evangelion), a character in the Japanese anime Neon Genesis Evangelion and the movies Evangelion: Death and Rebirth and The End of Evangelion The band of musicians headed by Filipino singer Emil Sanglay Pen-pen de Sarapen, a 1978 song written by Filipino singer Emil Sanglay Penpen de Sarapen, a variety show for children in the Philippines Pen-Pen, also known as the Rock Hopper Penguin, a character introduced in Pingu in the City.",
+            "fullurl": "https://en.wikipedia.org/wiki/Pen_Pen"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782289604157,
+    "lastAccessAt": 1782293184542
+  },
+  "pencil": {
+    "originalPrompt": "pencil",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Pencil",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Pencil with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A pencil is a writing or drawing implement with a solid pigment core in a protective casing that reduces the risk of core breakage and keeps it from marking the user's hand.",
+          "Pencils create marks by physical abrasion, leaving a trail of solid core material that adheres to a sheet of paper or other surface.",
+          "They are distinct from pens, which dispense liquid or gel ink onto the marked surface.",
+          "Most pencil cores are made of graphite powder mixed with a clay binder."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Graphite pencils (traditionally known as \"lead pencils\") produce grey or black marks that are easily erased, but otherwise resistant to moisture, most solvents, ultraviolet radiation and natural aging.",
+          "Other types of pencil cores, such as those of charcoal, are mainly used for drawing and sketching.",
+          "Coloured pencils are sometimes used by teachers or editors to correct submitted texts, but are typically regarded as art supplies, especially those with cores made from wax-based binders that tend to smear when erasers are applied to them.",
+          "Grease pencils have a softer, oily core that can leave marks on smooth surfaces such as glass or porcelain.",
+          "The most common pencil casing is thin wood, usually hexagonal in section, but sometimes cylindrical or triangular, permanently bonded to the core."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "The most common pencil casing is thin wood, usually hexagonal in section, but sometimes cylindrical or triangular, permanently bonded to the core.",
+          "Casings may be of other materials, such as plastic or paper.",
+          "To use the pencil, the casing must be carved or peeled off to expose the working end of the core, which serves as a sharp point.",
+          "Mechanical pencils have more elaborate casings which are not bonded to the core; instead, they support separate, mobile pigment cores that can be extended or retracted (usually through the casing's tip) as needed.",
+          "These casings can be reloaded with new cores (usually graphite) as the previous ones are exhausted."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "These casings can be reloaded with new cores (usually graphite) as the previous ones are exhausted.",
+          "A pencil is a handheld instrument used to write and draw, usually on paper.",
+          "Matrix pencil, a pair of matrices used in a generalized eigenvalue problem Pencil, a character from the first season of Battle for Dream Island, an animated web series Pencil, a fictional character from the animated series Rock Paper Scissors.",
+          "A penciller (or penciler) is an artist who works on the creation of comic books, graphic novels, and similar visual art forms, with a focus on the initial pencil illustrations.",
+          "In the American comic book industry, the penciller is the first step in rendering the story in visual form, and may require several steps of feedback with the writer."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Pencil is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Pencil",
+            "extract": "A pencil  is a writing or drawing implement with a solid pigment core in a protective casing that reduces the risk of core breakage and keeps it from marking the user's hand. Pencils create marks by physical abrasion, leaving a trail of solid core material that adheres to a sheet of paper or other surface. They are distinct from pens, which dispense liquid or gel ink onto the marked surface. Most pencil cores are made of graphite powder mixed with a clay binder. Graphite pencils (traditionally known as \"lead pencils\") produce grey or black marks that are easily erased, but otherwise resistant to moisture, most solvents, ultraviolet radiation and natural aging. Other types of pencil cores, such as those of charcoal, are mainly used for drawing and sketching. Coloured pencils are sometimes used by teachers or editors to correct submitted texts, but are typically regarded as art supplies, especially those with cores made from wax-based binders that tend to smear when erasers are applied to them. Grease pencils have a softer, oily core that can leave marks on smooth surfaces such as glass or porcelain. The most common pencil casing is thin wood, usually hexagonal in section, but sometimes cylindrical or triangular, permanently bonded to the core. Casings may be of other materials, such as plastic or paper. To use the pencil, the casing must be carved or peeled off to expose the working end of the core, which serves as a sharp point. Mechanical pencils have more elaborate casings which are not bonded to the core; instead, they support separate, mobile pigment cores that can be extended or retracted (usually through the casing's tip) as needed. These casings can be reloaded with new cores (usually graphite) as the previous ones are exhausted.",
+            "fullurl": "https://en.wikipedia.org/wiki/Pencil"
+          },
+          {
+            "title": "Pencil (disambiguation)",
+            "extract": "A pencil is a handheld instrument used to write and draw, usually on paper. Pencil may also refer to: Pencil (film), a 2016 Tamil film Pencil (optics), a beam of radiant energy in the form of a narrow cone or cylinder Pencil (geometry), a family of geometric objects Pencil2D, an open-source drawing and animation app Apple Pencil, a stylus device released by Apple Inc. Matrix pencil, a pair of matrices used in a generalized eigenvalue problem Pencil, a character from the first season of Battle for Dream Island, an animated web series Pencil, a fictional character from the animated series Rock Paper Scissors",
+            "fullurl": "https://en.wikipedia.org/wiki/Pencil_(disambiguation)"
+          },
+          {
+            "title": "Penciller",
+            "extract": "A penciller (or penciler) is an artist who works on the creation of comic books, graphic novels, and similar visual art forms, with a focus on the initial pencil illustrations. In the American comic book industry, the penciller is the first step in rendering the story in visual form, and may require several steps of feedback with the writer. These artists are concerned with layout (positions and vantages on scenes) to showcase steps in the plot.",
+            "fullurl": "https://en.wikipedia.org/wiki/Penciller"
+          },
+          {
+            "title": "Pencil skirt",
+            "extract": "A pencil skirt is a slim-fitting skirt with a straight, narrow cut. Generally the hem falls to, or is just below, the knee and is tailored for a close fit. It is named for its shape: long and slim like a pencil.",
+            "fullurl": "https://en.wikipedia.org/wiki/Pencil_skirt"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782290007492,
+    "lastAccessAt": 1782290033841
+  },
+  "bag": {
+    "originalPrompt": "bag",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Bag",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Bag with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A bag, also known regionally as a sack or tote, is a common tool in the form of a floppy container, typically made of cloth, leather, bamboo, paper, or plastic.",
+          "The use of bags predates recorded history, with the earliest bags being lengths of animal skin, cotton, or woven plant fibers, folded up at the edges and secured in that shape with strings of the same material.",
+          "Bags can be used to carry items such as personal belongings, groceries, tools, and other objects.",
+          "They come in various shapes and sizes, often equipped with handles or straps for easier carrying."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Bags have been fundamental for the development of human civilization, as they allow people to easily collect and carry loose materials, such as berries or food grains, while also allowing them to carry more items in their hands.",
+          "The English word probably originates from the Norse word baggi, from the reconstructed Proto-Indo-European bʰak, but is also comparable to the Welsh baich (load, bundle), and the Greek Τσιαντουλίτσα (Chandulícha, load).",
+          "Cheap disposable paper bags and plastic shopping bags are very common, varying in size and strength in the retail trade as a convenience for shoppers, and are often supplied by the shop for free or for a small fee.",
+          "Customers may also take their own shopping bag(s) to use in shops.",
+          "Ben Bag-Bag (Hebrew: בֶּן בַּג בַּג, literally, son of Bag-Bag) was a rabbinic sage and disciple of Hillel the Elder during the late Zugot or early Tannaitic period."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Ben Bag-Bag (Hebrew: בֶּן בַּג בַּג, literally, son of Bag-Bag) was a rabbinic sage and disciple of Hillel the Elder during the late Zugot or early Tannaitic period.",
+          "Aside from a single maxim quoted toward the end of tractate Avot—commonly referred to as Pirkei Avot—of the Mishnah, he is not mentioned elsewhere in the Mishnah (though he is mentioned in tractate Pesachim 96a:9 of the Talmud, among other instances).",
+          "The maxim, in Israeli Jewish scholar Rabbi Joshua Kulp's translation of Pirkei Avot 5:22, reads: Turn it over, and turn it over, for all is therein.",
+          "And look into it; and become old and gray therein; and do not move away from it, for you have no better portion than it.",
+          "The Birkin bag (or simply Birkin) is a handbag created by the French company Hermès in 1984, following a meeting between Jean-Louis Dumas, then CEO of the group, and the actress Jane Birkin."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "The Birkin bag (or simply Birkin) is a handbag created by the French company Hermès in 1984, following a meeting between Jean-Louis Dumas, then CEO of the group, and the actress Jane Birkin.",
+          "Handmade, usually in leather, it is distributed in several sizes and exclusively in Hermès stores.",
+          "Along with the Kelly bag and the carré de soie, the Birkin is one of the brand's iconic products.",
+          "It has two handles and a more casual look than the Kelly."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Bag is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Bag",
+            "extract": "A bag, also known regionally as a sack or tote, is a common tool in the form of a floppy container, typically made of cloth, leather, bamboo, paper, or plastic. The use of bags predates recorded history, with the earliest bags being lengths of animal skin, cotton, or woven plant fibers, folded up at the edges and secured in that shape with strings of the same material. Bags can be used to carry items such as personal belongings, groceries, tools, and other objects. They come in various shapes and sizes, often equipped with handles or straps for easier carrying. Bags have been fundamental for the development of human civilization, as they allow people to easily collect and carry loose materials, such as berries or food grains, while also allowing them to carry more items in their hands. The English word probably originates from the Norse word baggi, from the reconstructed Proto-Indo-European bʰak, but is also comparable to the Welsh baich (load, bundle), and the Greek Τσιαντουλίτσα (Chandulícha, load). Cheap disposable paper bags and plastic shopping bags are very common, varying in size and strength in the retail trade as a convenience for shoppers, and are often supplied by the shop for free or for a small fee. Customers may also take their own shopping bag(s) to use in shops.",
+            "fullurl": "https://en.wikipedia.org/wiki/Bag"
+          },
+          {
+            "title": "Bag (disambiguation)",
+            "extract": "A bag is a non-rigid container. Bag may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Bag_(disambiguation)"
+          },
+          {
+            "title": "Ben Bag-Bag",
+            "extract": "Ben Bag-Bag (Hebrew: בֶּן בַּג בַּג, literally, son of Bag-Bag) was a rabbinic sage and disciple of Hillel the Elder during the late Zugot or early Tannaitic period. Aside from a single maxim quoted toward the end of tractate Avot—commonly referred to as Pirkei Avot—of the Mishnah, he is not mentioned elsewhere in the Mishnah (though he is mentioned in tractate Pesachim 96a:9 of the Talmud, among other instances). The maxim, in Israeli Jewish scholar Rabbi Joshua Kulp's translation of Pirkei Avot 5:22, reads: Turn it over, and  turn it over, for all is therein. And look into it; and become old and gray therein; and do not move away from it, for you have no better portion than it. This maxim is followed by that of another sage, ben Hei-Hei (בֶּן הֵא הֵא). Wilhelm Bacher, in Agadat Hatana'im, wrote that some consider ben Bag-Bag and ben Hei-Hei to be the same individual. A legend reported in Tosafot's commentary on tractate Chagigah 9b:10 is that both ben Bag-Bag and ben Hei-Hei were converts to Judaism, or gerim in Hebrew. Some speculate that the unusual names the individuals were given in Rabbinic literature were intended to conceal their identities from Roman authorities during the empire's occupation of Judaea. Another tradition holds that ben Bag-Bag was the man—sometimes described as a Roman soldier—who, in a tale of Rabbis Hillel and Shammai, requested they teach him the whole Torah while standing on one foot. Some also identify ben Bag-Bag with Yoḥanan ben Bag-Bag (יוֹחָנָן בֶּן בַּג בַּג), a tanna mentioned in tractate Kiddushin 10b:4.",
+            "fullurl": "https://en.wikipedia.org/wiki/Ben_Bag-Bag"
+          },
+          {
+            "title": "Birkin bag",
+            "extract": "The Birkin bag (or simply Birkin) is a handbag created by the French company Hermès in 1984, following a meeting between Jean-Louis Dumas, then CEO of the group, and the actress Jane Birkin. Handmade, usually in leather, it is distributed in several sizes and exclusively in Hermès stores. Along with the Kelly bag and the carré de soie, the Birkin is one of the brand's iconic products. It has two handles and a more casual look than the Kelly. Each one is made by a single craftsman, usually in one of Hermès' French factories, and requires between 15 and 20 hours' work. It's widely considered a visual representation of wealth, status, and importance in modern society.",
+            "fullurl": "https://en.wikipedia.org/wiki/Birkin_bag"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782290054155,
+    "lastAccessAt": 1782290054155
+  },
+  "cake": {
+    "originalPrompt": "cake",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Cake",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Cake with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Cake is a baker's confectionery made by combining flour with a liquid, a fat or both, and usually with a leavening agent.",
+          "Cakes are usually baked, but can be griddled.",
+          "In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate and which share features with other desserts such as pastries, meringues, custards, and pies.",
+          "The most common ingredients include flour, sugar, eggs, fat (such as butter, oil, or shortening), and a leavening agent (such as baking soda or baking powder)."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Common additional ingredients include dried, candied, preserved or fresh fruit, nuts, cocoa, and flavor extracts such as vanilla, with numerous substitutions possible.",
+          "Cakes can also be flavored with fruit preserves, nuts, or dessert sauces (like custard, jelly, cooked fruit, whipped cream, or syrups), covered with icing or frosting, and decorated with marzipan, piped borders, or candied fruit.",
+          "Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays.",
+          "There are countless cake recipes; some are bread-like, some are rich and elaborate, and many are centuries old.",
+          "Cake making is no longer a complicated procedure; while at one time considerable labor went into cake making (particularly the whisking of egg foams), baking equipment and directions have been simplified so that even the most amateur of cooks may bake a cake."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Cake making is no longer a complicated procedure; while at one time considerable labor went into cake making (particularly the whisking of egg foams), baking equipment and directions have been simplified so that even the most amateur of cooks may bake a cake.",
+          "A cake is a sweet, baked form of food.",
+          "Is an American game show–style cooking competition television series created by Dan Cutforth and Jane Lipsitz, and hosted by Mikey Day.",
+          "The series premiered on Netflix on March 18, 2022.",
+          "Contestants create cakes that replicate common objects in an effort to trick celebrity judges."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Contestants create cakes that replicate common objects in an effort to trick celebrity judges.",
+          "Winners of each episode receive $5,000 and a chance to win more money by identifying which display of cash is real and which is cake.",
+          "'three-milk cake'; Spanish: pastel de tres leches, torta de tres leches or bizcocho de tres leches), also known as dulce de tres leches (lit.",
+          "'three-milk sweet'), pan tres leches (lit.",
+          "'three-milk bread') or simply tres leches (lit."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Cake is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Cake",
+            "extract": "Cake is a baker's confectionery made by combining flour with a liquid, a fat or both, and usually with a leavening agent. Cakes are usually baked, but can be griddled. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate and which share features with other desserts such as pastries, meringues, custards, and pies. The most common ingredients include flour, sugar, eggs, fat (such as butter, oil, or shortening), and a leavening agent (such as baking soda or baking powder). Common additional ingredients include dried, candied, preserved or fresh fruit, nuts, cocoa, and flavor extracts such as vanilla, with numerous substitutions possible. Cakes can also be flavored with fruit preserves, nuts, or dessert sauces (like custard, jelly, cooked fruit, whipped cream, or syrups), covered with icing or frosting, and decorated with marzipan, piped borders, or candied fruit. Cake is often served as a celebratory dish on ceremonial occasions, such as weddings, anniversaries, and birthdays. There are countless cake recipes; some are bread-like, some are rich and elaborate, and many are centuries old. Cake making is no longer a complicated procedure; while at one time considerable labor went into cake making (particularly the whisking of egg foams), baking equipment and directions have been simplified so that even the most amateur of cooks may bake a cake.",
+            "fullurl": "https://en.wikipedia.org/wiki/Cake"
+          },
+          {
+            "title": "Cake (disambiguation)",
+            "extract": "A cake is a sweet, baked form of food. Cake may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Cake_(disambiguation)"
+          },
+          {
+            "title": "Is It Cake?",
+            "extract": "Is It Cake? is an American game show–style cooking competition television series created by Dan Cutforth and Jane Lipsitz, and hosted by Mikey Day. The series premiered on Netflix on March 18, 2022. Contestants create cakes that replicate common objects in an effort to trick celebrity judges. Winners of each episode receive $5,000 and a chance to win more money by identifying which display of cash is real and which is cake. The series is based on the viral internet challenge of the same name, popularized on YouTube and TikTok. The challenge involves showing a skillfully decorated cake disguised as a common object or food, and challenging viewers to determine if it is real or a cake replica. Day became fascinated by the challenge after his manager, Michael Goldman, introduced it to him. Although Day has no baking experience or background, he joined the show as host. Day explained the draw of the show is the \"human desire... to pick out the 'disguised something'.\" In June 2022, Netflix renewed the series for a second season. The second season, titled Is It Cake, Too? was released on June 30, 2023. In January 2024, Netflix renewed the series for a third season, titled Is It Cak3? which was released on March 29, 2024. In October 2024, Netflix announced a holiday season special, titled Is It Cake? Holiday which was released on November 28, 2024. The special features nine all-star bakers from the first three seasons. Mikey Day reprises his role as the host. A second holiday special, titled Is It Cake? Halloween was released on October 8, 2025. A third special, Is It Cake? Valentines was released on February 4, 2026.",
+            "fullurl": "https://en.wikipedia.org/wiki/Is_It_Cake%3F"
+          },
+          {
+            "title": "Tres leches cake",
+            "extract": "A tres leches cake (lit. 'three-milk cake'; Spanish: pastel de tres leches, torta de tres leches or bizcocho de tres leches), also known as dulce de tres leches (lit. 'three-milk sweet'), pan tres leches (lit. 'three-milk bread') or simply tres leches (lit. 'three milks'), is a Latin American sponge cake soaked in evaporated milk, condensed milk and whole milk. It is often topped with whipped cream, fruit, and cinnamon. Tres leches is a light cake with many air bubbles. This spongy texture is why it does not have a soggy consistency despite being soaked in a mixture of three types of milk. A variation has spread to Southeastern Europe, especially Albania, Bosnia and Herzegovina and Turkey, where it is known as trileçe or trileće.",
+            "fullurl": "https://en.wikipedia.org/wiki/Tres_leches_cake"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782290225960,
+    "lastAccessAt": 1782293110076
+  },
+  "headphones": {
+    "originalPrompt": "headphones",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Headphones",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Headphones with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Headphones are a pair of small loudspeaker drivers worn on or around the head over a user's ears.",
+          "They are electroacoustic transducers, which convert an electrical signal to a corresponding sound.",
+          "Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear.",
+          "Headphones are also known as earphones or, colloquially, cans."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Circumaural (around the ear) and supra-aural (over the ear) headphones use a band over the top of the head to hold the drivers in place.",
+          "Another type, known as earbuds or earpieces, consists of individual units that plug into the user's ear canal; within that category have been developed cordless air buds using wireless technology.",
+          "A third type are bone conduction headphones, which typically wrap around the back of the head and rest in front of the ear canal, leaving the ear canal open.",
+          "In the context of telecommunication, a headset is a combination of a headphone and microphone.",
+          "The first headphones were developed in the late 19th century for use by switchboard operators, to keep their hands free."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "The first headphones were developed in the late 19th century for use by switchboard operators, to keep their hands free.",
+          "Initially, the audio quality was mediocre and a step forward was the invention of high fidelity headphones.",
+          "Headphones exhibit a range of different audio reproduction quality capabilities.",
+          "Headsets designed for telephone use typically cannot reproduce sound with the high fidelity of expensive units designed for music listening by audiophiles.",
+          "Headphones that use cables typically have either a 1⁄4 inch (6.4 mm) or 1⁄8 inch (3.2 mm) phone jack for plugging the headphones into the audio source."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Headphones that use cables typically have either a 1⁄4 inch (6.4 mm) or 1⁄8 inch (3.2 mm) phone jack for plugging the headphones into the audio source.",
+          "Some headphones are wireless, using Bluetooth connectivity to receive the audio signal by radio waves from source devices like cellphones and digital players.",
+          "As a result of the Walkman effect, beginning in the 1980s, headphones started to be used in public places such as sidewalks, grocery stores, and public transit.",
+          "The latter two types of employees use headphones with an integrated microphone.",
+          "\"Headphones On\" is a song by American singer Addison Rae."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Headphones is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Headphones",
+            "extract": "Headphones are a pair of small loudspeaker drivers worn on or around the head over a user's ears. They are electroacoustic transducers, which convert an electrical signal to a corresponding sound. Headphones let a single user listen to an audio source privately, in contrast to a loudspeaker, which emits sound into the open air for anyone nearby to hear. Headphones are also known as earphones or, colloquially, cans. Circumaural (around the ear) and supra-aural (over the ear) headphones use a band over the top of the head to hold the drivers in place. Another type, known as earbuds or earpieces, consists of individual units that plug into the user's ear canal; within that category have been developed cordless air buds using wireless technology. A third type are bone conduction headphones, which typically wrap around the back of the head and rest in front of the ear canal, leaving the ear canal open. In the context of telecommunication, a headset is a combination of a headphone and microphone. Headphones connect to a signal source such as an audio amplifier, radio, CD player, portable media player, mobile phone, video game console, or electronic musical instrument, either directly using a cord, or using wireless technology such as Bluetooth, DECT or FM radio. The first headphones were developed in the late 19th century for use by switchboard operators, to keep their hands free. Initially, the audio quality was mediocre and a step forward was the invention of high fidelity headphones. Headphones exhibit a range of different audio reproduction quality capabilities. Headsets designed for telephone use typically cannot reproduce sound with the high fidelity of expensive units designed for music listening by audiophiles. Headphones that use cables typically have either a 1⁄4 inch (6.4 mm) or 1⁄8 inch (3.2 mm) phone jack for plugging the headphones into the audio source. Some headphones are wireless, using Bluetooth connectivity to receive the audio signal by radio waves from source devices like cellphones and digital players. As a result of the Walkman effect, beginning in the 1980s, headphones started to be used in public places such as sidewalks, grocery stores, and public transit. Headphones are also used by people in various professional contexts, such as audio engineers mixing sound for live concerts or sound recordings and disc jockeys (DJs), who use headphones to cue up the next song without the audience hearing, aircraft pilots and call center employees. The latter two types of employees use headphones with an integrated microphone.",
+            "fullurl": "https://en.wikipedia.org/wiki/Headphones"
+          },
+          {
+            "title": "Headphones On",
+            "extract": "\"Headphones On\" is a song by American singer Addison Rae. The song was released on April 18, 2025, through Columbia Records, as the fourth single from Rae's debut studio album, Addison. The R&B and new jack swing influenced trip hop song speaks about how music is an escape for her and her personal struggles. The song was met with critical acclaim, who favorably compared it to the music of Madonna and Britney Spears. \"Headphones On\" became Rae's second song to reach the top forty of the charts in the United Kingdom and Ireland, as well as her second entry on the Billboard Hot 100 following her 2024 single \"Diet Pepsi\". It received a nomination for Song of the Summer at the 2025 MTV Video Music Awards, and was ranked among the best songs of 2025 by music publications such as Pitchfork and NME.",
+            "fullurl": "https://en.wikipedia.org/wiki/Headphones_On"
+          },
+          {
+            "title": "Headphones (disambiguation)",
+            "extract": "Headphones are a pair of small speakers mounted on a band for placing on one's head. Headphones may also refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Headphones_(disambiguation)"
+          },
+          {
+            "title": "Noise-cancelling headphones",
+            "extract": "Noise-cancelling headphones are headphones that reduce unwanted ambient sounds using active noise control (ANC), a technology that electronically minimizes external noise by generating sound waves that interfere destructively with incoming sounds. They are commonly used in environments with persistent background noise, including aircraft cabins, trains, offices, industrial workplaces, and urban environments. Noise-cancelling headphones differ from traditional passive noise-isolating headphones by actively reducing low-frequency environmental sounds rather than relying solely on physical insulation. While passive isolation blocks sound through earcup padding or in-ear seals, active noise cancellation uses microphones, amplifiers, and digital signal processing to detect surrounding sound and produce an inverse waveform intended to cancel the incoming noise before it reaches the listener's ears.",
+            "fullurl": "https://en.wikipedia.org/wiki/Noise-cancelling_headphones"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782290932776,
+    "lastAccessAt": 1782290932776
+  },
+  "keyboard": {
+    "originalPrompt": "KEYBOARD",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Keyboard",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Keyboard with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A keyboard layout is any specific physical, visual, or functional arrangement of key switches, legends, or key mapping (respectively) of a keyboard.",
+          "Layouts are used on computer keyboards, for virtual keyboards (including mobile phones or other touchscreens), or other typographic input devices.",
+          "Standard layouts vary depending on their intended writing system, language, and use case.",
+          "Some hobbyists and designers create alternative layouts to better suit individual preferences or to extend functionality."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "A computer keyboard is a built-in or peripheral input device modeled after the typewriter keyboard which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches.",
+          "Replacing early punched cards and paper tape technology, interaction via teleprinter-style keyboards have been the main input method for computers since the 1970s, supplemented by the computer mouse since the 1980s, and the touchscreen since the 2000s.",
+          "Common designs follow a variety of standard keyboard layouts.",
+          "Keyboard keys (buttons) typically have a set of characters engraved or printed on them, and each press of a key typically corresponds to a single written symbol.",
+          "The Jankó keyboard is a musical keyboard layout for a piano designed by Paul von Jankó, a Hungarian pianist and engineer, in 1882."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "The Jankó keyboard is a musical keyboard layout for a piano designed by Paul von Jankó, a Hungarian pianist and engineer, in 1882.",
+          "Instead of a single row, the Jankó keyboard has an array of keys consisting of two interleaved manuals with three touch-points for every key lever, making six rows of keys.",
+          "Each vertical column of three keys is a semitone away from the neighboring ones, which are in the alternate rows.",
+          "Thus within each row the interval from one note to the next is a whole step."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "The Jankó keyboard is a musical keyboard layout for a piano designed by Paul von Jankó, a Hungarian pianist and engineer, in 1882.",
+          "Instead of a single row, the Jankó keyboard has an array of keys consisting of two interleaved manuals with three touch-points for every key lever, making six rows of keys.",
+          "Each vertical column of three keys is a semitone away from the neighboring ones, which are in the alternate rows.",
+          "Thus within each row the interval from one note to the next is a whole step."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Keyboard is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Keyboard",
+            "extract": "Keyboard may refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/Keyboard"
+          },
+          {
+            "title": "Keyboard layout",
+            "extract": "A keyboard layout is any specific physical, visual, or functional arrangement of key switches, legends, or key mapping (respectively) of a keyboard. Layouts are used on computer keyboards, for virtual keyboards (including mobile phones or other touchscreens), or other typographic input devices. Standard layouts vary depending on their intended writing system, language, and use case. Some hobbyists and designers create alternative layouts to better suit individual preferences or to extend functionality. Layouts can be described in several ways depending on form or function. A physical layout is the positioning of physical keys on a keyboard. The arrangement of keycap legends, such as markings or labels, is described as a visual layout. Keyboard mapping represents a functional layout, or the association of keys with their action when pressed. This is configured in software or firmware, and determines the action upon one or multiple key presses, regardless of key appearance. Modern computer keyboards are designed to send a scancode to the operating system (OS) when a key is pressed or released. This code reports only the key's row and column, not the specific character engraved on that key. The OS converts the scancode into a specific binary character code using a \"scancode to character\" conversion table, called the keyboard mapping table. This means that a physical keyboard may be dynamically mapped to any layout without switching hardware components—merely by changing the software that interprets the keystrokes. Often, a user can change keyboard mapping in system settings. In addition, software may be available to modify or extend keyboard functionality. Thus the symbol shown on the physical key-top need not be the same as appears on the screen or goes into a document being typed. Most modern USB and wireless keyboards are plug-and-play, and communicate their (default) visual layout to the OS when connected. Some keyboards have firmware which can configure layouts, as well as customize lighting and other functions.",
+            "fullurl": "https://en.wikipedia.org/wiki/Keyboard_layout"
+          },
+          {
+            "title": "Computer keyboard",
+            "extract": "A computer keyboard is a built-in or peripheral input device modeled after the typewriter keyboard which uses an arrangement of buttons or keys to act as mechanical levers or electronic switches. Replacing early punched cards and paper tape technology, interaction via teleprinter-style keyboards have been the main input method for computers since the 1970s, supplemented by the computer mouse since the 1980s, and the touchscreen since the 2000s. Common designs follow a variety of standard keyboard layouts. Keyboard keys (buttons) typically have a set of characters engraved or printed on them, and each press of a key typically corresponds to a single written symbol. However, producing some symbols may require pressing and holding several keys simultaneously or in sequence. While most keys produce characters (letters, numbers or symbols), other keys (such as the escape key) can prompt the computer to execute system commands. In a modern computer, the interpretation of key presses is generally left to the software: the information sent to the computer, the scan code, tells it only which physical key (or keys) was pressed or released. In normal usage, the keyboard is used as a text entry interface for typing text, numbers, and symbols into application software such as a word processor, web browser or social media app. Touchscreens use virtual keyboards.",
+            "fullurl": "https://en.wikipedia.org/wiki/Computer_keyboard"
+          },
+          {
+            "title": "Jankó keyboard",
+            "extract": "The Jankó keyboard is a musical keyboard layout for a piano designed by Paul von Jankó, a Hungarian pianist and engineer, in 1882. It was designed to overcome two limitations on the traditional piano keyboard: the large-scale geometry of the keys (stretching beyond a ninth, or even an octave, can be difficult or impossible for pianists with small hands), and the fact that each scale has to be fingered differently. Instead of a single row, the Jankó keyboard has an array of keys consisting of two interleaved manuals with three touch-points for every key lever, making six rows of keys. Each vertical column of three keys is a semitone away from the neighboring ones, which are in the alternate rows. Thus within each row the interval from one note to the next is a whole step. This key layout results in each chord and scale having the same shape on the keyboard with the same fingerings regardless of key, so there is no change in geometry when transposing music. Furthermore, the use of multiple rows allows the pianist to more naturally follow the contour of their hand and accounts for the different lengths of the fingers. The configuration retains the colouring of traditional keyboards (white naturals, black sharps and flats) for pedagogical purposes. For an 88-note (full size) keyboard, there would be 264 keys in total, with each note playable by three keys in vertical alignment. In the picture above, the white keys have been coloured to show how the keys are interconnected. Instead of 123 cm (48 in) the keyboard is only 89 cm (35 in) wide, and the smaller key size allows reaching wider intervals. The Jankó Keyboard caused a stir at the time of its invention, in large part due to its unique look and the intelligent design behind the keyboard. American piano manufacturer Decker Brothers put the keyboard into production around 1891, and the Paul de Janko Conservatory of Music was established in New York around the same time. There was even a manual written by W. Bradley Keeler called How to Play the New Keyboard. Despite all this, the Jankó keyboard never achieved wide popularity. Music educators were not convinced that the benefits of the new keyboard were enough to challenge the traditional keyboard. Few performers were prepared to relearn their repertoire on a new keyboard with entirely different fingering. Both reasons left keyboard instrument manufacturers afraid to invest in a redesigned keyboard which promised to have only marginal commercial success. In the 1920s American pianist Carl F. Schmitt, a onetime piano student of Janko, reported on his experience: “It happens that I was an ardent student and protagonist of said keyboard during my student days at the Royal Conservatory of Music in Leipzig, even studying under Janko himself. I brought back to this country a Blüthner upright furnished with said keyboard in the Summer of 1888. In the early part of 1889 I gave a recital on it before a musical society. Half of the recital was on a piano with the usual keyboard and the rest on my Janko piano. I mention these facts simply to show that I am qualified to speak on this subject. \"The Inventor, Paul de Janko, a native of Hungary, and a student at both the Vienna Conservatory and the Vienna University, brought out his invention about 1882. He proved its value by transforming himself from a mediocre pianist on the usual keyboard to a brilliant artist on his own. One of his pupils, a young lady of seventeen, already a fine performer on the usual keyboard played concerts on the Janko keyboard in the chief musical centers of Europe after only six months’ practice upon it, winning the unstinting praise of eminent musical critics. It was taken up by a number of pianists, particularly in Vienna, Leipsic and Dresden. Its study was made optional in the leading conservatories of those places. Janko societies were even formed. Some of the leading piano-makers of Germany and Austria furnished pianos to the trade, Janko-equipped, among them Blüthner of Leipsic and Bösendorfer of Vienna. \"The chief advantage of the Janko keyboard, and it is the one you did not mention, lies in its being truly chromatic. No one key is more difficult to play on than another. It is just as convenient to pass the thumb under on a black key immediately after a white key has been played by another finger as to do the opposite. As the C major scale is played, so all other major scales are played, the fingers being in exactly the same relative positions. The same is true of figures of notes or of any progression of chords. Consequently it is true of an entire piece. To transpose a piece into any other key all that is required is to start the fingers in the new key and let them move exactly as before. The practice required for technical efficiency is vastly reduced. Any technical difficult mastered in one key is automatically mastered in all keys. Similar intervals are exactly the same distance apart. The ordinary piano is very complex in this respect. Take, for instance, the major third D–F♯ and the similar major third B–D♯. The keyspace for the latter is about one-quarter inch greater than that of the former. And these differences together with others account for the immense amount of practice required for proficiency on the usual keyboard. \"Another point of advantage is that there is plenty of room for stout fingers on the Janko keyboard. No squeezing fingers into the narrow space between the black keys as on the usual one. In spite of all of these and other advantages the innovation went to sleep after a life of about twenty years. Besides the reasons given by you in your  article its apparent complexity (apparent, not real) deterred many from attempting to learn it.” Many embodiments of this keyboard have appeared since its conception. Jankó himself (in German patent 25852, dated 14 January 1884) originally chose a key shape which resembled the slim, black keys on the familiar piano keyboard. A year later (in German patent 32138, dated 1 July 1885) the keys became wider and shorter. Other inventors have filed patents for keyboards which are substantially similar to his design, differing most often in key shape or instrument to which those keyboards are affixed, including: John Trotter, English Patent 3404, 4 March 1811 William A. B. Lunn devised in 1843 under the name of Arthur Wallbridge a sequential keyboard with two parallel rows of keys, each in whole tones Miguel Theodore de Folly, Useful Registered Design Number 448 for a geometrical keyboard for the pianoforte, 1845 Gould and Marsh, US patent no. 24021, 1859 Edgar, US patent no. 119335, 1871 Cramer, US patent no. 152726, 1874 McChesney, US patent no. 161806, 1875 Stewart, US patent no. 334484, 1886 Adams, US patent no. 682014, 1901 Nordbö, US patent no. 1202882, 1916 Barnett, US patent no. 1958227, 1934 Reuther, US patent no. 2203393, 1940 Firestone, US patent no. 2417639, 1945",
+            "fullurl": "https://en.wikipedia.org/wiki/Jank%C3%B3_keyboard"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782291599315,
+    "lastAccessAt": 1782291599315
+  },
+  "physics": {
+    "originalPrompt": "physics",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Physics",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Physics with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force.",
+          "It is one of the most fundamental scientific disciplines.",
+          "A scientist who specializes in the field of physics is called a physicist.",
+          "Physics is one of the oldest academic disciplines."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Over much of the past two millennia, physics, chemistry, biology, and certain branches of mathematics were part of natural philosophy, but during the Scientific Revolution in the 17th century, these natural sciences branched into separate research endeavors.",
+          "Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined.",
+          "New ideas in physics often explain the fundamental mechanisms studied by other sciences and suggest new avenues of research in these and other academic disciplines, such as mathematics and philosophy.",
+          "Advances in physics often enable new technologies.",
+          "Particle physics or high-energy physics is the study of fundamental particles and forces that constitute matter and radiation."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "Particle physics or high-energy physics is the study of fundamental particles and forces that constitute matter and radiation.",
+          "The field also studies combinations of elementary particles up to the scale of protons and neutrons, while the study of combinations of protons and neutrons is called nuclear physics.",
+          "The fundamental particles in the universe are classified in the Standard Model as fermions (matter particles) and bosons (force-carrying particles).",
+          "There are three generations of fermions, although ordinary matter is made only from the first fermion generation.",
+          "Quantum mechanics, also known as quantum physics, is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "Quantum mechanics, also known as quantum physics, is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms.",
+          "Its concepts and methods have been applied across many disciplines, including quantum chemistry, quantum biology, quantum field theory, quantum technology, and quantum information science.",
+          "Quantum mechanics can describe many systems that classical physics cannot.",
+          "Classical physics can describe many aspects of nature at an ordinary (macroscopic and (optical) microscopic) scale; however, it is insufficient for describing them at very small submicroscopic (atomic and subatomic) scales.",
+          "Theoretical physics is a branch of physics that uses mathematical models and abstractions of physical objects and systems to explain and predict natural phenomena."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Physics is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Physics",
+            "extract": "Physics is the scientific study of matter, its fundamental constituents, its motion and behavior through space and time, and the related entities of energy and force. It is one of the most fundamental scientific disciplines. A scientist who specializes in the field of physics is called a physicist. Physics is one of the oldest academic disciplines. Over much of the past two millennia, physics, chemistry, biology, and certain branches of mathematics were part of natural philosophy, but during the Scientific Revolution in the 17th century, these natural sciences branched into separate research endeavors. Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined. New ideas in physics often explain the fundamental mechanisms studied by other sciences and suggest new avenues of research in these and other academic disciplines, such as mathematics and philosophy. Advances in physics often enable new technologies. For example, advances in the understanding of electromagnetism, solid-state physics, and nuclear physics led directly to the development of technologies that have transformed modern society, such as television, computers, domestic appliances, and nuclear weapons; advances in thermodynamics led to the development of industrialization; and advances in mechanics inspired the development of calculus.",
+            "fullurl": "https://en.wikipedia.org/wiki/Physics"
+          },
+          {
+            "title": "Particle physics",
+            "extract": "Particle physics or high-energy physics is the study of fundamental particles and forces that constitute matter and radiation. The field also studies combinations of elementary particles up to the scale of protons and neutrons, while the study of combinations of protons and neutrons is called nuclear physics. The fundamental particles in the universe are classified in the Standard Model as fermions (matter particles) and bosons (force-carrying particles). There are three generations of fermions, although ordinary matter is made only from the first fermion generation. The first generation consists of up and down quarks which form protons and neutrons, and electrons and electron neutrinos. The three fundamental interactions known to be mediated by bosons are electromagnetism, the weak interaction, and the strong interaction. Quarks form hadrons, but cannot exist on their own. Hadrons that contain an odd number of quarks are called baryons and those that contain an even number are called mesons. Two baryons, the proton and the neutron, make up most of the mass of ordinary matter. Mesons are unstable and the longest-lived last for only a few hundredths of a microsecond. They occur after collisions between particles made of quarks, such as fast-moving protons and neutrons in cosmic rays. Mesons are also produced in cyclotrons or other particle accelerators. Particles have corresponding antiparticles with the same mass but with opposite electric charges. For example, the antiparticle of the electron is the positron. The electron has a negative electric charge, the positron has a positive charge. These antiparticles can theoretically form a corresponding form of matter called antimatter. Some particles, such as the photon, are their own antiparticle. These elementary particles are excitations of the quantum fields that also govern their interactions. The dominant theory explaining these fundamental particles and fields, along with their dynamics, is called the Standard Model. The reconciliation of gravity to the current particle physics theory is not solved; many theories have addressed this problem, such as loop quantum gravity, string theory and supersymmetry theory. Experimental particle physics is the study of these particles in radioactive processes and in particle accelerators such as the Large Hadron Collider. Theoretical particle physics is the study of these particles in the context of cosmology and quantum theory. The two are closely interrelated: the Higgs boson was postulated theoretically before being confirmed by experiments.",
+            "fullurl": "https://en.wikipedia.org/wiki/Particle_physics"
+          },
+          {
+            "title": "Quantum mechanics",
+            "extract": "Quantum mechanics, also known as quantum physics, is the fundamental physical theory that describes the behavior of matter and of light; its unusual characteristics typically occur at and below the scale of atoms. Its concepts and methods have been applied across many disciplines, including quantum chemistry, quantum biology, quantum field theory, quantum technology, and quantum information science. Quantum mechanics can describe many systems that classical physics cannot. Classical physics can describe many aspects of nature at an ordinary (macroscopic and (optical) microscopic) scale; however, it is insufficient for describing them at very small submicroscopic (atomic and subatomic) scales. Classical mechanics can be derived from quantum mechanics as an approximation that is valid at ordinary scales. Quantum systems have bound states that are quantized to discrete values of energy, momentum, angular momentum, and other quantities, in contrast to classical systems where these quantities can be measured continuously. Measurements of quantum systems show characteristics of both particles and waves (wave–particle duality), and there are limits to how accurately the value of a physical quantity can be predicted prior to its measurement, given a complete set of initial conditions (the uncertainty principle). Quantum mechanics arose gradually from theories to explain observations that could not be reconciled with classical physics, such as Max Planck's solution in 1900 to the black-body radiation problem, and the correspondence between energy and frequency in Albert Einstein's 1905 paper, which explained the photoelectric effect. These early attempts to understand microscopic phenomena, now known as the \"old quantum theory\", led to the full development of quantum mechanics in the mid-1920s by Niels Bohr, Erwin Schrödinger, Werner Heisenberg, Max Born, Paul Dirac and others. The modern theory is formulated in various specially developed mathematical formalisms. In one of them, a mathematical entity called the wave function provides information, in the form of probability amplitudes, about what measurements of a particle's energy, momentum, and other physical properties may yield.",
+            "fullurl": "https://en.wikipedia.org/wiki/Quantum_mechanics"
+          },
+          {
+            "title": "Theoretical physics",
+            "extract": "Theoretical physics is a branch of physics that uses mathematical models and abstractions of physical objects and systems to explain and predict natural phenomena. It is, in the broadest sense, the attempt to say why things happen the way they do, not merely to record that they do. This is in contrast to experimental physics, which tests and refines those explanations through direct measurement and observation. In practice, the two feed each other constantly: a theoretical prediction suggests an experiment, and an unexpected experimental result sends theorists back to the drawing board. The scope of theoretical physics is enormous. It ranges from the behaviour of quarks and elementary particles at scales far smaller than an atom to the large-scale structure of the universe itself. Where direct experimentation is impossible or simply not yet feasible, theoretical physics advances understanding through mathematical reasoning and thought experiments. This is perhaps the thing that surprises people most about the field: some of its most important results have come from pure reasoning, long before any instrument could test them. General relativity, quantum mechanics, and the Standard Model of particle physics each originated primarily as theoretical constructions, only later confirmed by experiment.",
+            "fullurl": "https://en.wikipedia.org/wiki/Theoretical_physics"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782712725299,
+    "lastAccessAt": 1782712725299
+  },
+  "book": {
+    "originalPrompt": "book",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Book",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Book with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A book is a written work of substantial length created by one or more authors.",
+          "They can be distributed in various forms such as printed books, audiobooks, and electronic books (ebooks).",
+          "Books are broadly classified into fiction, which contains invented narratives or other imaginary content, and non-fiction, which contains content intended as factual truth.",
+          "The term may also refer to the physical or electronic object containing such a work."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "Modern books are typically printed in a codex format, composed of many pages bound together and protected by a cover.",
+          "Before the wide adoption of the modern printing press, codices were used to create handwritten manuscripts.",
+          "Older writing media include scrolls and clay tablets.",
+          "The book publishing process is the series of steps involved in its creation and dissemination, often undertaken in modern times by a commercial publishing company.",
+          "The publishing industry has recently seen major changes due to new technologies, including ebooks and audiobooks (recordings of books read aloud)."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "The publishing industry has recently seen major changes due to new technologies, including ebooks and audiobooks (recordings of books read aloud).",
+          "Awareness of the needs of people with print disabilities has led to a rise in accessible publishing formats such as braille printing and large-print editions.",
+          "Google Books estimated in 2010 that roughly 130 million total unique books have been published.",
+          "Books are sold at general retail stores and specialized bookstores, as well as online, and can be borrowed from libraries or public bookcases.",
+          "The reception of books has led to several social consequences, including censorship."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "The reception of books has led to several social consequences, including censorship.",
+          "Books are sometimes contrasted with periodical literature, such as newspapers or magazines, for which new editions are published according to a regular schedule.",
+          "Some objects broadly described as \"books\" are left empty for personal use, such as notebooks, diaries, sketchbooks, account books, and autograph books.",
+          "The Book For, is the fourth Japanese-language EP (ninth overall) by Japanese duo Yoasobi.",
+          "Released on June 26, 2026, through Echoes and Sony Music Entertainment Japan, it is the follow-up to the duo's third EP The Book 3 (2023), and serves as the fourth and final installment of The Book series."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Book is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Book",
+            "extract": "A book is a written work of substantial length created by one or more authors. They can be distributed in various forms such as printed books, audiobooks, and electronic books (ebooks). Books are broadly classified into fiction, which contains invented narratives or other imaginary content, and non-fiction, which contains content intended as factual truth. The term may also refer to the physical or electronic object containing such a work. Modern books are typically printed in a codex format, composed of many pages bound together and protected by a cover. Before the wide adoption of the modern printing press, codices were used to create handwritten manuscripts. Older writing media include scrolls and clay tablets. The book publishing process is the series of steps involved in its creation and dissemination, often undertaken in modern times by a commercial publishing company. The publishing industry has recently seen major changes due to new technologies, including ebooks and audiobooks (recordings of books read aloud). Awareness of the needs of people with print disabilities has led to a rise in accessible publishing formats such as braille printing and large-print editions. Google Books estimated in 2010 that roughly 130 million total unique books have been published. Books are sold at general retail stores and specialized bookstores, as well as online, and can be borrowed from libraries or public bookcases. The reception of books has led to several social consequences, including censorship. Books are sometimes contrasted with periodical literature, such as newspapers or magazines, for which new editions are published according to a regular schedule. Some objects broadly described as \"books\" are left empty for personal use, such as notebooks, diaries, sketchbooks, account books, and autograph books.",
+            "fullurl": "https://en.wikipedia.org/wiki/Book"
+          },
+          {
+            "title": "The Book",
+            "extract": "The Book may refer to:",
+            "fullurl": "https://en.wikipedia.org/wiki/The_Book"
+          },
+          {
+            "title": "The Book For,",
+            "extract": "The Book For, is the fourth Japanese-language EP (ninth overall) by Japanese duo Yoasobi. Released on June 26, 2026, through Echoes and Sony Music Entertainment Japan, it is the follow-up to the duo's third EP The Book 3 (2023), and serves as the fourth and final installment of The Book series. Solely written and produced by Ayase, The Book For, comprises 12 tracks of singles released between late 2023 and early 2026, including \"Orion\", a collaborative track with video game series Overwatch.",
+            "fullurl": "https://en.wikipedia.org/wiki/The_Book_For,"
+          },
+          {
+            "title": "Domesday Book",
+            "extract": "Domesday Book ( DOOMZ-day; the Middle English spelling of \"Doomsday Book\") is a manuscript record of the Great Survey of much of England and parts of Wales completed in 1086 at the behest of William the Conqueror. The manuscript was originally known by the Latin name Liber de Wintonia, meaning \"Book of Winchester\", where it was originally kept in the royal treasury. The Anglo-Saxon Chronicle states that in 1085 the king sent his agents to survey every shire in England, to list his holdings and dues owed to him. Written in Medieval Latin, it was highly abbreviated and included some vernacular native terms without Latin equivalents. The survey's main purpose was to record the annual value of every piece of landed property to its lord, and the resources in land, labour force, and livestock from which the value derived. The name \"Domesday Book\" came into use in the 12th century. Richard FitzNeal wrote in the Dialogus de Scaccario (c. 1179) that the book was so called because its decisions were unalterable, like those of the Last Judgment, and its sentence could not be quashed. The manuscript is now held at the National Archives in Kew, London. Domesday was first printed in full in 1783, and in 2011 the Open Domesday Web site made the manuscript available on the Internet. The book is an invaluable primary source for modern historians, especially economic historians. No survey approaching the scope and extent of Domesday Book was attempted again in Britain until the 1873 Return of Owners of Land (sometimes termed the \"Modern Domesday\") which presented the first complete, post-Domesday picture of the distribution of landed property in the United Kingdom.",
+            "fullurl": "https://en.wikipedia.org/wiki/Domesday_Book"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782713240848,
+    "lastAccessAt": 1782713281346
+  },
+  "black board": {
+    "originalPrompt": "black board",
+    "deck": [
+      {
+        "kicker": "Slide 1",
+        "title": "Blackboard",
+        "bodyType": "mixed",
+        "paragraph": "Build a concise understanding of Blackboard with practical context, key themes, and actionable takeaways.",
+        "bullets": [
+          "A blackboard or a chalkboard is a reusable writing surface on which text or drawings are made with sticks of calcium sulphate or calcium carbonate, better known as chalk.",
+          "Blackboards were originally made of smooth, thin sheets of black or dark grey slate stone.",
+          "Black Hole is a science fiction board wargame published by Metagaming Concepts in 1978 as part of its MicroGame line.",
+          "Leon David Black (born July 31, 1951) is an American private equity investor."
+        ]
+      },
+      {
+        "kicker": "Slide 2",
+        "title": "Foundations and Core Concepts",
+        "bodyType": "bullets",
+        "bullets": [
+          "He is the former CEO of Apollo Global Management, which he co-founded in 1990 with Marc Rowan and Josh Harris.",
+          "Black was the chairman of the Museum of Modern Art from 2018 to 2021.",
+          "Black resigned from both Apollo Global Management and the Museum of Modern Art in the wake of revelations about his business ties to the New York financier, Jeffrey Epstein.",
+          "The Carracks black sword, sometimes called a crab sword, is a type of sword invented in Portugal, during the 15th century.",
+          "It was used by Portuguese and Spanish soldiers and sailors in ships and caravels in the Age of Discovery."
+        ]
+      },
+      {
+        "kicker": "Slide 3",
+        "title": "Current Landscape and Applications",
+        "bodyType": "bullets",
+        "bullets": [
+          "It was used by Portuguese and Spanish soldiers and sailors in ships and caravels in the Age of Discovery."
+        ]
+      },
+      {
+        "kicker": "Slide 4",
+        "title": "Challenges, Trade-offs, and Future Direction",
+        "bodyType": "bullets",
+        "bullets": [
+          "It was used by Portuguese and Spanish soldiers and sailors in ships and caravels in the Age of Discovery."
+        ]
+      },
+      {
+        "kicker": "Slide 5",
+        "title": "Conclusion and References",
+        "bodyType": "conclusion",
+        "bullets": [
+          "Summary: Blackboard is best understood through its core principles, real-world relevance, and evolving opportunities.",
+          "Action point: Match the topic to your audience's goals (learning, strategy, or implementation) before going deeper.",
+          "Next step: Explore one sub-area in detail and validate with domain-specific sources if high-stakes decisions are involved."
+        ],
+        "refs": [
+          {
+            "title": "Blackboard",
+            "extract": "A blackboard or a chalkboard is a reusable writing surface on which text or drawings are made with sticks of calcium sulphate or calcium carbonate, better known as chalk. Blackboards were originally made of smooth, thin sheets of black or dark grey slate stone.",
+            "fullurl": "https://en.wikipedia.org/wiki/Blackboard"
+          },
+          {
+            "title": "Black Hole (board game)",
+            "extract": "Black Hole is a science fiction board wargame published by Metagaming Concepts in 1978 as part of its MicroGame line.",
+            "fullurl": "https://en.wikipedia.org/wiki/Black_Hole_(board_game)"
+          },
+          {
+            "title": "Leon Black",
+            "extract": "Leon David Black (born July 31, 1951) is an American private equity investor. He is the former CEO of Apollo Global Management, which he co-founded in 1990 with Marc Rowan and Josh Harris. Black was the chairman of the Museum of Modern Art from 2018 to 2021. Black resigned from both Apollo Global Management and the Museum of Modern Art in the wake of revelations about his business ties to the New York financier, Jeffrey Epstein. Between 2012 and 2017, Black paid Epstein a total of $170 million for \"tax and financial services\" that reportedly saved him over $1 billion in taxes. After Black had a long-term affair with a Russian model, she threatened to make public allegations of sexual abuse unless he paid her $100 million. Epstein negotiated a 2015 NDA under which Black agreed to pay her $100,000 per month over 15 years, totalling $18 million. In 2024, Black said that he \"deeply regrets\" his relationship with Epstein. As of 2026, Black has a net worth of approximately $13.8 billion according to the Bloomberg Billionaires Index, derived primarily from his retained stake in Apollo Global Management.",
+            "fullurl": "https://en.wikipedia.org/wiki/Leon_Black"
+          },
+          {
+            "title": "Carracks black sword",
+            "extract": "The Carracks black sword, sometimes called a crab sword, is a type of sword invented in Portugal, during the 15th century. It was used by Portuguese and Spanish soldiers and sailors in ships and caravels in the Age of Discovery.",
+            "fullurl": "https://en.wikipedia.org/wiki/Carracks_black_sword"
+          }
+        ]
+      }
+    ],
+    "createdAt": 1782713626121,
+    "lastAccessAt": 1782713626121
+  }
+}
